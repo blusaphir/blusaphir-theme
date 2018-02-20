@@ -7,6 +7,83 @@ Version 1.0
 Text Domain: blusaphir
 */
 
-body {
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'PT Sans Narrow', sans-serif; }
 
-}
+header {
+  width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding: 20px 0; }
+
+.logo img {
+  width: 180px; }
+
+.banners img {
+  width: 850px;
+  position: relative;
+  top: 10px; }
+
+.nav-container {
+  width: 100%;
+  height: 70px;
+  background-color: #1ca9d6; }
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-items: end;
+  width: 1400px;
+  margin: 0 auto; }
+
+nav ul {
+  display: inline-block;
+  position: relative;
+  top: 20px; }
+
+nav li {
+  display: inline; }
+
+li a {
+  font-size: 1.4rem;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  color: #fff; }
+
+li a:hover {
+  text-decoration: underline; }
+
+.search {
+  display: inline-block;
+  position: relative;
+  top: 21px; }
+
+.search-box {
+  width: 180px;
+  height: 25px;
+  font-size: 1.3rem;
+  padding-left: .3rem;
+  border: none;
+  border-radius: 10px; }
+
+.search-icon {
+  width: 20px;
+  margin: 0 20px 0 3px;
+  position: relative;
+  top: 5px; }
+
+.slider {
+  width: 1400px;
+  height: 700px;
+  margin: 20px auto;
+  background-image: url("images/image-1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/*# sourceMappingURL=styles.css.map */
