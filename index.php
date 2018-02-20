@@ -9,19 +9,45 @@
         <?php wp_head(); ?>
     </head>
     <body>
-      <h1><?php single_post_title(); ?></h1>
 
-      <?php
-        if (have_posts()) :
-          while(have_posts()) : the_post(); ?>
-          <?php the_content(); ?>
+      <!-- Header and Navbar -->
+      <header>
+        <!-- Site Logo -->
+        <div class="logo">
+          <img src="images/blu-sig.png" alt="Blue-Saphir-Logo">
+        </div>
+        <!-- Banners -->
+        <div class="banners">
+          <img src="images/banner-1.jpg" alt="Banner-Image-1">
+        </div>
+      </header>
 
-        <?php endwhile;
+      <nav class="nav-container">
+        <!-- Nav Menu -->
+        <div class="nav-bar">
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">artist</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">events</a></li>
+            <li><a href="">radio</a></li>
+            <li><a href="">dubplates</a></li>
+            <li><a href="">release</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
 
-        else:
-          echo '<p>No content found</p>':
-        endif;
-      ?>
+          <!-- Search Box -->
+          <form class="search" action="/" method="post">
+            <input class="search-box" type="text" name="search" placeholder="Search">
+            <input class="search-icon" type="image" name="search-icon" value="Search" src="assets/images/search-icon.png">
+          </form>
+        </div>
+      </nav>
 
+      <section class="slider">
+
+      </section>
+
+      <script src="assets/js/app.js" type="text/javascript"></script>
     </body>
 </html>
