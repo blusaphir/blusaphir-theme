@@ -184,6 +184,6 @@
       </footer>
 
       <!-- JavaSscript File -->
-      <script src="assets/js/app.js" type="text/javascript"></script>
+      <script src="js/app.js" type="text/javascript"></script>
     </body>
 </html>
