@@ -1,0 +1,11 @@
+footer p {
+  background: $primary-cyan;
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p:last-child {
+  background: $darker-cyan;
+}

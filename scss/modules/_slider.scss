@@ -1,0 +1,84 @@
+/* Keyframes to Animate Image Slider */
+@keyframes slider {
+
+  0% {
+  	left: 0;
+  }
+
+  20% {
+  	left: 0;
+  }
+
+  25% {
+  	left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  50% {
+  	left: -200%;
+  }
+
+  70% {
+  	left: -200%;
+  }
+
+  75% {
+  	left: -300%;
+  }
+
+  95% {
+  	left: -300%;
+  }
+
+  100% {
+  	left: -400%;
+  }
+}
+
+.image-slider-container {
+  height: 300px;
+  overflow: hidden;
+}
+
+.slider-box {
+  position: relative;
+  width: 1100%;
+  animation: 17s slider infinite;
+}
+
+.slider-box img {
+  width: 10%;
+  float: left;
+}
+
+@media(min-width: 700px) {
+
+  .image-slider-container {
+    height: 300px;
+    margin: 2.5rem;
+  }
+}
+
+@media(min-width: 1000px) {
+
+  .image-slider-container {
+    height: 350px;
+  }
+}
+
+@media(min-width: 1300px) {
+
+  .image-slider-container {
+    height: 400px;
+  }
+}
+
+@media(min-width: 1600px) {
+
+  .image-slider-container {
+    height: 500px;
+  }
+}
