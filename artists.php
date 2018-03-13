@@ -52,9 +52,9 @@
       <nav id="nav" class="nav-container">
         <div class="nav-bar">
           <ul>
-            <li><a href="">home</a></li>
+            <li><a href="index.php">home</a></li>
             <li><a href="">artists</a></li>
-            <li><a href="">about</a></li>
+            <li><a href="about.php">about</a></li>
             <li><a href="">events</a></li>
             <li><a href="">radio</a></li>
             <li><a href="">dubplates</a></li>
