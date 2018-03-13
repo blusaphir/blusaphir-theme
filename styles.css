@@ -3,8 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style: none;
-  font-family: 'PT Sans Narrow', sans-serif; }
+  list-style: none; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
 
 header {
   display: grid;
@@ -506,5 +508,54 @@ footer p:last-child {
 
   .artist-main a {
     text-align: center; } }
+/* about.html - styles and rules */
+.about {
+  margin: 1rem 1rem 3rem 1rem;
+  border-top: 1px solid #1ca9d6; }
 
-/*# sourceMappingURL=style.css.map */
+.about-feature {
+  margin-bottom: 3.5rem;
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid #1ca9d6;
+  text-align: center; }
+
+.about-feature-four {
+  border-bottom: none; }
+
+.about-feature__img {
+  width: 300px; }
+
+.about-feature__heading {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #3d3d3d; }
+
+.about-feature__info {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  text-align: left; }
+
+@media (min-width: 1000px) {
+  .about {
+    border-top: none; }
+
+  .about-feature__img {
+    grid-area: img;
+    justify-self: center; }
+
+  .content-wrapper {
+    grid-area: content;
+    justify-self: center;
+    padding-right: 5rem; }
+
+  .about-feature {
+    display: grid;
+    grid-template-areas: "img content";
+    grid-template-columns: 1fr 2fr; }
+
+  .about-feature:nth-child(even) {
+    grid-template-areas: "content img";
+    grid-template-columns: 2fr 1fr;
+    padding-left: 5rem; } }
+
+/*# sourceMappingURL=styles.css.map */
