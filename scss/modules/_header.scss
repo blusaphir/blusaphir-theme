@@ -1,13 +1,13 @@
-// Header - Site Logo, Banner and Social Links
+/* Header - Site Logo, Banner and Social Links */
 
 header {
   display: grid;
-  grid-template-columns: 6fr 1fr;
+  grid-template-columns: 6fr .5fr;
 }
 
 .logo img {
-  width: 35%;
-  margin: 1rem 0 1rem 1rem;
+  width: 100px;
+  margin: 1rem 0 0 1rem;
 }
 
 header .social-links, .banners {
@@ -46,7 +46,7 @@ header .social-links, .banners {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left: 1px solid $primary-cyan;
+    border-left: 3px solid $primary-cyan;
     padding: 15% 0;
   }
 
