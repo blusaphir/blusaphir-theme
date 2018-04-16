@@ -40,7 +40,14 @@
   top: -5px;
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 700px) {
+
+  .hamburger-container {
+    top: -10px;
+  }
+}
+
+@media(min-width: 1099px) {
   .hamburger-container {
     display: none;
     visibility: hidden;
