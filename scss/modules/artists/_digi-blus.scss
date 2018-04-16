@@ -1,0 +1,53 @@
+.artist_digiblus img {
+  width: 125px;
+  border-radius: .4rem;
+  align-self: center;
+  margin: 1rem;
+}
+
+.artist-headline {
+  color: #3d3d3d;
+  text-align: center;
+  margin: 1rem 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid $primary-cyan;
+}
+
+.artist_digiblus {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+
+.artist_digiblus p {
+  text-align: center;
+  color: #3d3d3d;
+}
+
+@media(min-width: 700px) {
+  .artist_digiblus img {
+    opacity: 1;
+    transition: all ease-in-out .4s;
+    margin: 1rem 2rem 2rem 2rem;
+  }
+
+  .artist_digiblus img:hover {
+    opacity: 1;
+    transform: scale(2);
+    transition: all ease-in-out .4s;
+    z-index: 2;
+  }
+
+  .artist-headline {
+    border-top: none;
+  }
+
+  .artist_digiblus {
+    margin:  1rem auto;
+    border: none;
+  }
+}
