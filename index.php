@@ -53,7 +53,7 @@
         <div class="nav-bar">
           <ul>
             <li><a href="">home</a></li>
-            <li><a href="artists.php">artists</a></li>
+            <li><a href="<?php echo 'artists.php'; ?>">artists</a></li>
             <li><a href="about.php">about</a></li>
             <li><a href="">events</a></li>
             <li><a href="">radio</a></li>
