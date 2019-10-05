@@ -2,7 +2,7 @@
   position: relative;
   width: 40px;
   height: 40px;
-  top: 25px;
+  top: 30px;
 }
 
 .hamburger {
@@ -14,8 +14,9 @@
   background-color: $primary-cyan;
   display: block;
   width: 30px;
-  height: 3px;
+  height: 5px;
   margin-bottom: 5px;
+  border-radius: 2px;
   position: relative;
   top: 0;
   transition: all ease-in-out .2s;
@@ -32,7 +33,7 @@
 
 .hamburger-container-open span:nth-child(1) {
   transform: rotate(-45deg);
-  top: 11px;
+  top: 15px;
 }
 
 .hamburger-container-open span:nth-child(3) {
