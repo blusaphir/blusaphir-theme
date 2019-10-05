@@ -1,60 +1,14 @@
-
-.social {
-  padding: 1rem;
-  background-color: #f4f4f4;
-}
-
-.subscribe {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 2rem;
-  padding-top: 1.5rem;
-}
-
-.subscribe h4 {
-  font-size: 2rem;
-  color: #3d3d3d;
-}
-
-.email {
-  width: 100%;
-  height: 30px;
-  font-size: 1.5rem;
-  padding: 1rem;
-  margin: 1rem 0;
-  color: $primary-cyan;
-  border: 1px solid $primary-cyan;
-  border-radius: 20px;
-}
-
-.email::placeholder {
-  color: $primary-cyan;
-}
-
-.submit {
-  background-color: $darker-cyan;
-  font-size: 1.5rem;
-  height: 50px;
-  width: 200px;
-  color: $primary-cyan;
-}
-
 .social-links {
-  margin-bottom: 1rem;
+  text-align: center;
+  padding: 1.3rem;
 }
-
-.social .social-links ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+.social-links ul li {
+  display: inline;
+  padding-right: 1.25rem;
 }
 
 .social-links img {
-  width: 35px;
+  width: 30px;
 }
 
 @media(min-width: 600px) {
