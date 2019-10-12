@@ -40,7 +40,7 @@
 }
 
 
-.like p {
+.mobile-subscribe-like .like p {
   font-size: .8rem;
   display: inline;
   background-color: #1ca9d6;
@@ -49,4 +49,19 @@
   text-transform: uppercase;
   position: relative;
   top: 165px;
+}
+
+@media(min-width: 850px) {
+  .mobile-subscribe-like {
+    display: none;
+  }
+
+  .email {
+    width: 190px;
+    font-size: .8rem;
+  }
+
+  .submit {
+    font-size: .8rem;
+  }
 }

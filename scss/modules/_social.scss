@@ -10,33 +10,3 @@
 .social-links img {
   width: 30px;
 }
-
-@media(min-width: 600px) {
-
-  .social {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-  }
-
-  .email {
-    width: 70%;
-  }
-
-   .social .social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .social .social-links ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .social .social-links ul img {
-    width: 40px;
-  }
-}

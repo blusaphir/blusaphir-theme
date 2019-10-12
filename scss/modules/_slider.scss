@@ -1,12 +1,16 @@
 /* RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 /* RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 
-.image-slider {
-  text-align: center;
-  padding: 1.2rem 0;
-  margin: 0 1rem;
+.image-slider-subscribe-like {
   border-top: 4px solid $light-blue;
   border-bottom: 4px solid $light-blue;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+}
+
+.image-slider {
+  text-align: center;
+  margin-right: .5rem;
 }
 
 .image-slider img {
@@ -15,6 +19,75 @@
 
 .subscribe-like {
   display: none;
+}
+
+@media(min-width: 850px) {
+
+  .image-slider-subscribe-like {
+    display: flex;
+    padding-top: .8rem;
+  }
+
+  .subscribe-like {
+    display: inline-block;
+  }
+
+  .subscribe {
+    padding: 1rem 0;
+    margin-bottom: .5rem;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .subscribe p {
+    font-size: .7rem;
+    margin-bottom: .5rem;
+  }
+
+  .like {
+    width: 290px;
+    height: 139px;
+    background-image: url("../../images/like.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .like p {
+    font-size: .6rem;
+    display: inline;
+    background-color: #1ca9d6;
+    color:#fff;
+    padding: .5rem;
+    text-transform: uppercase;
+    position: relative;
+    top: 110px;
+  }
+}
+
+@media(min-width: 1100px) {
+
+  .image-slider-subscribe-like {
+    border: none;
+  }
+
+  .like {
+    width: 330px;
+    height: 210px;
+  }
+
+  .like p {
+    font-size: .7rem;
+    top: 180px;
+  }
+}
+
+@media(min-width: 1300px) {
+  .like {
+    width: 530px;
+  }
 }
 
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
