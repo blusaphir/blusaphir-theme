@@ -391,8 +391,6 @@ header {
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 .main-content-wrapper {
-  display: flex;
-  flex-direction: column;
   margin: 1.3rem 0 1.3rem 0;
 }
 
@@ -405,6 +403,13 @@ header {
 
 .main-content-wrapper div {
   margin: 0 0 1rem 0;
+}
+
+.album-one {
+  border-bottom: 5px solid rgba(3, 160, 210, 0.2);
+}
+
+.sub-albums div {
   border-bottom: 5px solid rgba(3, 160, 210, 0.2);
 }
 
@@ -453,11 +458,13 @@ header {
 @media (min-width: 700px) {
   .main-content-wrapper h2 {
     grid-area: album-h2;
+    padding: 0;
   }
 
   .main-content-wrapper img {
     grid-area: album-img;
     width: 100%;
+    padding-left: 0;
   }
 
   .main-content-wrapper p {
@@ -479,6 +486,10 @@ header {
 
   .main-content-wrapper .featured-artist {
     display: block;
+  }
+
+  .featured-artist {
+    padding: 2rem 0;
   }
 
   .featured-artist img {
@@ -532,7 +543,7 @@ header {
   .main-content-wrapper .sub-albums {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "album-two album-three" "album-four album-five";
+    grid-gap: 1rem;
   }
 
   .main-content-wrapper .sub-albums div {
@@ -553,6 +564,10 @@ header {
 
   .main-content-wrapper .sub-albums div img {
     width: 250px;
+  }
+
+  .main-content-wrapper .featured-artist {
+    padding: 1rem 0;
   }
 
   .featured-artist h3 {

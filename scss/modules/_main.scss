@@ -11,6 +11,13 @@
 
 .main-content-wrapper div {
   margin: 0 0 1rem 0;
+}
+
+.album-one {
+  border-bottom: 5px solid $light-blue;
+}
+
+.sub-albums div {
   border-bottom: 5px solid $light-blue;
 }
 
@@ -92,6 +99,10 @@
     display: block;
   }
 
+  .featured-artist {
+    padding: 2rem 0;
+  }
+
   .featured-artist img {
     width: 300px;
   }
@@ -171,6 +182,10 @@
 
   .main-content-wrapper .sub-albums div img {
     width: 250px;
+  }
+
+  .main-content-wrapper .featured-artist {
+    padding: 1rem 0;
   }
 
   .featured-artist h3 {
