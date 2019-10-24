@@ -28,6 +28,7 @@
         <section class="main-content-wrapper">
           <!-- Album 1 or Main Feature Album -->
 
+          <!-- PHP Loop for the Main Feature Custom Post Type -->
           <?php 
             $homepageMainFeature = new WP_Query(array(
               'posts_per_page' => 1,
@@ -46,6 +47,7 @@
                 </div>
             <?php }
           ?>
+          <!-- End of PHP Loop for the Main Feature Custom Post Type -->
           <!-- End of Album 1 or Main Feature Album -->
 
           <!-- Albums 2 to 5 or Sub Feature Albums -->
