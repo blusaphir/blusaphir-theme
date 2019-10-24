@@ -44,8 +44,6 @@ a {
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 0fr 0.5fr;
-  justify-content: center;
-  justify-items: center;
 }
 
 .logo img {
@@ -352,7 +350,7 @@ header {
   .like {
     width: 290px;
     height: 139px;
-    background-image: url("/images/like.jpg");
+    background-image: url("../../images/like.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
