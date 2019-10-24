@@ -10,6 +10,9 @@
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>style.css">
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+        <script type="text/javascript"> var ABSPATH = "<?php bloginfo('template_url'); ?>"; </script>
+        
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
         <?php wp_head(); ?>
     </head>
