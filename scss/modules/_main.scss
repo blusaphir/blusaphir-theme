@@ -1,6 +1,4 @@
 .main-content-wrapper {
-  display: flex;
-  flex-direction: column;
   margin: 1.3rem 0 1.3rem 0;
 }
 
@@ -62,11 +60,13 @@
 
   .main-content-wrapper h2 {
     grid-area: album-h2;
+    padding: 0;
   }
   
   .main-content-wrapper img {
     grid-area: album-img;
     width: 100%;
+    padding-left: 0;
   }
 
   .main-content-wrapper p {
@@ -147,9 +147,7 @@
   .main-content-wrapper .sub-albums {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "album-two album-three"
-    "album-four album-five";
+    grid-gap: 1rem;
   }
 
   .main-content-wrapper .sub-albums div {
