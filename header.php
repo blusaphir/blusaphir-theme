@@ -52,14 +52,14 @@
         <nav id="nav" class="nav-container">
           <div class="nav-bar">
             <ul>
-              <li><a href="">home</a></li>
-              <li><a href="<?php echo 'artists.php'; ?>">artists</a></li>
-              <li><a href="<?php echo 'about.php'; ?>">about</a></li>
-              <li><a href="<?php echo 'events.php'; ?>">events</a></li>
-              <li><a href="<?php echo 'radio.php'; ?>">radio</a></li>
-              <li><a href="<?php echo 'dubplates.php'; ?>">dubplates</a></li>
-              <li><a href="<?php echo 'release.php'; ?>">release</a></li>
-              <li><a href="<?php echo 'contact.php'; ?>">contact</a></li>
+              <li><a href="<?php echo site_url(); ?>">home</a></li>
+              <li><a href="<?php echo site_url('/artists'); ?>">artists</a></li>
+              <li><a href="<?php echo site_url('/about'); ?>">about</a></li>
+              <li><a href="<?php echo site_url('/events'); ?>">events</a></li>
+              <li><a href="<?php echo site_url('/radio'); ?>">radio</a></li>
+              <li><a href="<?php echo site_url('/dubplates'); ?>">dubplates</a></li>
+              <li><a href="<?php echo site_url('/release'); ?>">release</a></li>
+              <li><a href="<?php echo site_url('/contact'); ?>">contact</a></li>
             </ul>
 
             <!-- Search Box -->
