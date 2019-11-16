@@ -16,8 +16,25 @@
               <input class="submit" type="submit" name="Subscribe">
             </div>
 
-            <div class ="like">
-              <p>Like Page | Be the first of your friends to like this</p>
+            <div>
+              <?php
+              $homepageLikeSection = new WP_Query(array(
+                'post_type' => 'like_section'
+              ));
+
+              while($homepageLikeSection->have_posts()) {
+                $homepageLikeSection->the_post(); ?>
+                <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
+                <div class="like" style="background: url('<?php echo $backgroundImg[0]; ?>') 
+                  no-repeat center; 
+                  background-size: cover; 
+                  -webkit-background-size: cover;
+                  -moz-background-size: cover; 
+                  -o-background-size: cover;">
+                  <p>Like Page | Be the first of your friends to like this</p>
+                </div>
+              <?php }
+              ?>
             </div>
           </div>
           <!-- End of Subscribe and Like -->
@@ -95,8 +112,25 @@
             <input class="submit" type="submit" name="Subscribe">
           </div>
 
-          <div class="like">
-            <p>Like Page | Be the first of your friends to like this</p>
+          <div>
+            <?php
+            $homepageLikeSection = new WP_Query(array(
+              'post_type' => 'like_section'
+            ));
+
+            while($homepageLikeSection->have_posts()) {
+              $homepageLikeSection->the_post(); ?>
+              <?php $backgroundImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
+              <div class="like" style="background: url('<?php echo $backgroundImg[0]; ?>') 
+                no-repeat center; 
+                background-size: cover; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover; 
+                -o-background-size: cover;">
+                <p>Like Page | Be the first of your friends to like this</p>
+              </div>
+            <?php }
+            ?>
           </div>
         </div>
 
