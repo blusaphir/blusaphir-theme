@@ -38,6 +38,19 @@ function blusaphir_post_types() {
       'singular_name' => 'Like'
     )
   ));
+
+  //Events Page Post Type
+  register_post_type('events', array(
+    'support' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Events',
+      'add_new_item' => 'Add New Event',
+      'edit_item' => 'Edit Event',
+      'all_items' => 'All Events',
+      'singular_name' => 'Event'
+    )
+  ));
 }
 
 add_action('init', 'blusaphir_post_types');
