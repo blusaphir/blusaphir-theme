@@ -805,40 +805,25 @@ footer p:last-child {
     padding-left: 5rem;
   }
 }
-.event {
+.eventsgrid {
   text-align: center;
-  padding-bottom: 1rem;
-  margin: 1rem;
-  border-top: 1px solid #1ca9d6;
+  padding-top: 2rem;
+  border-top: 3px solid #1ca9d6;
 }
 
-.event__info {
-  margin: 2rem 0;
+.event {
+  border: 2px solid #1ca9d6;
+  margin: 1rem 0;
+  padding: 1rem;
 }
 
-.event__img {
-  width: 350px;
-  padding-bottom: 2rem;
+.event h3 {
+  color: #0E546B;
 }
 
-@media (min-width: 1000px) {
-  .events {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .event {
-    width: 400px;
-    padding: 0;
-    border-top: none;
-    background: #CFEDF6;
-  }
-
-  .event__img {
-    border-bottom: none;
-    padding-bottom: 1.2rem;
-  }
+.eventsgrid img {
+  width: 95%;
+  padding: 1rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */

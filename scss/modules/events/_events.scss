@@ -1,0 +1,20 @@
+.eventsgrid {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 3px solid $primary-cyan;
+}
+
+.event {
+  border: 2px solid $primary-cyan;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.event h3 {
+  color: $darker-cyan;
+}
+
+.eventsgrid img {
+  width: 95%;
+  padding: 1rem 0;
+}
