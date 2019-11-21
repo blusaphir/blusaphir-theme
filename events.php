@@ -14,7 +14,7 @@
 
     while($eventspageEvents->have_posts()) {
       $eventspageEvents->the_post(); ?>
-      <div>
+      <div class="event">
         <h3><?php the_title(); ?></h3>
         <?php the_post_thumbnail(); ?>
       </div>
