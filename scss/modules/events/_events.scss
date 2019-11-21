@@ -18,3 +18,19 @@
   width: 95%;
   padding: 1rem 0;
 }
+
+@media(min-width: 850px) {
+  .eventsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+@media(min-width: 1100px) {
+  .eventsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
