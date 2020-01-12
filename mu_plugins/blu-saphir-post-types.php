@@ -52,6 +52,19 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Digi Blus Artist Page Post Type
+  register_post_type('digi_blus', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Digi Blus',
+      'add_new_item' => 'Add New Digi Blus Artist',
+      'edit_item' => 'Edit Digi Blus Artist',
+      'all_items' => 'All Digi Blus Artists',
+      'singular_name' => 'Digi Blus Artist'
+    )
+  ));
+
   //Events Page Post Type
   register_post_type('events', array(
     'support' => array('title', 'editor', 'thumbnail'),
