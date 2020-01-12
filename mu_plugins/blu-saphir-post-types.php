@@ -65,6 +65,19 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Blu Saphir Limited Artist Page Post Type
+  register_post_type('blu_saphir_ltd', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Blu Saphir Ltd',
+      'add_new_item' => 'Add New Blu Saphir Ltd Artist',
+      'edit_item' => 'Edit Blu Saphir Ltd Artist',
+      'all_items' => 'All Blu Saphir Ltd Artists',
+      'singular_name' => 'Blu Saphir Ltd Artist'
+    )
+  ));
+
   //Events Page Post Type
   register_post_type('events', array(
     'support' => array('title', 'editor', 'thumbnail'),
