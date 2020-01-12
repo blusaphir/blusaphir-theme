@@ -39,10 +39,20 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Artists Post Type
+  register_post_type('artists', array(
+    'supports' => array(),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Artists'
+    )
+  ));
+
   //Blu Saphir Recordings Artist Page Post Type
   register_post_type('blu_saphir', array(
     'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
+    'show_in_menu' => 'edit.php?post_type=artists',
     'labels' => array(
       'name' => 'Blu Saphir',
       'add_new_item' => 'Add New Blu Saphir Artist',
@@ -56,6 +66,7 @@ function blusaphir_post_types() {
   register_post_type('digi_blus', array(
     'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
+    'show_in_menu' => 'edit.php?post_type=artists',
     'labels' => array(
       'name' => 'Digi Blus',
       'add_new_item' => 'Add New Digi Blus Artist',
@@ -69,6 +80,7 @@ function blusaphir_post_types() {
   register_post_type('blu_saphir_ltd', array(
     'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
+    'show_in_menu' => 'edit.php?post_type=artists',
     'labels' => array(
       'name' => 'Blu Saphir Ltd',
       'add_new_item' => 'Add New Blu Saphir Ltd Artist',
@@ -82,6 +94,7 @@ function blusaphir_post_types() {
   register_post_type('sync_saphir', array(
     'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
+    'show_in_menu' => 'edit.php?post_type=artists',
     'labels' => array(
       'name' => 'Sync Saphir',
       'add_new_item' => 'Add New Sync Saphir Artist',
