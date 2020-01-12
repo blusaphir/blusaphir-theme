@@ -78,6 +78,19 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Sync Saphir Artist Page Post Type
+  register_post_type('sync_saphir', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Sync Saphir',
+      'add_new_item' => 'Add New Sync Saphir Artist',
+      'edit_item' => 'Edit Sync Saphir Artist',
+      'all_items' => 'All Sync Saphir Artists',
+      'singular_name' => 'Sync Saphir Artist'
+    )
+  ));
+
   //Events Page Post Type
   register_post_type('events', array(
     'support' => array('title', 'editor', 'thumbnail'),
