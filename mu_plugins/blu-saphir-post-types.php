@@ -130,6 +130,19 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Radio Page Custom Post Type
+  register_post_type('radio', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Radio',
+      'add_new_item' => 'Add New Radio',
+      'edit_item' => 'Edit Radio',
+      'all_items' => 'All Radios',
+      'singular_name' => 'Radio'
+    )
+  ));
+
   //Release Post Type
   register_post_type('release', array(
     'supports' => array(),
