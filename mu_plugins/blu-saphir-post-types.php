@@ -106,7 +106,7 @@ function blusaphir_post_types() {
 
   // About page Custom Post Type
   register_post_type('about', array(
-    'supports' => array('title', 'editor'),
+    'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
     'labels' => array(
       'name' => 'About',
