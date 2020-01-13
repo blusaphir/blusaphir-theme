@@ -49,7 +49,7 @@ function blusaphir_post_types() {
   ));
 
   //Blu Saphir Recordings Artist Page Post Type
-  register_post_type('blu_saphir', array(
+  register_post_type('artist_blu_saphir', array(
     'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=artists',
@@ -63,7 +63,7 @@ function blusaphir_post_types() {
   ));
 
   //Digi Blus Artist Page Post Type
-  register_post_type('digi_blus', array(
+  register_post_type('artist_digi_blus', array(
     'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=artists',
@@ -77,7 +77,7 @@ function blusaphir_post_types() {
   ));
 
   //Blu Saphir Limited Artist Page Post Type
-  register_post_type('blu_saphir_ltd', array(
+  register_post_type('artist_blu_saphir_ltd', array(
     'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=artists',
@@ -91,7 +91,7 @@ function blusaphir_post_types() {
   ));
 
   //Sync Saphir Artist Page Post Type
-  register_post_type('sync_saphir', array(
+  register_post_type('artist_sync_saphir', array(
     'supports' => array('title', 'editor', 'thumbnail'),
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=artists',
