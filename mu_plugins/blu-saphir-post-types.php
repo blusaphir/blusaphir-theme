@@ -104,6 +104,19 @@ function blusaphir_post_types() {
     )
   ));
 
+  // About page Custom Post Type
+  register_post_type('about', array(
+    'supports' => array('title', 'editor'),
+    'public' => true,
+    'labels' => array(
+      'name' => 'About',
+      'add_new_item' => 'Add New About',
+      'edit_item' => 'Edit About',
+      'all_item' => 'All Abouts',
+      'singular-name' => 'About'
+    )
+  ));
+
   //Release Post Type
   register_post_type('release', array(
     'supports' => array(),
