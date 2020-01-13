@@ -117,6 +117,19 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Events Page Post Type
+  register_post_type('events', array(
+    'support' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Events',
+      'add_new_item' => 'Add New Event',
+      'edit_item' => 'Edit Event',
+      'all_items' => 'All Events',
+      'singular_name' => 'Event'
+    )
+  ));
+
   //Release Post Type
   register_post_type('release', array(
     'supports' => array(),
@@ -179,19 +192,6 @@ function blusaphir_post_types() {
       'edit_item' => 'Edit Sync Saphir Release',
       'all_items' => 'All Sync Saphir Releases',
       'singular_name' => 'Sync Saphir Release'
-    )
-  ));
-
-  //Events Page Post Type
-  register_post_type('events', array(
-    'support' => array('title', 'editor', 'thumbnail'),
-    'public' => true,
-    'labels' => array(
-      'name' => 'Events',
-      'add_new_item' => 'Add New Event',
-      'edit_item' => 'Edit Event',
-      'all_items' => 'All Events',
-      'singular_name' => 'Event'
     )
   ));
 }
