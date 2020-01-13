@@ -127,6 +127,20 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Digi Blus Release Page Post Type
+  register_post_type('digi_blus_release', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'show_in_menu' => 'edit.php?post_type=release',
+    'labels' => array(
+      'name' => 'Digi Blus',
+      'add_new_item' => 'Add New Digi Blus Release',
+      'edit_item' => 'Edit Digi Blus Release',
+      'all_items' => 'All Digi Blus Releases',
+      'singular_name' => 'Digi Blus Release'
+    )
+  ));
+
   //Events Page Post Type
   register_post_type('events', array(
     'support' => array('title', 'editor', 'thumbnail'),
