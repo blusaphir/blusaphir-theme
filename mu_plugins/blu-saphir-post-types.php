@@ -155,6 +155,20 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Sync Saphir Release Page Post Type
+  register_post_type('sync_saphir_release', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'show_in_menu' => 'edit.php?post_type=release',
+    'labels' => array(
+      'name' => 'Sync Saphir',
+      'add_new_item' => 'Add New Sync Saphir Release',
+      'edit_item' => 'Edit Sync Saphir Release',
+      'all_items' => 'All Sync Saphir Releases',
+      'singular_name' => 'Sync Saphir Release'
+    )
+  ));
+
   //Events Page Post Type
   register_post_type('events', array(
     'support' => array('title', 'editor', 'thumbnail'),
