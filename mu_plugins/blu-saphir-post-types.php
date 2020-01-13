@@ -113,6 +113,20 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Blu Saphir Recordings Release Page Post Type
+  register_post_type('blu_saphir_release', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'show_in_menu' => 'edit.php?post_type=release',
+    'labels' => array(
+      'name' => 'Blu Saphir',
+      'add_new_item' => 'Add New Blu Saphir Release',
+      'edit_item' => 'Edit Blu Saphir Release',
+      'all_items' => 'All Blu Saphir Releases',
+      'singular_name' => 'Blu Saphir Release'
+    )
+  ));
+
   //Events Page Post Type
   register_post_type('events', array(
     'support' => array('title', 'editor', 'thumbnail'),
