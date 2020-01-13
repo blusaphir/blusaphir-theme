@@ -104,6 +104,15 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Release Post Type
+  register_post_type('release', array(
+    'supports' => array(),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Release'
+    )
+  ));
+
   //Events Page Post Type
   register_post_type('events', array(
     'support' => array('title', 'editor', 'thumbnail'),
