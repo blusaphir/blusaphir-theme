@@ -220,6 +220,19 @@ function blusaphir_post_types() {
       'singular_name' => 'Sync Saphir Release'
     )
   ));
+
+  //Contact Page Custom Post Type
+  register_post_type('contact', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Contact',
+      'add_new_item' => 'Add New Contact',
+      'edit_item' => 'Edit Contact',
+      'all_items' => 'All Contact',
+      'singular_name' => 'Contact'
+    )
+  ));
 }
 
 add_action('init', 'blusaphir_post_types');
