@@ -143,6 +143,19 @@ function blusaphir_post_types() {
     )
   ));
 
+  //Dubplates Page Custom Post Type
+  register_post_type('dubplates', array(
+    'supports' => array('title', 'editor', 'thumbnail'),
+    'public' => true,
+    'labels' => array(
+      'name' => 'Dubplates',
+      'add_new_item' => 'Add New Dubplates',
+      'edit_item' => 'Edit Dubplates',
+      'all_items' => 'All Dubplates',
+      'singular_name' => 'Dubplates'
+    )
+  ));
+
   //Release Post Type
   register_post_type('release', array(
     'supports' => array(),
