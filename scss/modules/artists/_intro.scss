@@ -1,4 +1,4 @@
-.artist-main {
+.artist {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -6,19 +6,19 @@
   margin: 2rem 0;
 }
 
-.artist-main__icon {
+.artist img {
   width: 250px;
 }
 
 @media(min-width: 700px) {
 
-  .artist-main {
+  .artist {
     width: 50%;
     grid-template-columns: 1fr 1fr;
     margin: 3rem auto;
   }
 
-  .artist-main a {
+  .artist a {
     text-align: center;
   }
 }
