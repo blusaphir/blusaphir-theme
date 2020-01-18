@@ -2,6 +2,7 @@
 
 <?php get_header() ?>
 
+<!-- Loop to show About Posts -->
 <section class="about">
   <?php 
     $about = new WP_Query(array(
@@ -20,5 +21,6 @@
     <?php }
   ?>
 </section>
+<!-- End of Loop to show About Posts -->
 
 <?php get_footer() ?>
