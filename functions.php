@@ -19,5 +19,9 @@
 
   add_filter('post_thumbnail_html', 'remove_img_attr');
 
+  // This will stop wordpress from automatically adding in "p" tags to paragraphs
+  remove_filter('term_description','wpautop');
+  remove_filter ('the_content', 'wpautop');
+
 ?>
 
