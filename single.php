@@ -3,7 +3,7 @@
   <?php
     while(have_posts()) {
       the_post(); ?>
-        <div>
+        <div class="sinle-posts">
           <h2><?php the_title(); ?></h2>
 
           <?php
