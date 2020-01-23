@@ -39,6 +39,128 @@ a {
     width: 1200px;
   }
 }
+.single-posts {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.single-posts h2 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem 0rem;
+  padding: 1rem 0 0.3rem 0;
+  color: #1ca9d6;
+  text-align: left;
+  border-bottom: 4px solid #3E7689;
+  display: inline-block;
+}
+
+.single-posts img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.single-posts p {
+  margin-bottom: 1rem;
+  text-align: left;
+  line-height: 1.7rem;
+  font-size: 1rem;
+}
+
+.single-posts a {
+  color: #0E546B;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  display: inline-flex;
+}
+
+.single-posts a:hover {
+  color: #1ca9d6;
+}
+
+.social-icons {
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 0.3rem;
+}
+
+.facebook-icon {
+  background-image: url("images/original-fb-icon.png");
+}
+
+.facebook-icon:hover {
+  background-image: url("images/fb-icon.png");
+}
+
+.single-posts a:hover > .facebook-icon {
+  background-image: url("images/fb-icon.png");
+}
+
+.soundcloud-icon {
+  background-image: url("images/original-soundcloud-icon.png");
+}
+
+.soundcloud-icon:hover {
+  background-image: url("images/soundcloud-icon.png");
+}
+
+.single-posts a:hover > .soundcloud-icon {
+  background-image: url("images/soundcloud-icon.png");
+}
+
+.twitter-icon {
+  background-image: url("images/original-twitter-icon.png");
+}
+
+.twitter-icon:hover {
+  background-image: url("images/twitter-icon.png");
+}
+
+.single-posts a:hover > .twitter-icon {
+  background-image: url("images/twitter-icon.png");
+}
+
+.instagram-icon {
+  background-image: url("images/original-instagram-icon.png");
+}
+
+.instagram-icon:hover {
+  background-image: url("images/instagram-icon.png");
+}
+
+.single-posts a:hover > .instagram-icon {
+  background-image: url("images/instagram-icon.png");
+}
+
+.beatport-icon {
+  background-image: url("images/original-beatport-icon.png");
+}
+
+.beatport-icon:hover {
+  background-image: url("images/beatport-icon.png");
+}
+
+.single-posts a:hover > .beatport-icon {
+  background-image: url("images/beatport-icon.png");
+}
+
+.mixcloud-icon {
+  background-image: url("images/original-mixcloud-icon.png");
+}
+
+.mixcloud-icon:hover {
+  background-image: url("images/mixcloud-icon.png");
+}
+
+.single-posts a:hover > .mixcloud-icon {
+  background-image: url("images/mixcloud-icon.png");
+}
+
 /* HEADER RULES */
 /* HEADER RULES */
 header {
@@ -696,7 +818,6 @@ footer p:last-child {
   text-align: center;
   margin-top: 1rem;
   padding: 2rem 0;
-  border-top: 1px solid #1ca9d6;
 }
 
 .artist-grid {
