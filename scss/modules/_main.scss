@@ -1,0 +1,194 @@
+.main-content-wrapper {
+  margin: 1.3rem 0 1.3rem 0;
+}
+
+.main-content-wrapper img {
+ width: 60%;
+ display: block;
+ margin: 0 auto;
+ padding: 1rem;
+}
+
+.main-content-wrapper div {
+  margin: 0 0 1rem 0;
+}
+
+.album-one {
+  border-bottom: 5px solid $light-blue;
+}
+
+.sub-albums div {
+  border-bottom: 5px solid $light-blue;
+}
+
+.main-content-wrapper h2 {
+  padding: 0 1.2rem .5rem 1.2rem;
+  font-size: 1.5rem;
+  color: $darker-cyan;
+}
+
+.main-content-wrapper p {
+  padding: .5rem;
+  margin-bottom: 1.2rem;
+  font-size: .9rem;
+  line-height: 1.3rem;
+}
+
+.main-content-wrapper .readmore {
+  background-color: $primary-cyan;
+  padding: .8rem;
+}
+
+.featured-artist {
+  text-align: center;
+  background: $primary-cyan;
+  padding: 2rem 0;
+}
+
+.main-content-wrapper .featured-artist img {
+  display: inline-block;
+}
+
+.featured-artist h3 {
+  color: #000;
+  font-size: 1.7rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.featured-artist-name {
+  color: #fff !important;
+  margin-bottom: -20px;
+  display: inline-block;
+}
+
+@media(min-width: 700px) {
+
+  .main-content-wrapper h2 {
+    grid-area: album-h2;
+    padding: 0;
+  }
+  
+  .main-content-wrapper img {
+    grid-area: album-img;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .main-content-wrapper p {
+    grid-area: album-p;
+  }
+
+  .main-content-wrapper div {
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    grid-template-areas: 
+    "album-h2 album-h2"
+    "album-img album-p";
+    padding: 1rem;
+  }
+
+  .main-content-wrapper .sub-albums {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  .main-content-wrapper .featured-artist {
+    display: block;
+  }
+
+  .featured-artist {
+    padding: 2rem 0;
+  }
+
+  .featured-artist img {
+    width: 300px;
+  }
+}
+
+@media(min-width: 1100px) {
+
+  .album-one {
+    grid-area: album-one;
+  }
+
+  .album-two {
+    grid-area: album-two;
+  }
+
+  .album-three {
+    grid-area: album-three;
+  }
+
+  .album-four {
+    grid-area: album-four;
+  }
+
+  .album-five {
+    grid-area: album-five;
+  }
+
+  .featured-artist {
+    grid-area: feature-artist;
+  }
+
+  .sub-albums {
+    grid-area: sub-albums;
+  }
+
+  .main-content-wrapper {
+    display: grid;
+    grid-template-columns: 2fr .5fr;
+    grid-template-areas:
+    "album-one feature-artist"
+    "sub-albums sub-albums";
+  }
+
+  .main-content-wrapper div {
+    padding: 0;
+    border: none;
+  }
+
+  .album-one p {
+    padding: 1rem;
+  }
+
+  .main-content-wrapper .sub-albums {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  .main-content-wrapper .sub-albums div {
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    grid-template-areas: 
+    "album-h2 album-h2"
+    "album-img album-img"
+    "album-p album-p";
+    background-color: $light-blue;
+    padding: 1rem;
+  }
+
+  .main-content-wrapper .sub-albums .album-two {
+    margin-right: .5rem;
+  }
+
+  .main-content-wrapper .sub-albums .album-four {
+    margin-right: .5rem;
+  }
+
+  .main-content-wrapper .sub-albums div img {
+    width: 250px;
+  }
+
+  .main-content-wrapper .featured-artist {
+    padding: 1rem 0;
+  }
+
+  .featured-artist h3 {
+    padding: .5rem;
+  }
+}

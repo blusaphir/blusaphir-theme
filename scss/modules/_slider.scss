@@ -1,84 +1,88 @@
-/* Keyframes to Animate Image Slider */
-@keyframes slider {
+/* RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
+/* RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 
-  0% {
-  	left: 0;
+.image-slider-subscribe-like {
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+}
+
+.image-slider {
+  text-align: center;
+  margin-right: .5rem;
+}
+
+.image-slider img {
+  width: 100%;
+}
+
+.subscribe-like {
+  display: none;
+}
+
+@media(min-width: 850px) {
+
+  .image-slider-subscribe-like {
+    display: flex;
+    padding-top: .8rem;
   }
 
-  20% {
-  	left: 0;
+  .subscribe-like {
+    display: inline-block;
   }
 
-  25% {
-  	left: -100%;
+  .subscribe {
+    padding: 1rem 0;
+    margin-bottom: .5rem;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
   }
 
-  45% {
-    left: -100%;
+  .subscribe p {
+    font-size: .7rem;
+    margin-bottom: .5rem;
   }
 
-  50% {
-  	left: -200%;
+  .like {
+    width: 290px;
+    height: 139px;
+    text-align: center;
   }
 
-  70% {
-  	left: -200%;
-  }
-
-  75% {
-  	left: -300%;
-  }
-
-  95% {
-  	left: -300%;
-  }
-
-  100% {
-  	left: -400%;
+  .like p {
+    font-size: .6rem;
+    display: inline;
+    background-color: #1ca9d6;
+    color:#fff;
+    padding: .5rem;
+    text-transform: uppercase;
+    position: relative;
+    top: 110px;
   }
 }
 
-.image-slider-container {
-  height: 300px;
-  overflow: hidden;
-}
+@media(min-width: 1100px) {
 
-.slider-box {
-  position: relative;
-  width: 1100%;
-  animation: 17s slider infinite;
-}
-
-.slider-box img {
-  width: 10%;
-  float: left;
-}
-
-@media(min-width: 700px) {
-
-  .image-slider-container {
-    height: 300px;
-    margin: 2.5rem;
+  .image-slider-subscribe-like {
+    border: none;
   }
-}
 
-@media(min-width: 1000px) {
+  .like {
+    width: 330px;
+    height: 210px;
+  }
 
-  .image-slider-container {
-    height: 350px;
+  .like p {
+    font-size: .7rem;
+    top: 180px;
   }
 }
 
 @media(min-width: 1300px) {
-
-  .image-slider-container {
-    height: 400px;
+  .like {
+    width: 530px;
   }
 }
 
-@media(min-width: 1600px) {
-
-  .image-slider-container {
-    height: 500px;
-  }
-}
+/* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
+/* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */

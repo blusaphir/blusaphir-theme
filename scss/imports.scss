@@ -1,12 +1,14 @@
 @import "global/global";
 @import "global/variables";
 
+@import "modules/single";
+
 @import "modules/header";
 @import "modules/hamburger";
 @import "modules/nav";
 @import "modules/slider";
-@import "modules/feature";
-@import "modules/social";
+@import "modules/main";
+@import "modules/subscribe-like";
 @import "modules/footer";
 
 @import "modules/artists/intro";
