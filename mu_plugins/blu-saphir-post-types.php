@@ -3,6 +3,7 @@
 function blusaphir_post_types() {
   register_post_type('main_feature', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Main Feature',
@@ -16,6 +17,7 @@ function blusaphir_post_types() {
   // Front-Page Sub-Feature Post Type
   register_post_type('sub_feature', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Sub-Feature',
@@ -29,6 +31,7 @@ function blusaphir_post_types() {
   //Front Page Like Section Post Type
   register_post_type('like_section', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Like',
@@ -42,6 +45,7 @@ function blusaphir_post_types() {
   //Artists Post Type
   register_post_type('artists', array(
     'supports' => array(),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Artists'
@@ -51,6 +55,7 @@ function blusaphir_post_types() {
   //Blu Saphir Recordings Artist Page Post Type
   register_post_type('artist_blu_saphir', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=artists',
     'labels' => array(
@@ -65,6 +70,7 @@ function blusaphir_post_types() {
   //Digi Blus Artist Page Post Type
   register_post_type('artist_digi_blus', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=artists',
     'labels' => array(
@@ -79,6 +85,7 @@ function blusaphir_post_types() {
   //Blu Saphir Limited Artist Page Post Type
   register_post_type('artist_blu_saphir_ltd', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=artists',
     'labels' => array(
@@ -93,6 +100,7 @@ function blusaphir_post_types() {
   //Sync Saphir Artist Page Post Type
   register_post_type('artist_sync_saphir', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=artists',
     'labels' => array(
@@ -107,6 +115,7 @@ function blusaphir_post_types() {
   // About page Custom Post Type
   register_post_type('about', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'About',
@@ -120,6 +129,7 @@ function blusaphir_post_types() {
   //Events Page Post Type
   register_post_type('events', array(
     'support' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Events',
@@ -133,6 +143,7 @@ function blusaphir_post_types() {
   //Radio Page Custom Post Type
   register_post_type('radio', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Radio',
@@ -146,6 +157,7 @@ function blusaphir_post_types() {
   //Dubplates Page Custom Post Type
   register_post_type('dubplates', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Dubplates',
@@ -159,6 +171,7 @@ function blusaphir_post_types() {
   //Release Post Type
   register_post_type('release', array(
     'supports' => array(),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Release'
@@ -168,6 +181,7 @@ function blusaphir_post_types() {
   //Blu Saphir Recordings Release Page Post Type
   register_post_type('blu_saphir_release', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=release',
     'labels' => array(
@@ -182,6 +196,7 @@ function blusaphir_post_types() {
   //Digi Blus Release Page Post Type
   register_post_type('digi_blus_release', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=release',
     'labels' => array(
@@ -196,6 +211,7 @@ function blusaphir_post_types() {
   //Blu Saphir Limited Release Page Post Type
   register_post_type('blu_ltd_release', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=release',
     'labels' => array(
@@ -210,6 +226,7 @@ function blusaphir_post_types() {
   //Sync Saphir Release Page Post Type
   register_post_type('sync_saphir_release', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'show_in_menu' => 'edit.php?post_type=release',
     'labels' => array(
@@ -224,6 +241,7 @@ function blusaphir_post_types() {
   //Contact Page Custom Post Type
   register_post_type('contact', array(
     'supports' => array('title', 'editor', 'thumbnail'),
+    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Contact',
