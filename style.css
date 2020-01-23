@@ -430,8 +430,6 @@ header {
 /* RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 /* RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 .image-slider-subscribe-like {
-  border-top: 4px solid rgba(3, 160, 210, 0.2);
-  border-bottom: 4px solid rgba(3, 160, 210, 0.2);
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
 }
