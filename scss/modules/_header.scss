@@ -4,6 +4,8 @@
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 0fr .5fr;
+  padding-bottom: .5rem;
+  border-bottom: 4px solid $light-blue;
 }
 
 .logo img {
@@ -33,6 +35,7 @@ header {
 
   header {
     display: flex;
+    border: none;
   }
 
   .logo img {

@@ -166,6 +166,8 @@ a {
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 0fr 0.5fr;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid rgba(3, 160, 210, 0.2);
 }
 
 .logo img {
@@ -194,6 +196,7 @@ header {
 @media (min-width: 600px) {
   header {
     display: flex;
+    border: none;
   }
 
   .logo img {
