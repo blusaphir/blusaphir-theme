@@ -21,6 +21,7 @@ services:
     restart: always
     volumes:
       - .:/var/www/html/wp-content/themes/blu-saphir
+      - ./mu-plugins:/var/www/html/wp-content/mu-plugins
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
