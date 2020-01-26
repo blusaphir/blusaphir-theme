@@ -6,13 +6,13 @@ window.addEventListener('load', function() {
       const imageBanners = document.getElementById("imageBanners");
     
       if (random === 1) {
-          imageBanners.src = ABSPATH + "/images/banner_blusaphir.jpg"
+          imageBanners.src = ABSPATH + "/images/banner_blusaphir.jpg";
         } else if (random === 2) {
-          imageBanners.src = ABSPATH + "/images/banner_cutworks.jpg"
+          imageBanners.src = ABSPATH + "/images/banner_cutworks.jpg";
         } else if (random === 3) {
-          imageBanners.src = ABSPATH + "/images/banner_kasper.jpg"
+          imageBanners.src = ABSPATH + "/images/banner_kasper.jpg";
         } else {
-          imageBanners.src = ABSPATH + "/images/banner_paulsg.jpg"
+          imageBanners.src = ABSPATH + "/images/banner_paulsg.jpg";
         };
       };
 
@@ -33,32 +33,7 @@ window.addEventListener('load', function() {
     };
   };
 
-  //Function for hover effect on artist images for all artist pages.
-  function hoverEffect () {
-    const images = document.querySelectorAll(".artist_digiblus div a img");
-    const artistName = document.querySelectorAll(".artist_digiblus div p");
-
-    for (let i = 0;  i < images.length; i++) {
-      for (let j = 0; j < artistName.length; j++) {
-        images[i].addEventListener("mouseover", hoverOn);
-        function hoverOn () {
-          artistName[i].style.background = "#1ca9d6";
-          artistName[i].style.color = "#fff"
-        }
-      }
-    }
-
-    for (let i = 0;  i < images.length; i++) {
-      for (let j = 0; j < artistName.length; j++) {
-        images[i].addEventListener("mouseout", hoverOff);
-        function hoverOff () {
-          artistName[i].style.background = "";
-          artistName[i].style.color = ""
-        }
-      }
-    }
-  };
   imageBanner();
-  hoverEffect();
   hamburger();
+
 });
