@@ -1,4 +1,4 @@
-<?php 
+<?php
 
   function blusaphir_files() {
     wp_enqueue_script('blusaphir_js', get_theme_file_uri('/js/app.js'));
@@ -24,4 +24,3 @@
   remove_filter ('the_content', 'wpautop');
 
 ?>
-
