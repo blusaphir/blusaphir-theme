@@ -34,7 +34,7 @@
 
           <!-- Banners -->
           <div class="banners">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/banner_kasper.jpg" alt="Blu Saphir - Header Banners">
+            <img id="imageBanners" src="<?php echo get_template_directory_uri(); ?>/images/banner_kasper.jpg" alt="Blu Saphir - Header Banners">
           </div>
 
           <!-- Hamburger Menu Icon -->
