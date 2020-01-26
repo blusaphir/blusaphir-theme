@@ -83,7 +83,7 @@ function blusaphir_post_types() {
   ));
 
   //Blu Saphir Limited Artist Page Post Type
-  register_post_type('artist_blu_saphir_ltd', array(
+  register_post_type('artist_blu_ltd', array(
     'supports' => array('title', 'editor', 'thumbnail'),
     'show_in_rest' => true,
     'public' => true,

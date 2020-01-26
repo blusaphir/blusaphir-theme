@@ -34,7 +34,7 @@
 
           <!-- Banners -->
           <div class="banners">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/banner_kasper.jpg" alt="Blu Saphir - Header Banners">
+            <img id="imageBanners" src="<?php echo get_template_directory_uri(); ?>/images/banner_kasper.jpg" alt="Blu Saphir - Header Banners">
           </div>
 
           <!-- Hamburger Menu Icon -->
@@ -53,7 +53,7 @@
           <div class="nav-bar">
             <ul>
               <li><a href="<?php echo site_url(); ?>">home</a></li>
-              <li><a href="<?php echo site_url('/artists'); ?>">artists</a></li>
+              <li><a href="<?php echo site_url('/artists/'); ?>">artists</a></li>
               <li><a href="<?php echo site_url('/about'); ?>">about</a></li>
               <li><a href="<?php echo site_url('/events'); ?>">events</a></li>
               <li><a href="<?php echo site_url('/radio'); ?>">radio</a></li>
