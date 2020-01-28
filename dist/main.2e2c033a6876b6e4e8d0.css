@@ -7178,7 +7178,7 @@ a {
 .single-posts h2 {
   font-size: 2rem;
   margin: 1rem 0 1rem 0rem;
-  padding: 1rem 0 .3rem 0;
+  padding: 1rem 0 0.3rem 0;
   color: #1ca9d6;
   text-align: left;
   border-bottom: 4px solid #3E7689;
@@ -7198,7 +7198,7 @@ a {
 .single-posts a {
   color: #0E546B;
   margin-right: 1rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
   display: inline-flex; }
 
 .single-posts a:hover {
@@ -7212,61 +7212,7 @@ a {
   display: inline-block;
   position: relative;
   top: 3px;
-  margin-right: .3rem; }
-
-.facebook-icon {
-  background-image: url("images/original-fb-icon.png"); }
-
-.facebook-icon:hover {
-  background-image: url("images/fb-icon.png"); }
-
-.single-posts a:hover > .facebook-icon {
-  background-image: url("images/fb-icon.png"); }
-
-.soundcloud-icon {
-  background-image: url("images/original-soundcloud-icon.png"); }
-
-.soundcloud-icon:hover {
-  background-image: url("images/soundcloud-icon.png"); }
-
-.single-posts a:hover > .soundcloud-icon {
-  background-image: url("images/soundcloud-icon.png"); }
-
-.twitter-icon {
-  background-image: url("images/original-twitter-icon.png"); }
-
-.twitter-icon:hover {
-  background-image: url("images/twitter-icon.png"); }
-
-.single-posts a:hover > .twitter-icon {
-  background-image: url("images/twitter-icon.png"); }
-
-.instagram-icon {
-  background-image: url("images/original-instagram-icon.png"); }
-
-.instagram-icon:hover {
-  background-image: url("images/instagram-icon.png"); }
-
-.single-posts a:hover > .instagram-icon {
-  background-image: url("images/instagram-icon.png"); }
-
-.beatport-icon {
-  background-image: url("images/original-beatport-icon.png"); }
-
-.beatport-icon:hover {
-  background-image: url("images/beatport-icon.png"); }
-
-.single-posts a:hover > .beatport-icon {
-  background-image: url("images/beatport-icon.png"); }
-
-.mixcloud-icon {
-  background-image: url("images/original-mixcloud-icon.png"); }
-
-.mixcloud-icon:hover {
-  background-image: url("images/mixcloud-icon.png"); }
-
-.single-posts a:hover > .mixcloud-icon {
-  background-image: url("images/mixcloud-icon.png"); }
+  margin-right: 0.3rem; }
 
 /* HEADER RULES */
 /* HEADER RULES */
@@ -7388,6 +7334,12 @@ header {
     display: none;
     visibility: hidden; } }
 
+.nav {
+  background-color: #e2e2e2;
+  color: #4c4c4c;
+  justify-content: center;
+  align-items: center; }
+
 @media (max-width: 1100px) {
   .nav-container {
     position: fixed;
@@ -7398,7 +7350,7 @@ header {
     background-color: rgba(0, 0, 0, 0.9);
     opacity: 0;
     width: 100%;
-    transition: all ease-in-out .6s;
+    transition: all ease-in-out 0.6s;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -7408,18 +7360,18 @@ header {
   .nav--reveal {
     opacity: 1;
     left: 0px;
-    transition: all ease-in-out .4s;
+    transition: all ease-in-out 0.4s;
     z-index: 2; }
   nav ul {
     margin-left: 3rem; }
   nav li {
-    padding: .8rem 0;
+    padding: 0.8rem 0;
     text-align: center; }
   .nav-bar li a {
     font-size: 2rem;
     margin-right: 2rem;
     text-transform: uppercase;
-    color: #fff; }
+    color: #4c4c4c; }
   li a:hover {
     color: #1ca9d6; }
   .search {
@@ -7432,28 +7384,23 @@ header {
     height: 70px;
     display: flex;
     align-items: center; }
-  .nav-bar {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center; }
-  .nav-bar ul {
+  .nav ul {
     margin-left: 2rem; }
-  .nav-bar ul li {
+  .nav ul li {
     display: inline; }
-  .nav-bar ul li a {
+  .nav ul li a {
     font-size: 1.1rem;
-    margin-right: .8rem;
+    margin-right: 0.8rem;
     text-transform: uppercase;
-    color: #fff; }
-  .nav-bar ul li a:hover {
+    color: #4c4c4c; }
+  .nav ul li a:hover {
     color: #0E546B; }
   .search-box {
     width: 250px;
     height: 30px;
     font-size: 1.2rem;
-    color: #0E546B;
-    padding: .5rem 0 .5rem 1rem;
+    color: #0e546b;
+    padding: 0.5rem 0 0.5rem 1rem;
     border: none;
     border-radius: 15px; }
   .search-box::placeholder {
@@ -7660,7 +7607,6 @@ header {
 .mobile-subscribe-like .like {
   width: 100%;
   height: 200px;
-  background-image: url("../../images/like.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -7677,7 +7623,7 @@ header {
 .email {
   width: 250px;
   font-size: 1rem;
-  padding: .4rem;
+  padding: 0.4rem;
   border: none; }
 
 .email::placeholder {
@@ -7686,16 +7632,16 @@ header {
 .submit {
   background-color: #1ca9d6;
   font-size: 1rem;
-  padding: .4rem;
+  padding: 0.4rem;
   border: none;
   color: #fff; }
 
 .mobile-subscribe-like .like p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   display: inline;
   background-color: #1ca9d6;
   color: #fff;
-  padding: .7rem;
+  padding: 0.7rem;
   text-transform: uppercase;
   position: relative;
   top: 165px; }
@@ -7705,9 +7651,9 @@ header {
     display: none; }
   .email {
     width: 190px;
-    font-size: .8rem; }
+    font-size: 0.8rem; }
   .submit {
-    font-size: .8rem; } }
+    font-size: 0.8rem; } }
 
 footer {
   background-color: rgba(3, 160, 210, 0.3);
@@ -7885,3 +7831,4 @@ footer p:last-child {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem; } }
+

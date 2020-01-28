@@ -19,55 +19,52 @@
 
     <body>
 
-      <div class="wrapper">
-        <!-- Header -->
-        <header>
-          <!-- Site Logo -->
-          <div class="logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/blu-sig.png" alt="Blu Saphire">
-          </div>
+      <!-- Header -->
+      <header>
+        <!-- Site Logo -->
+        <div class="logo">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/blu-sig.png" alt="Blu Saphire">
+        </div>
 
-          <!-- Site Heading -->
-          <div class="heading">
-            <h2>Blu Saphir <br /><span class="recordings">Recordings<span></h2>
-          </div>
+        <!-- Site Heading -->
+        <div class="heading">
+          <h2>Blu Saphir <br /><span class="recordings">Recordings<span></h2>
+        </div>
 
-          <!-- Banners -->
-          <div class="banners">
-            <img id="imageBanners" src="<?php echo get_template_directory_uri(); ?>/images/banner_kasper.jpg" alt="Blu Saphir - Header Banners">
-          </div>
+        <!-- Banners -->
+        <div class="banners">
+          <img id="imageBanners" src="<?php echo get_template_directory_uri(); ?>/images/banner_kasper.jpg" alt="Blu Saphir - Header Banners">
+        </div>
 
-          <!-- Hamburger Menu Icon -->
-          <div id="hamburger" class="hamburger-container">
-            <div class="hamburger">
-              <span>&nbsp;</span>
-              <span>&nbsp;</span>
-              <span>&nbsp;</span>
-            </div>
+        <!-- Hamburger Menu Icon -->
+        <div id="hamburger" class="hamburger-container">
+          <div class="hamburger">
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
           </div>
-        </header>
-        <!-- End of Header -->
+        </div>
+      </header>
+      <!-- End of Header -->
 
-        <!-- Navbar -->
-        <nav id="nav" class="nav-container">
-          <div class="nav-bar">
-            <ul>
-              <li><a href="<?php echo site_url(); ?>">home</a></li>
-              <li><a href="<?php echo site_url('/artists/'); ?>">artists</a></li>
-              <li><a href="<?php echo site_url('/about'); ?>">about</a></li>
-              <li><a href="<?php echo site_url('/events'); ?>">events</a></li>
-              <li><a href="<?php echo site_url('/radio'); ?>">radio</a></li>
-              <li><a href="<?php echo site_url('/dubplates'); ?>">dubplates</a></li>
-              <li><a href="<?php echo site_url('/release'); ?>">release</a></li>
-              <li><a href="<?php echo site_url('/contact'); ?>">contact</a></li>
-            </ul>
+      <!-- Navbar -->
+      <nav id="nav" class="container-fluid nav">
+        <ul>
+          <li><a href="<?php echo site_url(); ?>">home</a></li>
+          <li><a href="<?php echo site_url('/artists/'); ?>">artists</a></li>
+          <li><a href="<?php echo site_url('/about'); ?>">about</a></li>
+          <li><a href="<?php echo site_url('/events'); ?>">events</a></li>
+          <li><a href="<?php echo site_url('/radio'); ?>">radio</a></li>
+          <li><a href="<?php echo site_url('/dubplates'); ?>">dubplates</a></li>
+          <li><a href="<?php echo site_url('/release'); ?>">release</a></li>
+          <li><a href="<?php echo site_url('/contact'); ?>">contact</a></li>
+        </ul>
 
-            <!-- Search Box -->
-            <form class="search" action="/" method="post">
-              <input class="search-box" type="text" name="search" placeholder="Search">
-              <input class="search-icon" type="image" name="search-icon" value="Search" src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png">
-            </form>
-            <!-- End of Search Box -->
-          </div>
-        </nav>
-        <!-- End of Navbar -->
+        <!-- Search Box -->
+        <form class="search" action="/" method="post">
+          <input class="search-box" type="text" name="search" placeholder="Search">
+          <input class="search-icon" type="image" name="search-icon" value="Search" src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png">
+        </form>
+        <!-- End of Search Box -->
+      </nav>
+      <!-- End of Navbar -->
