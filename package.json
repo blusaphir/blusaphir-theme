@@ -1,0 +1,23 @@
+{
+  "name": "blusaphir-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:blusaphir/blusaphir-theme.git",
+  "author": "Jason Williams <jase.williams@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "yarn webpack --watch --config webpack.config.js --mode=development",
+    "build": "yarn webpack build --config webpack.config.js --mode=production"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-manifest-plugin": "^2.2.0"
+  }
+}

@@ -15,7 +15,7 @@
 
     <body>
 
-      <div class="wrapper">
+      <div class="container-fluid">
         <!-- Header -->
         <header>
           <!-- Site Logo -->
@@ -182,7 +182,7 @@
         </footer>
         <!-- End of Footer -->
       </div> <!-- End of Wrapper -->
-      
+
 
       <!-- JavaSscript File -->
       <script src="<?php echo get_template_directory_uri(); ?>/js/app.js" type="text/javascript"></script>
