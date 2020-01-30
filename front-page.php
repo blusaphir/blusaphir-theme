@@ -63,7 +63,7 @@
         </section>
         <!-- End of Front Page loop for recent posts --> 
 
-        <!-- Front Page Artists -->
+        <!-- Front Page Random Artists -->
         <section class="front-page-random-artist-container">
           <?php
             $randomArtists = new WP_Query(array(
@@ -82,7 +82,7 @@
             <?php }
           ?>
         </section>
-        <!-- End of Front Page Artists -->
+        <!-- End of Front Page Random Artists -->
 
         <!-- Subscribe and Like - Markup for Samller Devices -->
         <div class="mobile-subscribe-like">
