@@ -41,22 +41,24 @@
         </section>
         <!-- End of Image Slider Subscribe and Like -->
 
-        <?php 
-          $recentPosts = new WP_Query(array(
-            'post_type' => 'post',
-            'post_status' => 'publish',
-            'posts_per_page' => 5
-          ));
+        <section class="main-content-wrapper">
+          <?php 
+            $recentPosts = new WP_Query(array(
+              'post_type' => 'post',
+              'post_status' => 'publish',
+              'posts_per_page' => 5
+            ));
 
-          while($recentPosts->have_posts()) {
-            $recentPosts->the_post(); ?>
-              <div class="album-one">
-                <h2><?php the_title(); ?></h2>
-                <?php the_post_thumbnail(); ?>
-                <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
-              </div>
-          <?php }
-        ?> 
+            while($recentPosts->have_posts()) {
+              $recentPosts->the_post(); ?>
+                <div class="album-one">
+                  <h2><?php the_title(); ?></h2>
+                  <?php the_post_thumbnail(); ?>
+                  <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
+                </div>
+            <?php }
+          ?>
+        </section> 
 
           <!-- Feature Artist -->
           <div class="featured-artist">
