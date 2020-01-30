@@ -10321,10 +10321,11 @@ header {
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 .main-content-wrapper {
   margin: 1.3rem 0 1.3rem 0;
+  width: 95%;
 }
 
 .main-content-wrapper img {
-  width: 60%;
+  width: 70%;
   display: block;
   margin: 0 auto;
   padding: 1rem;
@@ -10362,7 +10363,10 @@ header {
 }
 
 .front-page-random-artist h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  background-color: #1ca9d6;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .front-page-random-artist-container {
@@ -10370,10 +10374,11 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   justify-items: center;
+  text-align: center;
 }
 
 .front-page-random-artist img {
-  width: 200px;
+  width: 150px;
 }
 
 @media (min-width: 700px) {
