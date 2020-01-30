@@ -47,7 +47,8 @@
             $recentPosts = new WP_Query(array(
               'post_type' => 'post',
               'post_status' => 'publish',
-              'posts_per_page' => 5
+              'posts_per_page' => 5,
+              'category_name' => 'releases'
             ));
 
             while($recentPosts->have_posts()) {
@@ -62,18 +63,24 @@
         </section>
         <!-- End of Front Page loop for recent posts --> 
 
-          <!-- Feature Artist -->
-          <div class="featured-artist">
-            <h3 class="featured-artist-title">Featured Artist</h3>
-            <a href="">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/artist-1.jpg" alt="Featured Artists"><br />
-              <h3 class="featured-artist-name">Skyweep</h3>
-            </a>
-          </div>
-          <!-- End of Feature Artist -->
-          
-        </section>
-        <!-- End of Main Content -->
+        <!-- Front Page Artists -->
+        <?php
+          $randomArtists = new WP_Query(array(
+            'post_type' => 'post',
+            'orderby' => 'rand', 
+            'posts_per_page' => 2,
+            'category_name' => 'artists'
+          ));
+
+          while($randomArtists->have_posts()) {
+            $randomArtists->the_post(); ?>
+              <div class="front-page-random-artist">
+                <h2><?php the_title(); ?></h2>
+                <?php the_post_thumbnail(); ?>
+              </div>
+          <?php }
+        ?>
+        <!-- End of Front Page Artists -->
 
         <!-- Subscribe and Like - Markup for Samller Devices -->
         <div class="mobile-subscribe-like">
