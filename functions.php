@@ -24,5 +24,6 @@ function blusaphir_files() {
   // This will stop wordpress from automatically adding in "p" tags to paragraphs
   remove_filter('term_description','wpautop');
   remove_filter ('the_content', 'wpautop');
+  remove_filter ('the_excerpt', 'wpautop');
 
 ?>

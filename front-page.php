@@ -41,52 +41,22 @@
         </section>
         <!-- End of Image Slider Subscribe and Like -->
 
-        <!-- Main Content -->
-        <section class="main-content-wrapper">
-          <!-- Front-Page Main Feature -->
-          <!-- PHP Loop for the Main Feature Custom Post Type -->
-          <?php
-            $mainFeature = new WP_Query(array(
-              'post_type' => 'post',
-              'post_status' => 'publish',
-              'category_name' => 'front-page-main-feature',
-              'posts_per_page' => 1
-            ));
+        <?php 
+          $recentPosts = new WP_Query(array(
+            'post_type' => 'post',
+            'post_status' => 'publish',
+            'posts_per_page' => 5
+          ));
 
-            while($mainFeature->have_posts()) {
-              $mainFeature->the_post(); ?>
-                <div class="album-one">
-                  <h2><?php the_title(); ?></h2>
-                  <?php the_post_thumbnail(); ?>
-                  <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
-                </div>
-            <?php }
-          ?>
-          <!-- End of PHP Loop for the Main Feature Custom Post Type -->
-          <!-- End of Main Feature--> 
-
-          <!-- Sub Feature -->
-          <!-- PHP Loop for the Sub Feature -->
-          <div class="sub-albums">
-            <?php 
-              $subFeature = new WP_Query(array(
-                'post_type' => 'post',
-                'post_status' => 'publish',
-                'category_name' => 'front-page-sub-feature',
-              ));
-
-              while($subFeature->have_posts()) {
-                $subFeature->the_post(); ?>
-                  <div>
-                    <h2 class="sub-feature-h2"><?php the_title(); ?></h2>
-                    <?php the_post_thumbnail(); ?>
-                    <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
-                  </div>
-              <?php }
-            ?>
-          </div>
-          <!-- End of PHP Loop for the Sub Feature Custom Post Type -->
-          <!-- End of Albums 2 to 5 or Sub Feature Albums -->
+          while($recentPosts->have_posts()) {
+            $recentPosts->the_post(); ?>
+              <div class="album-one">
+                <h2><?php the_title(); ?></h2>
+                <?php the_post_thumbnail(); ?>
+                <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
+              </div>
+          <?php }
+        ?> 
 
           <!-- Feature Artist -->
           <div class="featured-artist">
