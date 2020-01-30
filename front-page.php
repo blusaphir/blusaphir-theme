@@ -43,47 +43,44 @@
 
         <!-- Main Content -->
         <section class="main-content-wrapper">
-          <!-- Album 1 or Main Feature Album -->
-
+          <!-- Front-Page Main Feature -->
           <!-- PHP Loop for the Main Feature Custom Post Type -->
-          <?php 
-            $homepageMainFeature = new WP_Query(array(
-              'posts_per_page' => 1,
-              'post_type' => 'main_feature'
+          <?php
+            $mainFeature = new WP_Query(array(
+              'post_type' => 'post',
+              'post_status' => 'publish',
+              'category_name' => 'front-page-main-feature',
+              'posts_per_page' => 1
             ));
 
-            while($homepageMainFeature->have_posts()) {
-              $homepageMainFeature->the_post(); ?>
+            while($mainFeature->have_posts()) {
+              $mainFeature->the_post(); ?>
                 <div class="album-one">
                   <h2><?php the_title(); ?></h2>
                   <?php the_post_thumbnail(); ?>
-                  <p><?php echo get_the_content(); ?>
-                  <br /><br />
-                  <a class="readmore" href="">Read More</a>
-                  </p>
+                  <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
                 </div>
             <?php }
           ?>
           <!-- End of PHP Loop for the Main Feature Custom Post Type -->
-          <!-- End of Album 1 or Main Feature Album -->
+          <!-- End of Main Feature--> 
 
-          <!-- Albums 2 to 5 or Sub Feature Albums -->
-          <!-- PHP Loop for the Sub Feature Custom Post Type -->
+          <!-- Sub Feature -->
+          <!-- PHP Loop for the Sub Feature -->
           <div class="sub-albums">
             <?php 
-              $homepageSubFeature = new WP_Query(array(
-                'post_type' => 'sub_feature'
+              $subFeature = new WP_Query(array(
+                'post_type' => 'post',
+                'post_status' => 'publish',
+                'category_name' => 'front-page-sub-feature',
               ));
 
-              while($homepageSubFeature->have_posts()) {
-                $homepageSubFeature->the_post(); ?>
+              while($subFeature->have_posts()) {
+                $subFeature->the_post(); ?>
                   <div>
                     <h2 class="sub-feature-h2"><?php the_title(); ?></h2>
                     <?php the_post_thumbnail(); ?>
-                    <p> <?php echo get_the_content(); ?>
-                    <br /><br />
-                    <a class="readmore" href="">Read More</a>
-                    </p>
+                    <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
                   </div>
               <?php }
             ?>
