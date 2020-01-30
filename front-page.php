@@ -76,8 +76,8 @@
             while($randomArtists->have_posts()) {
               $randomArtists->the_post(); ?>
                 <div class="front-page-random-artist">
-                  <h2><?php the_title(); ?></h2>
-                  <?php the_post_thumbnail(); ?>
+                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+                  <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
                 </div>
             <?php }
           ?>
