@@ -41,6 +41,7 @@
         </section>
         <!-- End of Image Slider Subscribe and Like -->
 
+        <!-- Front Page loop for recent posts -->
         <section class="main-content-wrapper">
           <?php 
             $recentPosts = new WP_Query(array(
@@ -58,7 +59,8 @@
                 </div>
             <?php }
           ?>
-        </section> 
+        </section>
+        <!-- End of Front Page loop for recent posts --> 
 
           <!-- Feature Artist -->
           <div class="featured-artist">
