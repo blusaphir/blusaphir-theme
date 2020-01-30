@@ -48,7 +48,7 @@
       <!-- End of Header -->
 
       <!-- Navbar -->
-      <nav id="nav" class="container-fluid nav">
+      <nav id="nav" class="nav nav-bar nav-container">
         <ul>
           <li><a href="<?php echo site_url(); ?>">home</a></li>
           <li><a href="<?php echo site_url('/artists/'); ?>">artists</a></li>
