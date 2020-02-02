@@ -10769,6 +10769,7 @@ footer p:last-child {
   border: none;
   border-radius: 0;
   -webkit-border-radius: 0;
+  -webkit-appearance: none;
 }
 
 .subscribe .email::placeholder {

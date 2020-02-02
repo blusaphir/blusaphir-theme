@@ -7811,7 +7811,8 @@ footer p:last-child {
   box-shadow: 1px 1px 7px 0px #1ca9d6;
   border: none;
   border-radius: 0;
-  -webkit-border-radius: 0; }
+  -webkit-border-radius: 0;
+  -webkit-appearance: none; }
 
 .subscribe .email::placeholder {
   color: #0E546B; }
