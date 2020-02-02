@@ -10521,6 +10521,7 @@ header {
 .mobile-subscribe-like .subscribe {
   padding: 1.5rem 0;
   text-align: center;
+  background-color: #fff;
 }
 
 .subscribe p {
