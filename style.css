@@ -10543,8 +10543,9 @@ header {
 }
 
 .mobile-subscribe-like .like a {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
+  margin-left: 1rem;
 }
 
 .mobile-subscribe-like .like p {
@@ -10556,6 +10557,7 @@ header {
   text-transform: uppercase;
   position: relative;
   top: 130px;
+  margin-left: 1rem;
 }
 
 .mobile-subscribe-like .like img {
