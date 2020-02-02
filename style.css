@@ -10501,9 +10501,9 @@ header {
   }
 }
 .mobile-subscribe-like {
-  text-align: center;
   width: 95%;
   margin: 0 auto;
+  border-top: 5px solid #CFEDF6;
 }
 
 .mobile-subscribe-like .like {
@@ -10512,6 +10512,7 @@ header {
 
 .mobile-subscribe-like .subscribe {
   padding: 1.5rem 0;
+  text-align: center;
 }
 
 .subscribe p {
@@ -10554,7 +10555,7 @@ header {
   padding: 0.7rem;
   text-transform: uppercase;
   position: relative;
-  top: 165px;
+  top: 130px;
 }
 
 .mobile-subscribe-like .like img {
