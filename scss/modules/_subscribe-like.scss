@@ -20,7 +20,7 @@
   font-weight: bold;
   text-transform: uppercase;
 }
-.email {
+.subscribe .email {
   width: 180px;
   font-size: 1rem;
   padding: 0.5rem;
@@ -31,11 +31,11 @@
   -webkit-border-radius: 0;
 }
 
-.email::placeholder {
+.subscribe .email::placeholder {
   color: $darker-cyan;
 }
 
-.submit {
+.subscribe .submit {
   background-color: $darker-cyan;
   font-size: 1rem;
   padding: 0.5rem;
@@ -49,6 +49,7 @@
   font-size: 0.9rem;
   text-transform: uppercase;
   margin-left: 1rem;
+  text-align: left;
 }
 
 .mobile-subscribe-like .like p {
@@ -61,6 +62,7 @@
   position: relative;
   top: 130px;
   margin-left: 1rem;
+  text-align: left;
 }
 
 .mobile-subscribe-like .like img {
