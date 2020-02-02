@@ -10794,7 +10794,7 @@ footer p:last-child {
   font-size: 0.9rem;
   text-transform: uppercase;
   margin-left: 1rem;
-  text-align: left;
+  float: left;
 }
 
 .mobile-subscribe-like .like p {
