@@ -7603,15 +7603,16 @@ header {
     padding: .5rem; } }
 
 .mobile-subscribe-like {
-  text-align: center;
   width: 95%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-top: 5px solid #CFEDF6; }
 
 .mobile-subscribe-like .like {
   height: 200px; }
 
 .mobile-subscribe-like .subscribe {
-  padding: 1.5rem 0; }
+  padding: 1.5rem 0;
+  text-align: center; }
 
 .subscribe p {
   margin-bottom: 0.5rem;
@@ -7648,7 +7649,7 @@ header {
   padding: 0.7rem;
   text-transform: uppercase;
   position: relative;
-  top: 165px; }
+  top: 130px; }
 
 .mobile-subscribe-like .like img {
   width: 15px;

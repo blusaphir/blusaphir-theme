@@ -1,14 +1,16 @@
 .mobile-subscribe-like {
-  text-align: center;
   width: 95%;
   margin: 0 auto;
+  border-top: 5px solid $light-cyan;
 }
+
 .mobile-subscribe-like .like {
   height: 200px;
 }
 
 .mobile-subscribe-like .subscribe {
   padding: 1.5rem 0;
+  text-align: center;
 }
 
 .subscribe p {
@@ -50,7 +52,7 @@
   padding: 0.7rem;
   text-transform: uppercase;
   position: relative;
-  top: 165px;
+  top: 130px;
 }
 
 .mobile-subscribe-like .like img {
