@@ -7485,34 +7485,34 @@ header {
 
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
-.main-content-wrapper {
-  margin: 1.3rem auto;
+.recent-posts-container {
+  margin: 1rem auto;
   width: 95%; }
 
-.main-content-wrapper img {
+.recent-posts-container img {
   width: 70%;
   display: block;
   margin: 0 auto;
   padding: 1rem; }
 
-.main-content-wrapper div {
+.recent-posts-container div {
   margin: 0 0 1rem 0;
   border-bottom: 5px solid rgba(3, 160, 210, 0.2); }
 
-.main-content-wrapper h2 {
+.recent-posts-container h2 {
   font-size: 1.2rem;
   font-weight: bold;
   padding-left: 0.5rem;
   color: #1ca9d6;
   text-transform: uppercase; }
 
-.main-content-wrapper p {
+.recent-posts-container p {
   padding: .5rem;
   margin-bottom: 1.2rem;
   font-size: .9rem;
   line-height: 1.3rem; }
 
-.main-content-wrapper .readmore {
+.recent-posts-container .readmore {
   background-color: #1ca9d6;
   padding: .8rem; }
 
@@ -7538,75 +7538,18 @@ header {
   align-self: center; }
 
 @media (min-width: 700px) {
-  .main-content-wrapper h2 {
-    grid-area: album-h2;
-    padding: 0; }
-  .main-content-wrapper img {
-    grid-area: album-img;
-    width: 100%;
-    padding-left: 0; }
-  .main-content-wrapper p {
-    grid-area: album-p; }
-  .main-content-wrapper div {
-    display: grid;
-    grid-template-columns: .8fr 1fr;
-    grid-template-areas: "album-h2 album-h2" "album-img album-p";
-    padding: 1rem; }
-  .main-content-wrapper .sub-albums {
-    display: flex;
-    flex-direction: column;
-    border: none; }
-  .main-content-wrapper .featured-artist {
-    display: block; }
-  .featured-artist {
-    padding: 2rem 0; }
-  .featured-artist img {
-    width: 300px; } }
-
-@media (min-width: 1100px) {
-  .album-one {
-    grid-area: album-one; }
-  .album-two {
-    grid-area: album-two; }
-  .album-three {
-    grid-area: album-three; }
-  .album-four {
-    grid-area: album-four; }
-  .album-five {
-    grid-area: album-five; }
-  .featured-artist {
-    grid-area: feature-artist; }
-  .sub-albums {
-    grid-area: sub-albums; }
+  .recent-posts-container {
+    margin: 1rem;
+    grid-area: posts; }
+  .front-page-random-artist-container {
+    margin: 0;
+    grid-area: randomartists; }
   .main-content-wrapper {
     display: grid;
-    grid-template-columns: 2fr .5fr;
-    grid-template-areas: "album-one feature-artist" "sub-albums sub-albums"; }
-  .main-content-wrapper div {
-    padding: 0;
-    border: none; }
-  .album-one p {
-    padding: 1rem; }
-  .main-content-wrapper .sub-albums {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem; }
-  .main-content-wrapper .sub-albums div {
-    display: grid;
-    grid-template-columns: .8fr 1fr;
-    grid-template-areas: "album-h2 album-h2" "album-img album-img" "album-p album-p";
-    background-color: rgba(3, 160, 210, 0.2);
-    padding: 1rem; }
-  .main-content-wrapper .sub-albums .album-two {
-    margin-right: .5rem; }
-  .main-content-wrapper .sub-albums .album-four {
-    margin-right: .5rem; }
-  .main-content-wrapper .sub-albums div img {
-    width: 250px; }
-  .main-content-wrapper .featured-artist {
-    padding: 1rem 0; }
-  .featured-artist h3 {
-    padding: .5rem; } }
+    grid-template-areas: "posts randomartists"; }
+  .recent-posts-container div:last-child {
+    border: none; } }
 
 footer {
   background-color: rgba(3, 160, 210, 0.3);
