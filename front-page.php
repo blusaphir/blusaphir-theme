@@ -31,7 +31,8 @@
                   -webkit-background-size: cover;
                   -moz-background-size: cover; 
                   -o-background-size: cover;">
-                  <p>Like Page | Be the first of your friends to like this</p>
+                  <a href="https://www.facebook.com/blusaphirrecs/" class="facebook-page">Blu Saphir Recordings - Facebook</a>
+                  <p><img src="<?php echo get_template_directory_uri(); ?>/images/original-fb-icon.png" alt="like-this-page">Like This Page</p>
                 </div>
               <?php }
               ?>
