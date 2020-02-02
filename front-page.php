@@ -44,44 +44,46 @@
 
         <!-- Front Page loop for recent posts -->
         <section class="main-content-wrapper">
-          <?php 
-            $recentPosts = new WP_Query(array(
-              'post_type' => 'post',
-              'post_status' => 'publish',
-              'posts_per_page' => 5,
-              'category_name' => 'releases'
-            ));
+          <div class="recent-posts-container">
+            <?php 
+              $recentPosts = new WP_Query(array(
+                'post_type' => 'post',
+                'post_status' => 'publish',
+                'posts_per_page' => 5,
+                'category_name' => 'releases'
+              ));
 
-            while($recentPosts->have_posts()) {
-              $recentPosts->the_post(); ?>
-                <div class="recent-posts">
-                  <h2><?php the_title(); ?></h2>
-                  <?php the_post_thumbnail(); ?>
-                  <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
-                </div>
-            <?php }
-          ?>
-        </section>
-        <!-- End of Front Page loop for recent posts --> 
+              while($recentPosts->have_posts()) {
+                $recentPosts->the_post(); ?>
+                  <div class="recent-posts">
+                    <h2><?php the_title(); ?></h2>
+                    <?php the_post_thumbnail(); ?>
+                    <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
+                  </div>
+              <?php }
+            ?>
+          </div>
+          <!-- End of Front Page loop for recent posts --> 
 
-        <!-- Front Page Random Artists -->
-        <section class="front-page-random-artist-container">
-          <?php
-            $randomArtists = new WP_Query(array(
-              'post_type' => 'post',
-              'orderby' => 'rand', 
-              'posts_per_page' => 2,
-              'category_name' => 'artists'
-            ));
+          <!-- Front Page Random Artists -->
+          <div class="front-page-random-artist-container">
+            <?php
+              $randomArtists = new WP_Query(array(
+                'post_type' => 'post',
+                'orderby' => 'rand', 
+                'posts_per_page' => 2,
+                'category_name' => 'artists'
+              ));
 
-            while($randomArtists->have_posts()) {
-              $randomArtists->the_post(); ?>
-                <div class="front-page-random-artist">
-                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-                <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-                </div>
-            <?php }
-          ?>
+              while($randomArtists->have_posts()) {
+                $randomArtists->the_post(); ?>
+                  <div class="front-page-random-artist">
+                  <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+                  <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                  </div>
+              <?php }
+            ?>
+          <div>
         </section>
         <!-- End of Front Page Random Artists -->
 
