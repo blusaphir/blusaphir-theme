@@ -60,6 +60,14 @@
     top: 110px;
     text-align: left;
   }
+
+  .subscribe-like .like img {
+    width: 15px;
+    margin-right: 0.3rem;
+    background-color: #fff;
+    position: relative;
+    bottom: 1px;
+  }
 }
 
 @media(min-width: 1100px) {
