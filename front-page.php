@@ -53,7 +53,7 @@
 
             while($recentPosts->have_posts()) {
               $recentPosts->the_post(); ?>
-                <div class="album-one">
+                <div class="recent-posts">
                   <h2><?php the_title(); ?></h2>
                   <?php the_post_thumbnail(); ?>
                   <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
@@ -77,7 +77,7 @@
               $randomArtists->the_post(); ?>
                 <div class="front-page-random-artist">
                 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
-                  <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
                 </div>
             <?php }
           ?>
@@ -85,13 +85,16 @@
         <!-- End of Front Page Random Artists -->
 
         <!-- Subscribe and Like - Markup for Samller Devices -->
-        <div class="mobile-subscribe-like">
+        <section class="mobile-subscribe-like">
+          <!-- Subscribe Section -->
           <div class="subscribe">
             <p>Subscribe to our mailing list</p>
-            <input class="email" type="text" name="Email" placeholder="Email">
-            <input class="submit" type="submit" name="Subscribe">
+            <input class="email" type="text" name="Email" placeholder="Email Address">
+            <input class="submit" type="submit" name="Subscribe" value="Subscribe">
           </div>
-
+          <!-- End of Subscribe Section -->
+          
+          <!-- Like This Page Section  -->
           <div>
             <?php
             $homepageLikeSection = new WP_Query(array(
@@ -107,11 +110,14 @@
                 -webkit-background-size: cover;
                 -moz-background-size: cover; 
                 -o-background-size: cover;">
-                <p>Like Page | Be the first of your friends to like this</p>
+                <a href="https://www.facebook.com/blusaphirrecs/" class="facebook-page">Blu Saphir Recordings - Facebook</a>
+                <p><img src="<?php echo get_template_directory_uri(); ?>/images/original-fb-icon.png" alt="like-this-page">Like This Page</p>
               </div>
             <?php }
             ?>
           </div>
-        </div>
+          <!-- End of Like This Page Section  -->
+        </section>
+        <!-- End of Subscribe and Like - Markup for Samller Devices -->
 
 <?php get_footer(); ?>
