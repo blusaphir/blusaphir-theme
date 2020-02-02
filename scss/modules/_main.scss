@@ -12,19 +12,13 @@
 
 .main-content-wrapper div {
   margin: 0 0 1rem 0;
-}
-
-.album-one {
-  border-bottom: 5px solid $light-blue;
-}
-
-.sub-albums div {
   border-bottom: 5px solid $light-blue;
 }
 
 .main-content-wrapper h2 {
-  padding: 0 1.2rem .5rem 1.2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
   color: $darker-cyan;
   text-transform: uppercase;
 }
@@ -52,7 +46,7 @@
 }
 
 .front-page-random-artist h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   background-color: $primary-cyan;
   padding: 0.5rem;
 }
@@ -62,7 +56,7 @@
 }
 
 .front-page-random-artist img {
-  width: 150px;
+  width: 130px;
   align-self: center;
 }
 
