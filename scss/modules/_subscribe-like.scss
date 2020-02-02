@@ -4,17 +4,13 @@
   border-top: 5px solid $light-cyan;
 }
 
-.mobile-subscribe-like .like {
-  height: 200px;
-}
-
 .mobile-subscribe-like .subscribe {
   padding: 1.5rem 0;
   text-align: center;
   background-color: #fff;
 }
 
-.subscribe p {
+.mobile-subscribe-like .subscribe p {
   margin-bottom: 0.5rem;
   color: $darker-cyan;
   font-weight: bold;
@@ -24,8 +20,8 @@
   width: 180px;
   font-size: 1rem;
   padding: 0.5rem;
-  -webkit-box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 1px 7px 0px $primary-cyan;
+  -moz-box-shadow: 1px 1px 7px 0px$primary-cyan;
   box-shadow: 1px 1px 7px 0px $primary-cyan;
   border: none;
   border-radius: 0;
@@ -44,6 +40,10 @@
   border: none;
   border-radius: 0;
   -webkit-border-radius: 0;
+}
+
+.mobile-subscribe-like .like {
+  height: 200px;
 }
 
 .mobile-subscribe-like .like a {
