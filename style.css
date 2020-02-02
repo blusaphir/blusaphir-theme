@@ -10793,8 +10793,13 @@ footer p:last-child {
 .mobile-subscribe-like .like a {
   font-size: 0.9rem;
   text-transform: uppercase;
+  margin-top: 1rem;
   margin-left: 1rem;
   float: left;
+}
+
+.mobile-subscribe-like .like a:hover {
+  color: #1ca9d6;
 }
 
 .mobile-subscribe-like .like p {
