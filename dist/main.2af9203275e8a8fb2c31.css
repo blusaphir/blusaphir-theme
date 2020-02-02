@@ -7836,7 +7836,6 @@ footer p:last-child {
   text-align: left; }
 
 .mobile-subscribe-like .like p {
-  display: inline-block;
   font-size: 0.6rem;
   background-color: #1ca9d6;
   color: #fff;
@@ -7845,7 +7844,7 @@ footer p:last-child {
   position: relative;
   top: 130px;
   margin-left: 1rem;
-  text-align: left; }
+  float: left; }
 
 .mobile-subscribe-like .like img {
   width: 15px;
