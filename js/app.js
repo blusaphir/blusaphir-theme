@@ -34,6 +34,20 @@ window.addEventListener("load", function() {
     }
   }
 
+  //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
+  function socialIcons() {
+    const postATags = document.querySelectorAll(".single-posts-body a");
+    const newSpan = document.createElement('span');
+    postATags.forEach(function(aTag) {
+
+      if (aTag.innerText === "facebook" || aTag.innerText === "Facebook" || aTag.innerText === "FACEBOOK") {
+        newSpan.setAttribute('class', 'facebook-icon');
+        aTag.prepend(newSpan);
+      }
+    });
+  }
+
   imageBanner();
   hamburger();
+  socialIcons();
 });
