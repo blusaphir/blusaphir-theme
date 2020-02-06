@@ -7580,7 +7580,7 @@ header {
   text-align: center; }
 
 .front-page-random-artist h2 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   background-color: #1ca9d6;
   padding: 0.5rem;
   margin-bottom: 0rem;
@@ -7589,7 +7589,7 @@ header {
   box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3); }
 
 .front-page-random-artist {
-  margin-right: 0.5rem; }
+  margin-right: 0 0.5rem 1rem 0; }
 
 .front-page-random-artist img {
   width: 130px;
