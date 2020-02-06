@@ -41,7 +41,7 @@ window.addEventListener("load", function() {
     postATags.forEach(function(aTag) {
 
       if (aTag.innerText === "facebook" || aTag.innerText === "Facebook" || aTag.innerText === "FACEBOOK") {
-        newSpan.setAttribute('class', 'facebook-icon');
+        newSpan.classList('social-icons', 'facebook-icon');
         aTag.prepend(newSpan);
       }
     });
