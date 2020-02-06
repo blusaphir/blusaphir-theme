@@ -9966,6 +9966,18 @@ a {
   margin-right: 0.3rem;
 }
 
+.facebook-icon {
+  background-image: url("/images/original-fb-icon.png");
+}
+
+.facebook-icon:hover {
+  background-image: url("/images/fb-icon.png");
+}
+
+.single-posts a:hover > .facebook-icon {
+  background-image: url("/images/fb-icon.png");
+}
+
 /* HEADER RULES */
 /* HEADER RULES */
 header {
@@ -10378,6 +10390,10 @@ header {
   font-size: 1.1rem;
   background-color: #1ca9d6;
   padding: 0.5rem;
+  margin-bottom: 0rem;
+  -webkit-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .front-page-random-artist {
@@ -10408,6 +10424,14 @@ header {
 
   .recent-posts-container div:last-child {
     border: none;
+  }
+
+  .recent-posts-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .front-page-random-artist img {
+    width: 165px;
   }
 }
 footer {
