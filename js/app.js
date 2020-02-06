@@ -39,48 +39,30 @@ window.addEventListener("load", function() {
     const postATags = document.querySelectorAll(".single-posts-body a");
     const newSpan = document.createElement('span');
     newSpan.classList.add('social-icons')
-
+    
     postATags.forEach(function(aTag) {
-      switch (aTag.innerText) {
-        case "facebook": 
-        case "Facebook":
-        case "FACEBOOK":
-          newSpan.classList.add('facebook-icon');
-          aTag.prepend(newSpan);
-          break;
-        case "soundcloud": 
-        case "Soundcloud":
-        case "SOUNDCLOUD":
-          newSpan.classList.add('soundcloud-icon');
-          aTag.prepend(newSpan);
-          break;
-        case "twitter": 
-        case "Twitter":
-        case "TWITTER":
-          newSpan.classList.add('twitter-icon');
-          aTag.prepend(newSpan);
-          break;
-        case "instagram": 
-        case "Instagram":
-        case "INSTAGRAM":
-          newSpan.classList.add('instagram-icon');
-          aTag.prepend(newSpan);
-          break;
-        case "mixcloud": 
-        case "Mixcloud":
-        case "MIXCLOUD":
-          newSpan.classList.add('mixcloud-icon');
-          aTag.prepend(newSpan);
-          break;
-        case "beatport": 
-        case "Beatport":
-        case "BEATPORT":
-          newSpan.classList.add('beatport-icon');
-          aTag.prepend(newSpan);
-          break;
+
+      if (aTag.innerText === "facebook" || aTag.innerText === "Facebook" || aTag.innerText === "FACEBOOK") {
+        newSpan.classList.add('facebook-icon');
+        aTag.prepend(newSpan);
+      } else if (aTag.innerText === "twitter" || aTag.innerText === "Twitter" || aTag.innerText === "TWITTER") {
+        newSpan.classList.add('twitter-icon');
+        aTag.prepend(newSpan);
+      } else if (aTag.innerText === "instagram" || aTag.innerText === "Instagram" || aTag.innerText === "INSTAGRAM") {
+        newSpan.classList.add('instagram-icon');
+        aTag.prepend(newSpan);
+      } else if (aTag.innerText === "soundcloud" || aTag.innerText === "Soundcloud" || aTag.innerText === "SOUNDCLOUD") {
+        newSpan.classList.add('soundcloud-icon');
+        aTag.prepend(newSpan);
+      } else if (aTag.innerText === "mixcloud" || aTag.innerText === "Mixcloud" || aTag.innerText === "MIXCLOUD") {
+        newSpan.classList.add('mixcloud-icon');
+        aTag.prepend(newSpan);
+      } else if (aTag.innerText === "beatport" || aTag.innerText === "Beatport" || aTag.innerText === "BEATPORT") {
+        newSpan.classList.add('beatport-icon');
+        aTag.prepend(newSpan);
       }
     });
-  }
+  };
 
   imageBanner();
   hamburger();
