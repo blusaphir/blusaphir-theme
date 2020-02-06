@@ -37,10 +37,12 @@ window.addEventListener("load", function() {
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
   function socialIcons() {
     const postATags = document.querySelectorAll(".single-posts-body a");
+    console.log(postATags);
     const newSpan = document.createElement('span');
-    newSpan.classList.add('social-icons')
+    newSpan.classList.add('social-icons');
 
-    function createSocialIcons(aTag) {
+    postATags.forEach(function(aTag) {
+      console.log(aTag.innerText)
 
       if (aTag.innerText === "facebook" || aTag.innerText === "Facebook" || aTag.innerText === "FACEBOOK") {
         newSpan.classList.add('facebook-icon');
@@ -66,10 +68,8 @@ window.addEventListener("load", function() {
         newSpan.classList.add('beatport-icon');
         aTag.prepend(newSpan);
       }
-    };
-    
-    postATags.forEach(createSocialIcons);
-  };
+    })
+  }
 
   imageBanner();
   hamburger();
