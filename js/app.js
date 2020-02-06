@@ -40,7 +40,7 @@ window.addEventListener("load", function() {
     const newSpan = document.createElement('span');
     newSpan.classList.add('social-icons')
 
-    function createSocialIcons() {
+    function createSocialIcons(aTag) {
 
       if (aTag.innerText === "facebook" || aTag.innerText === "Facebook" || aTag.innerText === "FACEBOOK") {
         newSpan.classList.add('facebook-icon');
