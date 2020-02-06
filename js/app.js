@@ -38,11 +38,11 @@ window.addEventListener("load", function() {
   function socialIcons() {
     const postATags = document.querySelectorAll(".single-posts-body a");
     console.log(postATags);
-    const newSpan = document.createElement('span');
-    newSpan.classList.add('social-icons');
 
     postATags.forEach(function(aTag) {
       console.log(aTag.innerText)
+      const newSpan = document.createElement('span');
+      newSpan.classList.add('social-icons');
 
       if (aTag.innerText === "facebook" || aTag.innerText === "Facebook" || aTag.innerText === "FACEBOOK") {
         newSpan.classList.add('facebook-icon');
