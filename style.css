@@ -10444,6 +10444,7 @@ header {
   justify-content: center;
   justify-items: center;
   text-align: center;
+  align-self: baseline;
 }
 
 .front-page-random-artist h2 {
@@ -10489,6 +10490,10 @@ header {
 
   .recent-posts-container h2 {
     font-size: 1.5rem;
+  }
+
+  .front-page-random-artist h2 {
+    width: 165px;
   }
 
   .front-page-random-artist img {
