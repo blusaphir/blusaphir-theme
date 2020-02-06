@@ -7577,7 +7577,8 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   justify-items: center;
-  text-align: center; }
+  text-align: center;
+  align-self: baseline; }
 
 .front-page-random-artist h2 {
   width: 130px;
@@ -7611,6 +7612,8 @@ header {
     border: none; }
   .recent-posts-container h2 {
     font-size: 1.5rem; }
+  .front-page-random-artist h2 {
+    width: 165px; }
   .front-page-random-artist img {
     width: 165px; } }
 
