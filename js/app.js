@@ -39,11 +39,13 @@ window.addEventListener("load", function() {
     const postATags = document.querySelectorAll(".single-posts-body a");
     const newSpan = document.createElement('span');
     newSpan.classList.add('social-icons')
-    postATags.forEach(function(aTag) {
 
-      if (aTag.innerText === "facebook" || aTag.innerText === "Facebook" || aTag.innerText === "FACEBOOK") {
-        newSpan.classList.add('facebook-icon');
-        aTag.prepend(newSpan);
+    postATags.forEach(function(aTag) {
+      switch (aTag.innerText) {
+        case "facebook" || "Facebook" || "FACEBOOK":
+          newSpan.classList.add('facebook-icon');
+          aTag.prepend(newSpan);
+          break;
       }
     });
   }
