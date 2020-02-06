@@ -42,7 +42,9 @@ window.addEventListener("load", function() {
 
     postATags.forEach(function(aTag) {
       switch (aTag.innerText) {
-        case "facebook" || "Facebook" || "FACEBOOK":
+        case "facebook": 
+        case "Facebook":
+        case "FACEBOOK":
           newSpan.classList.add('facebook-icon');
           aTag.prepend(newSpan);
           break;
