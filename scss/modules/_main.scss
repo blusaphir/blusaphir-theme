@@ -49,6 +49,10 @@
   font-size: 1.1rem;
   background-color: $primary-cyan;
   padding: 0.5rem;
+  margin-bottom: 0rem;
+  -webkit-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0.5px 0.5px 10px 0px rgba(0,0,0,0.3);
 }
 
 .front-page-random-artist {
@@ -81,6 +85,10 @@
 
   .recent-posts-container div:last-child {
     border: none;
+  }
+
+  .front-page-random-artist img {
+    width: 165px;
   }
 }
 
