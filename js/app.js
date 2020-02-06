@@ -48,6 +48,36 @@ window.addEventListener("load", function() {
           newSpan.classList.add('facebook-icon');
           aTag.prepend(newSpan);
           break;
+        case "soundcloud": 
+        case "Soundcloud":
+        case "SOUNDCLOUD":
+          newSpan.classList.add('soundcloud-icon');
+          aTag.prepend(newSpan);
+          break;
+        case "twitter": 
+        case "Twitter":
+        case "TWITTER":
+          newSpan.classList.add('twitter-icon');
+          aTag.prepend(newSpan);
+          break;
+        case "instagram": 
+        case "Instagram":
+        case "INSTAGRAM":
+          newSpan.classList.add('instagram-icon');
+          aTag.prepend(newSpan);
+          break;
+        case "mixclound": 
+        case "Mixclound":
+        case "MIXCLOUND":
+          newSpan.classList.add('mixclound-icon');
+          aTag.prepend(newSpan);
+          break;
+        case "beatport": 
+        case "Beatport":
+        case "BEATPORT":
+          newSpan.classList.add('beatport-icon');
+          aTag.prepend(newSpan);
+          break;
       }
     });
   }
