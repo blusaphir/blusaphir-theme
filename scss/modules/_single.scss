@@ -48,17 +48,17 @@
   margin-right: 0.3rem;
 }
 
-// // Rules for Facebook Artists Social Links
+// Rules for Facebook Artists Social Links
 .facebook-icon {
-  background-image: url("images/original-fb-icon.png");
+  background-image: url("/images/original-fb-icon.png");
 }
 
 .facebook-icon:hover {
-  background-image: url("images/fb-icon.png");
+  background-image: url("/images/fb-icon.png");
 }
 
 .single-posts a:hover > .facebook-icon {
-  background-image: url("images/fb-icon.png");
+  background-image: url("/images/fb-icon.png");
 }
 
 // // Rules for Soundcloud Artists Social Links
