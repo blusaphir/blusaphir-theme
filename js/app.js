@@ -66,10 +66,10 @@ window.addEventListener("load", function() {
           newSpan.classList.add('instagram-icon');
           aTag.prepend(newSpan);
           break;
-        case "mixclound": 
-        case "Mixclound":
-        case "MIXCLOUND":
-          newSpan.classList.add('mixclound-icon');
+        case "mixcloud": 
+        case "Mixcloud":
+        case "MIXCLOUD":
+          newSpan.classList.add('mixcloud-icon');
           aTag.prepend(newSpan);
           break;
         case "beatport": 
