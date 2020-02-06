@@ -7554,6 +7554,8 @@ header {
     grid-template-areas: "posts randomartists"; }
   .recent-posts-container div:last-child {
     border: none; }
+  .recent-posts-container h2 {
+    font-size: 1.5rem; }
   .front-page-random-artist img {
     width: 165px; } }
 
