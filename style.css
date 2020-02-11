@@ -10333,10 +10333,12 @@ header {
   .image-slider-subscribe-like {
     display: flex;
     padding-top: 0.8rem;
+    width: 800px;
   }
 
   .subscribe-like {
     display: inline-block;
+    margin-left: 0.5rem;
   }
 
   .subscribe {
@@ -10344,6 +10346,7 @@ header {
     margin-bottom: 0.5rem;
     text-align: center;
     color: #fff;
+    background: red;
   }
 
   .subscribe p {
@@ -10353,20 +10356,27 @@ header {
 
   .like {
     width: 290px;
-    height: 139px;
-    text-align: center;
+    height: 124px;
+    background: blue !important;
+  }
+
+  .like a {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin: 0.5rem 0 0 1rem;
+    float: left;
   }
 
   .like p {
     font-size: 0.6rem;
-    display: inline;
     background-color: #1ca9d6;
     color: #fff;
     padding: 0.5rem;
     text-transform: uppercase;
     position: relative;
-    top: 110px;
-    text-align: left;
+    top: 35px;
+    margin-left: 1rem;
+    float: left;
   }
 
   .subscribe-like .like img {
@@ -10375,26 +10385,46 @@ header {
     background-color: #fff;
     position: relative;
     bottom: 1px;
+    border-radius: 2px;
   }
 }
 @media (min-width: 1100px) {
   .image-slider-subscribe-like {
     border: none;
+    width: 1000px;
   }
 
   .like {
-    width: 330px;
-    height: 210px;
+    width: 380px;
+    height: 174px;
+  }
+
+  .like a {
+    font-size: 1rem;
   }
 
   .like p {
     font-size: 0.7rem;
-    top: 180px;
+    top: 80px;
   }
 }
 @media (min-width: 1300px) {
+  .image-slider-subscribe-like {
+    border: none;
+    width: 1200px;
+  }
+
   .like {
     width: 530px;
+    height: 196px;
+  }
+
+  .like a {
+    font-size: 1.2rem;
+  }
+
+  .like p {
+    top: 100px;
   }
 }
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
@@ -10811,6 +10841,7 @@ footer p:last-child {
   background-color: #fff;
   position: relative;
   bottom: 1px;
+  border-radius: 2px;
 }
 
 @media (min-width: 850px) {
