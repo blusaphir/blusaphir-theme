@@ -10346,7 +10346,6 @@ header {
     margin-bottom: 0.5rem;
     text-align: center;
     color: #fff;
-    background: red;
   }
 
   .subscribe p {
@@ -10357,7 +10356,6 @@ header {
   .like {
     width: 290px;
     height: 124px;
-    background: blue !important;
   }
 
   .like a {
