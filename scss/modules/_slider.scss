@@ -22,6 +22,15 @@
 
 @media(min-width: 850px) {
 
+  .image-slider-subscribe-like-container {
+    width: 100%;
+    background: $primary-cyan;
+    margin: 1rem 0;
+    -webkit-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0,0,0,0.3);
+    box-shadow: inset 0.5px 0.5px 10px 0px rgba(0,0,0,0.3);
+  }
+
   .image-slider-subscribe-like {
     display: flex;
     padding-top: .8rem;
