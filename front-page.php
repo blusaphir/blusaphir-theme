@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
       <!-- Image Slider, Subscribe and Like-->
-      <section class="image-slider-subscribe-like">
+      <div class="image-slider-subscribe-like-container">
+        <section class="image-slider-subscribe-like">
           <!-- Image Slider-->
           <div class="image-slider">
             <img src="<?php echo get_template_directory_uri(); ?>/images/image-1.jpg" alt="Image Slider">
@@ -40,7 +41,8 @@
           </div>
           <!-- End of Subscribe and Like -->
         </section>
-        <!-- End of Image Slider Subscribe and Like -->
+      </div>
+      <!-- End of Image Slider Subscribe and Like -->
 
         <!-- Front Page loop for recent posts -->
         <section class="main-content-wrapper">
