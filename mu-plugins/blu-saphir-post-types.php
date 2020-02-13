@@ -73,6 +73,11 @@ function blusaphir_post_types() {
   ));
 }
 
+function delete_post_type(){
+  unregister_post_type( 'Artists' );
+}
+add_action('init','delete_post_type');
+
 add_action('init', 'blusaphir_post_types');
 
 ?>
