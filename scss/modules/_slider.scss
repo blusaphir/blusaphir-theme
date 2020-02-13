@@ -43,20 +43,26 @@
   }
 
   .subscribe {
-    padding: 1rem 0;
-    margin-bottom: .5rem;
+    padding: .5rem;
+    margin-bottom: .2rem;
     text-align: center;
     color: #fff;
   }
 
+  .subscribe-like .subscribe .email, .subscribe-like .subscribe .submit {
+    padding: 0.4rem;
+    font-size: .9rem;
+  }
+
   .subscribe p {
-    font-size: 1rem;
+    font-size: .9rem;
     margin-bottom: .5rem;
   }
 
   .like {
     width: 290px;
-    height: 127px;
+    height: 155px;
+    background-color: black !important;
   }
 
   .like a {
@@ -97,7 +103,7 @@
 
   .like {
     width: 380px;
-    height: 131.5px;
+    height: 159px;
   }
 
   .like a {
@@ -119,7 +125,7 @@
 
   .like {
     width: 530px;
-    height: 199px;
+    height: 227.5px;
   }
 
   .like a {

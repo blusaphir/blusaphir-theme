@@ -14,7 +14,7 @@
             <div class="subscribe">
               <p>Subscribe to our mailing list</p>
               <input class="email" type="text" name="Email" placeholder="Email">
-              <input class="submit" type="submit" name="Subscribe">
+              <input class="submit" type="submit" name="Subscribe" value="Subscribe">
             </div>
 
             <div>

@@ -465,20 +465,26 @@ header {
   }
 
   .subscribe {
-    padding: 1rem 0;
+    padding: 0.7rem;
     margin-bottom: 0.5rem;
     text-align: center;
     color: #fff;
   }
 
+  .subscribe-like .subscribe .email, .subscribe-like .subscribe .submit {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+  }
+
   .subscribe p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 0.5rem;
   }
 
   .like {
     width: 290px;
     height: 127px;
+    background-color: black !important;
   }
 
   .like a {
@@ -965,6 +971,7 @@ footer p:last-child {
   border: none;
   border-radius: 0;
   -webkit-border-radius: 0;
+  -webkit-appearance: none;
 }
 
 .mobile-subscribe-like .like {
