@@ -73,6 +73,11 @@
     color: $darker-cyan;
   }
 
+  .nav-container form {
+    position: relative;
+    left: 40px;
+  }
+
   .search-box {
     width: 200px;
     height: 30px;
@@ -99,5 +104,10 @@
   
   .nav-bar {
     width: 1200px;
+  }
+
+  .nav-container form {
+    position: relative;
+    left: 340px;
   }
 }
