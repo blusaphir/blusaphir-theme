@@ -50,14 +50,14 @@
       <!-- Navbar -->
       <nav id="nav" class="nav nav-bar nav-container">
         <ul>
-          <li><a href="<?php echo site_url(); ?>">home</a></li>
+          <li><a href="<?php echo site_url('/home/'); ?>">home</a></li>
           <li><a href="<?php echo site_url('/artists/'); ?>">artists</a></li>
-          <li><a href="<?php echo site_url('/about'); ?>">about</a></li>
-          <li><a href="<?php echo site_url('/events'); ?>">events</a></li>
-          <li><a href="<?php echo site_url('/radio'); ?>">radio</a></li>
-          <li><a href="<?php echo site_url('/dubplates'); ?>">dubplates</a></li>
-          <li><a href="<?php echo site_url('/release'); ?>">release</a></li>
-          <li><a href="<?php echo site_url('/contact'); ?>">contact</a></li>
+          <li><a href="<?php echo site_url('/about/'); ?>">about</a></li>
+          <li><a href="<?php echo site_url('/events/'); ?>">events</a></li>
+          <li><a href="<?php echo site_url('/radio/'); ?>">radio</a></li>
+          <li><a href="<?php echo site_url('/dubplates/'); ?>">dubplates</a></li>
+          <li><a href="<?php echo site_url('/release/'); ?>">release</a></li>
+          <li><a href="<?php echo site_url('/contact/'); ?>">contact</a></li>
         </ul>
 
         <!-- Search Box -->
