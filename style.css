@@ -622,7 +622,6 @@ header {
 @media (min-width: 700px) {
   .main-content-wrapper {
     display: flex;
-    width: 95%;
   }
 
   .recent-posts-container {
