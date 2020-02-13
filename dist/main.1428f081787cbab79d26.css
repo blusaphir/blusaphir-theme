@@ -480,8 +480,7 @@ header {
 
 @media (min-width: 700px) {
   .main-content-wrapper {
-    display: flex;
-    width: 95%; }
+    display: flex; }
   .recent-posts-container {
     margin: 1rem; }
   .recent-posts-container div:last-child {
