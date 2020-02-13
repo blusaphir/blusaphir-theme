@@ -514,7 +514,11 @@ header {
 
 @media (min-width: 1300px) {
   .main-content-wrapper {
-    width: 1200px; } }
+    width: 1200px; }
+  .recent-posts-container h2 {
+    font-size: 1.5rem; }
+  .front-page-random-artist img {
+    width: 130px; } }
 
 footer {
   background-color: rgba(3, 160, 210, 0.3);
