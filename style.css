@@ -662,6 +662,14 @@ header {
   .recent-posts-container p {
     padding: 0rem;
   }
+
+  .front-page-random-artist-container {
+    margin-right: -0.5rem;
+  }
+
+  .front-page-random-artist h2, .front-page-random-artist img {
+    width: 210px;
+  }
 }
 footer {
   background-color: rgba(3, 160, 210, 0.3);
