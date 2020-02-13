@@ -95,7 +95,24 @@
   }
 }
 
-@media(min-width: 850px) {
+@media(min-width: 1000px) {
   
+  .main-content-wrapper {
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  .recent-posts-container {
+    margin-left: 0rem;
+  }
+
+  .recent-posts-container h2 {
+    padding-left: 0rem;
+  }
+  
+  .recent-posts-container p {
+    padding: 0rem;
+  }
+
 }
 
