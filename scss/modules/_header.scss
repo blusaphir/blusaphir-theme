@@ -2,7 +2,7 @@
 /* HEADER RULES */
 
 header {
-  display:flex;
+  display: flex;
   padding-bottom: 0.5rem;
   border-bottom: 4px solid $light-blue;
   justify-content: space-between;
@@ -62,13 +62,6 @@ header {
   .heading h2 {
     display: none;
   }
-
-  .banners img {
-    display: block;
-    width: 95%;
-    margin-top: 1rem;
-    margin-left: 2rem;
-  }
 }
 
 @media (min-width: 850px) {
@@ -78,7 +71,7 @@ header {
   }
 
   .logo img {
-      width: 130px;
+      width: 110px;
   }
 }
 
@@ -89,18 +82,22 @@ header {
   }
 
   .logo img {
-    width: 150px;
+    width: 140px;
   }
 }
 
 @media (min-width: 1300px) {
-
   header {
     width: 1200px;
+    justify-content: flex-start;
   }
 
   .logo img {
-    width: 170px;
+    width: 160px;
+  }
+
+  .banners {
+    margin-bottom: 1rem;
   }
 }
 
