@@ -121,6 +121,11 @@
   .front-page-random-artist h2, .front-page-random-artist img {
     width: 210px;
   }
+}
 
+@media(min-width: 1300px) {
+  .main-content-wrapper {
+    width: 1200px;
+  }
 }
 
