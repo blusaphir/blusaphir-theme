@@ -59,8 +59,8 @@
                 $recentPosts->the_post(); ?>
                   <div class="recent-posts">
                     <h2><?php the_title(); ?></h2>
-                    <?php the_post_thumbnail(); ?>
-                    <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="">Read More</a></p>
+                    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+                    <p><?php the_excerpt(); ?><br /><br /><a class="readmore" href="<?php the_permalink(); ?>">Read More</a></p>
                   </div>
               <?php }
             ?>
@@ -73,7 +73,7 @@
               $randomArtists = new WP_Query(array(
                 'post_type' => 'post',
                 'orderby' => 'rand', 
-                'posts_per_page' => 10,
+                'posts_per_page' => 24,
                 'category_name' => 'artists'
               ));
 
