@@ -643,14 +643,6 @@ header {
   .recent-posts-container h2 {
     font-size: 1.5rem;
   }
-
-  .front-page-random-artist h2 {
-    width: 165px;
-  }
-
-  .front-page-random-artist img {
-    width: 165px;
-  }
 }
 footer {
   background-color: rgba(3, 160, 210, 0.3);
