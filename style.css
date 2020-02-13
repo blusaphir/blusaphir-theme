@@ -645,9 +645,9 @@ header {
     width: 145px;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 850px) {
   .main-content-wrapper {
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
   }
 
@@ -661,6 +661,11 @@ header {
 
   .recent-posts-container p {
     padding: 0rem;
+  }
+}
+@media (min-width: 1000px) {
+  .main-content-wrapper {
+    width: 900px;
   }
 
   .front-page-random-artist-container {
