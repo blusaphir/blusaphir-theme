@@ -480,15 +480,19 @@ header {
 
 @media (min-width: 700px) {
   .main-content-wrapper {
-    display: flex; }
+    display: flex;
+    width: 95%; }
   .recent-posts-container {
     margin: 1rem; }
-  .front-page-random-artist-container {
-    margin: 0; }
   .recent-posts-container div:last-child {
     border: none; }
   .recent-posts-container h2 {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  .front-page-random-artist-container {
+    margin: 0 .7rem 0 0;
+    justify-content: flex-end; }
+  .front-page-random-artist h2, .front-page-random-artist img {
+    width: 145px; } }
 
 footer {
   background-color: rgba(3, 160, 210, 0.3);
