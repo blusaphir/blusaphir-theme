@@ -71,14 +71,11 @@
 
   .main-content-wrapper {
     display: flex;
+    width: 95%;
   }
 
   .recent-posts-container {
     margin: 1rem;
-  }
-
-  .front-page-random-artist-container {
-    margin: 0;
   }
 
   .recent-posts-container div:last-child {
@@ -87,6 +84,15 @@
 
   .recent-posts-container h2 {
     font-size: 1.2rem;
+  }
+
+  .front-page-random-artist-container {
+    margin: 0 .7rem 0 0;
+    justify-content: flex-end;
+  }
+
+  .front-page-random-artist h2, .front-page-random-artist img {
+    width: 145px;
   }
 }
 
