@@ -35,47 +35,35 @@ window.addEventListener("load", function() {
   }
 
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
-  function socialIcons() {
+  function generateSocialIcons() {
     const postATags = document.querySelectorAll(".single-posts-body a");
 
     postATags.forEach(function(aTag) {
       const newSpan = document.createElement('span');
       newSpan.classList.add('social-icons');
 
-      switch (aTag.innerText) {
-        case "facebook": 
-        case "Facebook":
-        case "FACEBOOK":
+      switch (aTag.innerText.toLowerCase()) {
+        case "facebook":
           newSpan.classList.add('facebook-icon');
           aTag.prepend(newSpan);
           break;
-        case "soundcloud": 
-        case "Soundcloud":
-        case "SOUNDCLOUD":
+        case "soundcloud":
           newSpan.classList.add('soundcloud-icon');
           aTag.prepend(newSpan);
           break;
-        case "twitter": 
-        case "Twitter":
-        case "TWITTER":
+        case "twitter":
           newSpan.classList.add('twitter-icon');
           aTag.prepend(newSpan);
           break;
-        case "instagram": 
-        case "Instagram":
-        case "INSTAGRAM":
+        case "instagram":
           newSpan.classList.add('instagram-icon');
           aTag.prepend(newSpan);
           break;
-        case "mixcloud": 
-        case "Mixcloud":
-        case "MIXCLOUD":
+        case "mixcloud":
           newSpan.classList.add('mixcloud-icon');
           aTag.prepend(newSpan);
           break;
-        case "beatport": 
-        case "Beatport":
-        case "BEATPORT":
+        case "beatport":
           newSpan.classList.add('beatport-icon');
           aTag.prepend(newSpan);
           break;
@@ -85,5 +73,5 @@ window.addEventListener("load", function() {
 
   imageBanner();
   hamburger();
-  socialIcons();
+  generateSocialIcons();
 });
