@@ -2,7 +2,7 @@
 
 <?php get_header() ?>
 
-<!-- Loop to show About Posts -->
+<!-- Loop to show Posts from the About Page -->
 <section class="about">
   <?php 
     $about = new WP_Query(array(
@@ -14,7 +14,6 @@
 
       <div class="content-wrapper">
         <h2><?php the_title(); ?></h2>
-        <?php the_post_thumbnail(); ?>
         <p><?php echo get_the_content(); ?></p>
       </div>
       
