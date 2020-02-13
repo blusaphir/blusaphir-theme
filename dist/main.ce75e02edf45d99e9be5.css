@@ -292,6 +292,9 @@ header {
     text-transform: uppercase; }
   .nav ul li a:hover {
     color: #0E546B; }
+  .nav-container form {
+    position: relative;
+    left: 40px; }
   .search-box {
     width: 200px;
     height: 30px;
@@ -310,7 +313,10 @@ header {
 
 @media (min-width: 1300px) {
   .nav-bar {
-    width: 1200px; } }
+    width: 1200px; }
+  .nav-container form {
+    position: relative;
+    left: 340px; } }
 
 /* RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 /* RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
