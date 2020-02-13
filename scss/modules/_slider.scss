@@ -50,13 +50,14 @@
   }
 
   .subscribe p {
-    font-size: .7rem;
+    font-size: 1rem;
     margin-bottom: .5rem;
   }
 
   .like {
     width: 290px;
-    height: 124px;
+    height: 127px;
+    background: red !important;
   }
 
   .like a {
@@ -70,20 +71,20 @@
     font-size: .6rem;
     background-color: #1ca9d6;
     color:#fff;
-    padding: .5rem;
+    padding: 0 .5rem .5rem .5rem;
     text-transform: uppercase;
     position: relative;
-    top: 35px;
+    top: 50px;
     margin-left: 1rem;
     float: left;
   }
 
   .subscribe-like .like img {
-    width: 15px;
+    width: 17px;
     margin-right: 0.3rem;
     background-color: #fff;
     position: relative;
-    bottom: 1px;
+    top: 4px;
     border-radius: 2px;
   }
 }
@@ -97,7 +98,7 @@
 
   .like {
     width: 380px;
-    height: 174px;
+    height: 176.5px;
   }
 
   .like a {
@@ -106,7 +107,7 @@
 
   .like p {
     font-size: .7rem;
-    top: 80px;
+    top: 100px;
   }
 }
 
@@ -119,7 +120,7 @@
 
   .like {
     width: 530px;
-    height: 196px;
+    height: 199px;
   }
 
   .like a {
@@ -127,7 +128,7 @@
   }
 
   .like p {
-    top: 100px;
+    top: 120px;
   }
 }
 
