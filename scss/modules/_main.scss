@@ -69,21 +69,16 @@
 
 @media(min-width: 700px) {
 
+  .main-content-wrapper {
+    display: flex;
+  }
+
   .recent-posts-container {
     margin: 1rem;
-    grid-area: posts;
   }
 
   .front-page-random-artist-container {
     margin: 0;
-    grid-area: randomartists;
-  }
-
-  .main-content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "posts randomartists";
   }
 
   .recent-posts-container div:last-child {
@@ -91,7 +86,11 @@
   }
 
   .recent-posts-container h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
+}
+
+@media(min-width: 850px) {
+  
 }
 
