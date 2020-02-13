@@ -392,18 +392,18 @@ header {
     top: 4px;
     border-radius: 2px; } }
 
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
   .image-slider-subscribe-like {
     border: none;
-    width: 1000px; }
+    width: 900px; }
   .like {
     width: 380px;
-    height: 176.5px; }
+    height: 131.5px; }
   .like a {
     font-size: 1rem; }
   .like p {
-    font-size: .7rem;
-    top: 100px; } }
+    font-size: .6rem;
+    top: 55px; } }
 
 @media (min-width: 1300px) {
   .image-slider-subscribe-like {
