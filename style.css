@@ -655,6 +655,10 @@ header {
     margin-left: 0rem;
   }
 
+  .front-page-random-artist-container {
+    margin-right: -0.5rem;
+  }
+
   .recent-posts-container h2 {
     padding-left: 0rem;
   }
@@ -666,10 +670,6 @@ header {
 @media (min-width: 1000px) {
   .main-content-wrapper {
     width: 900px;
-  }
-
-  .front-page-random-artist-container {
-    margin-right: -0.5rem;
   }
 
   .front-page-random-artist h2, .front-page-random-artist img {
