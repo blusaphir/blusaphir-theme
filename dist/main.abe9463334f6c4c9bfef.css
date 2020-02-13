@@ -368,8 +368,7 @@ header {
     margin-bottom: .5rem; }
   .like {
     width: 290px;
-    height: 127px;
-    background: red !important; }
+    height: 127px; }
   .like a {
     font-size: 0.8rem;
     text-transform: uppercase;
