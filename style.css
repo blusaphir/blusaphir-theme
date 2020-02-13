@@ -685,7 +685,7 @@ header {
     font-size: 1.5rem;
   }
 
-  .front-page-random-artist img {
+  .front-page-random-artist h2, .front-page-random-artist img {
     width: 130px;
   }
 }
