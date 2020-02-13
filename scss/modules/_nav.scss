@@ -1,12 +1,13 @@
 //Navbar
 .nav {
   background-color: $primary-cyan;
-  justify-content: center;
   align-items: center;
+  list-style: none;
+  width: 100%;
 }
 
 /* Rules for mobile nav menu overlay */ 
-@media (max-width: 1100px) {
+@media (max-width: 999px) {
   .nav-container {
     position: fixed;
     top: 0px;
@@ -20,11 +21,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .nav {
-    list-style: none;
-    width: 100%;
   }
 
   .nav--reveal {
@@ -55,7 +51,7 @@
 }
 /* End Rules for mobile nav menu overlay*/
 
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
   .nav-container {
     background-color: $primary-cyan;
     width: 100%;
@@ -64,12 +60,16 @@
     align-items: center;
   }
 
+  nav ul {
+    margin: 0 auto;
+  }
+
   .nav ul li {
     display: inline;
   }
 
   .nav ul li a {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-right: 0.8rem;
     text-transform: uppercase;
   }
@@ -79,9 +79,9 @@
   }
 
   .search-box {
-    width: 250px;
+    width: 220px;
     height: 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #0e546b;
     padding: 0.5rem 0 0.5rem 1rem;
     border: none;
@@ -101,7 +101,4 @@
 }
 
 @media (min-width: 1300px) {
-  .search-box {
-    margin-left: 10rem;
-  }
 }
