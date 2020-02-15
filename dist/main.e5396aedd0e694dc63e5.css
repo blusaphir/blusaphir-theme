@@ -548,7 +548,8 @@ footer p:last-child {
   padding-bottom: 1rem; }
 
 .artist {
-  text-align: center; }
+  text-align: center;
+  margin-top: 2rem; }
 
 .artist img {
   width: 250px; }
@@ -571,7 +572,10 @@ footer p:last-child {
     justify-items: center;
     margin: 3rem auto; }
   .artist a img {
-    margin: 1rem; } }
+    margin: 1rem; }
+  .artist figure:nth-child(3) a img {
+    position: relative;
+    left: 15px; } }
 
 .page-title {
   color: #0E546B;

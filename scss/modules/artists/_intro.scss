@@ -1,5 +1,6 @@
 .artist {
   text-align: center;
+  margin-top: 2rem;
 }
 
 .artist img {
@@ -31,5 +32,10 @@
 
   .artist a img {
     margin: 1rem;
+  }
+
+  .artist figure:nth-child(3) a img{
+    position: relative;
+    left: 15px;
   }
 }

@@ -729,6 +729,7 @@ footer p:last-child {
 
 .artist {
   text-align: center;
+  margin-top: 2rem;
 }
 
 .artist img {
@@ -759,6 +760,11 @@ footer p:last-child {
 
   .artist a img {
     margin: 1rem;
+  }
+
+  .artist figure:nth-child(3) a img {
+    position: relative;
+    left: 15px;
   }
 }
 .page-title {
