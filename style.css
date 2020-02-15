@@ -828,6 +828,7 @@ footer p:last-child {
 .about .content-wrapper {
   text-align: center;
   border-bottom: 4px solid #CFEDF6;
+  margin-top: 1rem;
 }
 
 .about img {
@@ -842,6 +843,8 @@ footer p:last-child {
   font-size: 1.6rem;
   margin: 1rem 0;
   color: #1ca9d6;
+  text-align: left;
+  padding-bottom: 0.5rem;
 }
 
 .about p {
@@ -853,15 +856,14 @@ footer p:last-child {
 
 @media (min-width: 650px) {
   .about {
-    margin-top: 1rem;
     border-top: 4px solid #CFEDF6;
+    margin-top: 0.5rem;
   }
 
   .about h2 {
     grid-area: heading;
     padding: 1rem 1rem 0.5rem 0rem;
-    border-bottom: 4px solid #0E546B;
-    text-align: left;
+    margin-top: 0;
   }
 
   .about img {
@@ -879,7 +881,7 @@ footer p:last-child {
     grid-area: info;
     padding-bottom: 1rem;
     text-align: left;
-    front-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .about .content-wrapper {
@@ -888,6 +890,7 @@ footer p:last-child {
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 3rem;
     padding: 1rem;
+    margin-top: 0;
   }
 
   .about .content-wrapper:nth-child(even) {
@@ -895,9 +898,16 @@ footer p:last-child {
     grid-template-columns: 2fr 1fr;
   }
 }
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
   .about {
+    width: 900px;
+    margin: 0 auto;
     border-top: none;
+  }
+}
+@media (min-width: 1300px) {
+  .about {
+    width: 1200px;
   }
 }
 .eventsgrid {
