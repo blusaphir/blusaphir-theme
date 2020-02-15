@@ -648,8 +648,8 @@ footer p:last-child {
   .about h2 {
     grid-area: heading;
     padding: 1rem 1rem 0.5rem 0rem;
-    border-bottom: 4px solid #CFEDF6;
-    text-align: center; }
+    border-bottom: 4px solid #0E546B;
+    text-align: lefts; }
   .about img {
     width: 200px;
     grid-area: aboutimg;
