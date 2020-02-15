@@ -679,6 +679,7 @@ footer p:last-child {
 @media (min-width: 1000px) {
   .about {
     width: 900px;
+    margin: 0 auto;
     border-top: none; } }
 
 @media (min-width: 1300px) {
