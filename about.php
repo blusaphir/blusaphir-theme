@@ -17,7 +17,7 @@
         <div class="content-wrapper">
           <h2><?php the_title(); ?></h2>
           <?php the_post_thumbnail(); ?>
-          <p><?php echo get_the_content(); ?></p>
+          <?php echo get_the_content(); ?>
         </div>
     <?php }
   ?>
