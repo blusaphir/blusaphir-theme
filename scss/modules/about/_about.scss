@@ -83,9 +83,16 @@
   }
 }
 
-@media(min-width: 1100px) {
+@media(min-width: 1000px) {
 
   .about {
+    width: 900px;
     border-top: none;
+  }
+}
+
+@media(min-width: 1300px) {
+  .about {
+    width: 1200px;
   }
 }
