@@ -17,7 +17,7 @@
 <section class="artist-grid">
   <?php 
     $artistDigiBlus = new WP_Query(array(
-      'post_type' => 'post'
+      'post_type' => 'post',
       'posts_per_page' => -1,
       'category_name' => 'artists-digital-blus'
     ));
