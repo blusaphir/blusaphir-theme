@@ -834,7 +834,7 @@ footer p:last-child {
   width: 160px;
 }
 
-.about .content-wrapper:first-child img {
+.about div:first-child img {
   width: 130px;
 }
 
@@ -852,24 +852,40 @@ footer p:last-child {
 }
 
 @media (min-width: 650px) {
+  .about {
+    border-top: 4px solid #CFEDF6;
+  }
+
   .about h2 {
     grid-area: heading;
+    padding: 1rem 1rem 0.5rem 0rem;
+    border-bottom: 4px solid #CFEDF6;
+    text-align: center;
   }
 
   .about img {
     width: 200px;
     grid-area: aboutimg;
     justify-self: center;
+    align-self: center;
+  }
+
+  .about div:first-child img {
+    width: 170px;
   }
 
   .about p {
     grid-area: info;
+    padding-bottom: 1rem;
+    text-align: left;
   }
 
   .about .content-wrapper {
     display: grid;
     grid-template-areas: "aboutimg heading" "aboutimg info";
     grid-template-columns: 1fr 2fr;
+    grid-column-gap: 3rem;
+    padding: 1rem;
   }
 
   .about .content-wrapper:nth-child(even) {
