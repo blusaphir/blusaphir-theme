@@ -1,24 +1,31 @@
 .artist {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-gap: 2rem;
-  margin: 2rem 0;
+  text-align: center;
 }
 
 .artist img {
   width: 250px;
 }
 
+.artist figure:first-child a img {
+  width: 200px
+}
+
+.artist figure:nth-child(2) a img{
+  width: 210px;
+}
+
+.artist figure:nth-child(4) a img{
+  width: 270px;
+}
+
 @media(min-width: 700px) {
 
   .artist {
-    width: 50%;
-    grid-template-columns: 1fr 1fr;
+    width: 100%;
     margin: 3rem auto;
   }
 
-  .artist a {
-    text-align: center;
+  .artist a img {
+    margin: 1rem;
   }
 }
