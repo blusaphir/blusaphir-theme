@@ -646,12 +646,12 @@ footer p:last-child {
     grid-area: heading; }
   .about img {
     width: 200px;
-    grid-area: about-img; }
+    grid-area: aboutimg; }
   .about p {
     grid-area: info; }
   .about .content-wrapper {
     display: grid;
-    grid-template-areas: "heading ." "about-img info";
+    grid-template-areas: "heading ." "aboutimg info";
     grid-template-columns: 1fr 2fr; } }
 
 .eventsgrid {

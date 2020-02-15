@@ -37,7 +37,7 @@
 
   .about img {
     width: 200px;
-    grid-area: about-img;
+    grid-area: aboutimg;
   }
 
   .about p {
@@ -48,7 +48,7 @@
     display: grid;
     grid-template-areas:
     "heading ."
-    "about-img info";
+    "aboutimg info";
     grid-template-columns: 1fr 2fr;
   }
 }
