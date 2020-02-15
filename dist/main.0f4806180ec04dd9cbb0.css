@@ -564,7 +564,7 @@ footer p:last-child {
 
 @media (min-width: 700px) {
   .artist {
-    width: 100%;
+    width: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
