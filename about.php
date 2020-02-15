@@ -15,8 +15,8 @@
     while($aboutPosts->have_posts()) {
       $aboutPosts->the_post(); ?>
         <div class="content-wrapper">
-          <h2><?php the_title(); ?></h2>
           <?php the_post_thumbnail(); ?>
+          <h2><?php the_title(); ?></h2>
           <?php echo get_the_content(); ?>
         </div>
     <?php }

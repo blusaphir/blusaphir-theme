@@ -853,6 +853,7 @@ footer p:last-child {
 
 @media (min-width: 650px) {
   .about {
+    margin-top: 1rem;
     border-top: 4px solid #CFEDF6;
   }
 
@@ -878,6 +879,7 @@ footer p:last-child {
     grid-area: info;
     padding-bottom: 1rem;
     text-align: left;
+    front-size: 1.1rem;
   }
 
   .about .content-wrapper {

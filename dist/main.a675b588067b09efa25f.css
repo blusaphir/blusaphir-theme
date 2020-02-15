@@ -623,7 +623,8 @@ footer p:last-child {
 
 .about .content-wrapper {
   text-align: center;
-  border-bottom: 4px solid #CFEDF6; }
+  border-bottom: 4px solid #CFEDF6;
+  margin-top: 1rem; }
 
 .about img {
   width: 160px; }
@@ -634,7 +635,10 @@ footer p:last-child {
 .about h2 {
   font-size: 1.6rem;
   margin: 1rem 0;
-  color: #1ca9d6; }
+  color: #1ca9d6;
+  text-align: left;
+  border-bottom: 4px solid #0E546B;
+  padding-bottom: 0.5rem; }
 
 .about p {
   font-size: .9rem;
@@ -647,9 +651,7 @@ footer p:last-child {
     border-top: 4px solid #CFEDF6; }
   .about h2 {
     grid-area: heading;
-    padding: 1rem 1rem 0.5rem 0rem;
-    border-bottom: 4px solid #0E546B;
-    text-align: left; }
+    padding: 1rem 1rem 0.5rem 0rem; }
   .about img {
     width: 200px;
     grid-area: aboutimg;
@@ -660,7 +662,8 @@ footer p:last-child {
   .about p {
     grid-area: info;
     padding-bottom: 1rem;
-    text-align: left; }
+    text-align: left;
+    font-size: 1rem; }
   .about .content-wrapper {
     display: grid;
     grid-template-areas: "aboutimg heading" "aboutimg info";

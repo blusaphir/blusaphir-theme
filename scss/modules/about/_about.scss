@@ -7,6 +7,7 @@
 .about .content-wrapper {
   text-align: center;
   border-bottom: 4px solid $light-cyan;
+  margin-top: 1rem;
 }
 
 .about img {
@@ -21,6 +22,9 @@
   font-size: 1.6rem;
   margin: 1rem 0;
   color:$primary-cyan;
+  text-align: left;
+  border-bottom: 4px solid $darker-cyan;
+  padding-bottom: 0.5rem;
 }
 
 .about p {
@@ -39,8 +43,6 @@
   .about h2 {
     grid-area: heading;
     padding: 1rem 1rem 0.5rem 0rem;
-    border-bottom: 4px solid $darker-cyan;
-    text-align: left;
   }
 
   .about img {
@@ -58,6 +60,7 @@
     grid-area: info;
     padding-bottom: 1rem;
     text-align: left;
+    font-size: 1rem;
   }
 
   .about .content-wrapper {
