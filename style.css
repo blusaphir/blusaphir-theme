@@ -750,6 +750,10 @@ footer p:last-child {
 @media (min-width: 700px) {
   .artist {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
     margin: 3rem auto;
   }
 
