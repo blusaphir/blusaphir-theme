@@ -622,13 +622,17 @@ footer p:last-child {
   margin: 0 1rem; }
 
 .about .content-wrapper {
-  text-align: center; }
+  text-align: center;
+  border-bottom: 4px solid #CFEDF6; }
 
 .about img {
-  width: 60%; }
+  width: 160px; }
+
+.about img:first-child {
+  width: 130px; }
 
 .about h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin: 1rem 0;
   color: #1ca9d6; }
 
@@ -638,21 +642,26 @@ footer p:last-child {
   text-align: left;
   padding-bottom: 1rem; }
 
-.about p:nth-child(4), .about p:nth-child(7), .about p:nth-child(10) {
-  border-bottom: 4px solid #CFEDF6; }
-
 @media (min-width: 650px) {
   .about h2 {
     grid-area: heading; }
   .about img {
     width: 200px;
-    grid-area: aboutimg; }
+    grid-area: aboutimg;
+    justify-self: center; }
   .about p {
     grid-area: info; }
   .about .content-wrapper {
     display: grid;
-    grid-template-areas: "heading ." "aboutimg info";
-    grid-template-columns: 1fr 2fr; } }
+    grid-template-areas: "aboutimg heading" "aboutimg info";
+    grid-template-columns: 1fr 2fr; }
+  .about .content-wrapper:nth-child(even) {
+    grid-template-areas: "heading aboutimg" "info aboutimg";
+    grid-template-columns: 2fr 1fr; } }
+
+@media (min-width: 1100px) {
+  .about {
+    border-top: none; } }
 
 .eventsgrid {
   text-align: center;

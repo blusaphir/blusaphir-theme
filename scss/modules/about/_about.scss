@@ -6,14 +6,19 @@
 
 .about .content-wrapper {
   text-align: center;
+  border-bottom: 4px solid $light-cyan;
 }
 
 .about img {
-  width: 60%;
+  width: 160px;
+}
+
+.about img:first-child {
+  width: 130px;
 }
 
 .about h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin: 1rem 0;
   color:$primary-cyan;
 }
@@ -25,10 +30,6 @@
   padding-bottom: 1rem;
 }
 
-.about p:nth-child(4), .about p:nth-child(7), .about p:nth-child(10) {
-  border-bottom: 4px solid $light-cyan;
-}
-
 @media(min-width: 650px) {
 
   .about h2 {
@@ -38,6 +39,7 @@
   .about img {
     width: 200px;
     grid-area: aboutimg;
+    justify-self: center;
   }
 
   .about p {
@@ -47,50 +49,22 @@
   .about .content-wrapper {
     display: grid;
     grid-template-areas:
-    "heading ."
+    "aboutimg heading"
     "aboutimg info";
     grid-template-columns: 1fr 2fr;
   }
+
+  .about .content-wrapper:nth-child(even) {
+    grid-template-areas:
+    "heading aboutimg"
+    "info aboutimg";
+    grid-template-columns: 2fr 1fr;
+  }
 }
 
-// @media(min-width: 1100px) {
+@media(min-width: 1100px) {
 
-//   .about {
-//     border-top: none;
-//   }
-
-//   .about h2 {
-//     grid-area: heading;
-//   }
-
-//   .about .content-wrapper:nth-child(2) h2, 
-//   .about .content-wrapper:nth-child(3) h2, 
-//   .about .content-wrapper:nth-child(4) h2 {
-//     margin-bottom: -3rem;
-//   }
-
-//   .about img {
-//     grid-area: img;
-//     justify-self: center;
-//     width: 250px;
-//   }
-
-//   .about p {
-//     grid-area: info;
-//   }
-
-//   .about .content-wrapper {
-//     display: grid;
-//     grid-template-areas:
-//     "img heading"
-//     "img info";
-//     grid-template-columns: 1fr 2fr;
-//   }
-
-//   .about .content-wrapper:nth-child(even) {
-//     grid-template-areas:
-//     "heading img"
-//     "info img";
-//     grid-template-columns: 2fr 1fr;
-//   }
-// }
+  .about {
+    border-top: none;
+  }
+}
