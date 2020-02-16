@@ -901,7 +901,7 @@ footer p:last-child {
     grid-template-areas: "aboutimg heading" "aboutimg info";
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 3rem;
-    padding: 1rem;
+    padding: 3rem 1rem;
     margin-top: 0;
   }
 
