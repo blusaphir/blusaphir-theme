@@ -35,7 +35,7 @@
   padding: .8rem;
 }
 
-.front-page-random-artist-container {
+.front-page-random-artist-container, .artist-grid {
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -46,7 +46,7 @@
   align-self: baseline;
 }
 
-.front-page-random-artist h2 {
+.front-page-random-artist h2, .artist-grid h2 {
   width: 130px;
   font-size: 1rem;
   font-weight: lighter;
@@ -62,7 +62,7 @@
   margin: 0 0.5rem 1rem 0;
 }
 
-.front-page-random-artist img {
+.front-page-random-artist img, .artist-grid img {
   width: 130px;
   align-self: center;
 }

@@ -5,28 +5,28 @@
   padding: 2rem 0;
 }
 
-.artist-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-items: center;
-  padding-bottom: 2rem;
-}
+// .artist-grid {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   justify-items: center;
+//   padding-bottom: 2rem;
+// }
 
-.artist-grid h2 {
-  text-align: center;
-  margin: 0 1rem;
-  padding: .3rem;
-  font-weight: normal;
-  font-size: 1.1rem;
-  background-color: $primary-cyan;
-}
+// .artist-grid h2 {
+//   text-align: center;
+//   margin: 0 1rem;
+//   padding: .3rem;
+//   font-weight: normal;
+//   font-size: 1.1rem;
+//   background-color: $primary-cyan;
+// }
 
-.artist-grid img {
-  width: 125px;
-  align-self: center;
-  margin: .3rem 1rem 1rem 1rem;
-}
+// .artist-grid img {
+//   width: 125px;
+//   align-self: center;
+//   margin: .3rem 1rem 1rem 1rem;
+// }
 
 @media(min-width: 700px) {
   
