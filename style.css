@@ -658,6 +658,11 @@ header {
 
   .front-page-random-artist-container {
     margin-right: -0.5rem;
+    width: 60%;
+  }
+
+  .front-page-random-artist h2, .front-page-random-artist-container img {
+    width: 141px;
   }
 
   .recent-posts-container h2 {
@@ -673,8 +678,12 @@ header {
     width: 900px;
   }
 
+  .front-page-random-artist-container {
+    width: 75%;
+  }
+
   .front-page-random-artist h2, .front-page-random-artist img {
-    width: 210px;
+    width: 186px;
   }
 }
 @media (min-width: 1300px) {
@@ -686,8 +695,12 @@ header {
     font-size: 1.5rem;
   }
 
+  .front-page-random-artist-container {
+    width: 80%;
+  }
+
   .front-page-random-artist h2, .front-page-random-artist img {
-    width: 190px;
+    width: 172px;
   }
 }
 footer {
