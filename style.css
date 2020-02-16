@@ -815,16 +815,16 @@ footer p:last-child {
 
   .artist-grid div:hover > .highlight {
     background-color: #1ca9d6;
-  }
-
-  .artist-grid div:hover > .highlight a {
-    color: #ffffff;
     -webkit-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
     box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
   }
 
-  .artist-grid a:hover > .artist-grid img {
+  .artist-grid div:hover > .highlight a {
+    color: #ffffff;
+  }
+
+  .artist-grid .highlight:hover > .artist-grid img {
     opacity: 1;
   }
 }
