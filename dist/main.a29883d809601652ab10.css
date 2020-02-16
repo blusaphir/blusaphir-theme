@@ -497,7 +497,10 @@ header {
   .recent-posts-container {
     margin-left: 0rem; }
   .front-page-random-artist-container {
-    margin-right: -.5rem; }
+    margin-right: -.5rem;
+    width: 60%; }
+  .front-page-random-artist h2, .front-page-random-artist-container img {
+    width: 141px; }
   .recent-posts-container h2 {
     padding-left: 0rem; }
   .recent-posts-container p {
@@ -506,16 +509,20 @@ header {
 @media (min-width: 1000px) {
   .main-content-wrapper {
     width: 900px; }
+  .front-page-random-artist-container {
+    width: 75%; }
   .front-page-random-artist h2, .front-page-random-artist img {
-    width: 210px; } }
+    width: 186px; } }
 
 @media (min-width: 1300px) {
   .main-content-wrapper {
     width: 1200px; }
   .recent-posts-container h2 {
     font-size: 1.5rem; }
+  .front-page-random-artist-container {
+    width: 80%; }
   .front-page-random-artist h2, .front-page-random-artist img {
-    width: 190px; } }
+    width: 172px; } }
 
 footer {
   background-color: rgba(3, 160, 210, 0.3);
