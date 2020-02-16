@@ -588,7 +588,7 @@ header {
   padding: 0.8rem;
 }
 
-.front-page-random-artist-container {
+.front-page-random-artist-container, .artist-grid {
   width: 95%;
   margin: 0 auto;
   display: flex;
@@ -599,7 +599,7 @@ header {
   align-self: baseline;
 }
 
-.front-page-random-artist h2 {
+.front-page-random-artist h2, .artist-grid h2 {
   width: 130px;
   font-size: 1rem;
   font-weight: lighter;
@@ -615,7 +615,7 @@ header {
   margin: 0 0.5rem 1rem 0;
 }
 
-.front-page-random-artist img {
+.front-page-random-artist img, .artist-grid img {
   width: 130px;
   align-self: center;
 }
@@ -772,29 +772,6 @@ footer p:last-child {
   text-align: center;
   margin-top: 1rem;
   padding: 2rem 0;
-}
-
-.artist-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-items: center;
-  padding-bottom: 2rem;
-}
-
-.artist-grid h2 {
-  text-align: center;
-  margin: 0 1rem;
-  padding: 0.3rem;
-  font-weight: normal;
-  font-size: 1.1rem;
-  background-color: #1ca9d6;
-}
-
-.artist-grid img {
-  width: 125px;
-  align-self: center;
-  margin: 0.3rem 1rem 1rem 1rem;
 }
 
 @media (min-width: 700px) {
