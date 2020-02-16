@@ -592,7 +592,9 @@ footer p:last-child {
   .artist-grid img {
     width: 200px; } }
 
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
+  .artist-grid {
+    width: 900px; }
   .page-title {
     border: none; }
   .artist-grid h2 {
