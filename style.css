@@ -803,6 +803,7 @@ footer p:last-child {
 
   .artist-grid img {
     width: 200px;
+    height: 200px;
     object-fit: cover;
   }
 }
@@ -813,6 +814,10 @@ footer p:last-child {
 
   .page-title {
     border: none;
+  }
+
+  .artist-grid img {
+    width: 217px;
   }
 }
 @media (min-width: 1300px) {
