@@ -791,6 +791,10 @@ footer p:last-child {
   padding: 2rem 0;
 }
 
+.artist-grid img {
+  object-fit: cover;
+}
+
 @media (min-width: 700px) {
   .artist-grid div {
     margin-top: 0.5rem;
@@ -804,7 +808,6 @@ footer p:last-child {
   .artist-grid img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
   }
 }
 @media (min-width: 1000px) {
@@ -816,8 +819,13 @@ footer p:last-child {
     border: none;
   }
 
+  .artist-grid h2 {
+    width: 217px;
+  }
+
   .artist-grid img {
     width: 217px;
+    height: 217px;
   }
 }
 @media (min-width: 1300px) {
