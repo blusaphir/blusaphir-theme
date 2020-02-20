@@ -512,7 +512,10 @@ header {
     width: 900px; }
   .front-page-random-artist-container {
     width: 75%; }
-  .front-page-random-artist h2, .front-page-random-artist img {
+  .front-page-random-artist h2 {
+    width: 186px;
+    height: 186px; }
+  .front-page-random-artist img {
     width: 186px;
     height: 186px; } }
 
