@@ -597,34 +597,21 @@ footer p:last-child {
     width: 200px;
     font-size: 1.1rem; }
   .artist-grid img {
-    width: 200px; } }
+    width: 200px;
+    object-fit: cover; } }
 
 @media (min-width: 1000px) {
   .artist-grid {
     width: 900px; }
   .page-title {
-    border: none; }
-  .artist-grid h2 {
-    background: none;
-    box-shadow: none; }
-  .artist-grid a {
-    color: #1ca9d6; }
+    border: none; } }
+
+@media (min-width: 1300px) {
+  .artist-grid {
+    width: 1200px; }
   .artist-grid img {
-    opacity: .7;
-    transition: opacity 0.5s ease-in-out; }
-  .artist-grid img:hover {
-    opacity: 1;
-    z-index: 2;
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.7); }
-  .artist-grid div:hover > .highlight {
-    background-color: #1ca9d6;
-    -webkit-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3); }
-  .artist-grid div:hover > .highlight a {
-    color: #ffffff; }
-  .artist-grid .highlight:hover > .artist-grid img {
-    opacity: 1; } }
+    width: 232px;
+    height: 232px; } }
 
 /* about.php - styles and rules */
 .about {
