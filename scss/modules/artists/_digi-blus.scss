@@ -5,6 +5,10 @@
   padding: 2rem 0;
 }
 
+.artist-grid img {
+  object-fit: cover;
+}
+
 @media(min-width: 700px) {
   
   .artist-grid div {
@@ -19,7 +23,6 @@
   .artist-grid img {
     width: 200px;
     height: 200px;
-    object-fit: cover;
   }
 }
 
@@ -33,8 +36,13 @@
     border: none;
   }
 
+  .artist-grid h2 {
+    width: 217px;
+  }
+
   .artist-grid img {
     width: 217px;
+    height: 217px;
   }
 }
 
