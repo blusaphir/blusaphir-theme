@@ -472,6 +472,8 @@ header {
 
 .front-page-random-artist img, .artist-grid img {
   width: 130px;
+  height: 130px;
+  object-fit: cover;
   align-self: center; }
 
 @media (min-width: 700px) {
@@ -591,9 +593,6 @@ footer p:last-child {
   text-align: center;
   margin-top: 1rem;
   padding: 2rem 0; }
-
-.artist-grid img {
-  object-fit: cover; }
 
 @media (min-width: 700px) {
   .artist-grid div {
