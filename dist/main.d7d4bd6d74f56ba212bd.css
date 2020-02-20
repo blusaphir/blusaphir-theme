@@ -590,8 +590,7 @@ footer p:last-child {
   color: #0E546B;
   text-align: center;
   margin-top: 1rem;
-  padding: 2rem 0;
-  background: black; }
+  padding: 2rem 0; }
 
 @media (min-width: 700px) {
   .artist-grid div {
@@ -612,6 +611,8 @@ footer p:last-child {
 @media (min-width: 1300px) {
   .artist-grid {
     width: 1200px; }
+  .artist-grid h2 {
+    width: 232px; }
   .artist-grid img {
     width: 232px;
     height: 232px; } }
