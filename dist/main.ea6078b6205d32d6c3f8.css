@@ -513,7 +513,8 @@ header {
   .front-page-random-artist-container {
     width: 75%; }
   .front-page-random-artist h2, .front-page-random-artist img {
-    width: 186px; } }
+    width: 186px;
+    height: 186px; } }
 
 @media (min-width: 1300px) {
   .main-content-wrapper {
@@ -525,8 +526,7 @@ header {
   .front-page-random-artist h2, .front-page-random-artist img {
     width: 172px; }
   .front-page-random-artist img {
-    height: 172px;
-    object-fit: cover; } }
+    height: 172px; } }
 
 footer {
   background-color: rgba(3, 160, 210, 0.3);
