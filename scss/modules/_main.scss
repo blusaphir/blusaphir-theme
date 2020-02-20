@@ -64,6 +64,8 @@
 
 .front-page-random-artist img, .artist-grid img {
   width: 130px;
+  height: 130px;
+  object-fit: cover;
   align-self: center;
 }
 
