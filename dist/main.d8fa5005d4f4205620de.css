@@ -521,7 +521,9 @@ header {
   .front-page-random-artist-container {
     width: 80%; }
   .front-page-random-artist h2, .front-page-random-artist img {
-    width: 172px; } }
+    width: 172px;
+    height: 172px;
+    object-fit: cover; } }
 
 footer {
   background-color: rgba(3, 160, 210, 0.3);
