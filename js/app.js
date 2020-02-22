@@ -69,8 +69,8 @@ window.addEventListener("load", function() {
           break;
         case "beatport-blusaphir":
           newSpan.classList.add('beatport-icon');
+          aTag.innerText = "Beatport - Blu Saphir";
           aTag.prepend(newSpan);
-          aTag.innerText = "Beatport - Blu Saphir"
           break;
       }
     })
