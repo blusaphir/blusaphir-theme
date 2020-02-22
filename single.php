@@ -5,12 +5,10 @@
     while(have_posts()) {
       the_post(); ?>
         <div class="single-posts">
-          <h2><?php the_title(); ?></h2>
-
           <div class="single-posts-body">
+          <h2><?php the_title(); ?></h2>
           <?php echo get_the_content(); ?>
           </div>
-          
         </div>
     <?php }
   ?>
