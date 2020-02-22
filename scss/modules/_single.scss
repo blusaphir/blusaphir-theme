@@ -127,7 +127,7 @@
     grid-template-areas: 
     "singlepostheading singlepostheading"
     "singlepostul ."
-    "singlepostimage wpblocktwo"
+    "singlepostmainimage wpblocktwo"
     "wpblockone wpblockone"
     "wpblockthree wpblockthree"
     "p p";
@@ -145,15 +145,15 @@
     grid-area: singlepostmainimage;
   }
   
-  .single-posts-body .wp-block-group:first-child {
+  .single-posts-body .wp-block-group:nth-child(4) {
     grid-area: wpblockone;
   }
   
-  .single-posts-body .wp-block-group:nth-child(2) {
+  .single-posts-body .wp-block-group:nth-child(5) {
     grid-area: wpblocktwo;
   }
   
-  .single-posts-body .wp-block-group:nth-child(3) {
+  .single-posts-body .wp-block-group:nth-child(6) {
     grid-area: wpblockthree;
   }
 

@@ -126,18 +126,18 @@ a {
   .single-posts-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostimage wpblocktwo" "wpblockone wpblockone" "wpblockthree wpblockthree" "p p"; }
+    grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostmainimage wpblocktwo" "wpblockone wpblockone" "wpblockthree wpblockthree" "p p"; }
   .single-posts-body h2 {
     grid-area: singlepostheading; }
   .single-posts-body ul {
     grid-area: singlepostul; }
   .single-posts-body .wp-block-image {
     grid-area: singlepostmainimage; }
-  .single-posts-body .wp-block-group:first-child {
+  .single-posts-body .wp-block-group:nth-child(4) {
     grid-area: wpblockone; }
-  .single-posts-body .wp-block-group:nth-child(2) {
+  .single-posts-body .wp-block-group:nth-child(5) {
     grid-area: wpblocktwo; }
-  .single-posts-body .wp-block-group:nth-child(3) {
+  .single-posts-body .wp-block-group:nth-child(6) {
     grid-area: wpblockthree; }
   .single-posts-body p {
     grid-area: p; } }
