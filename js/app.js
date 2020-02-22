@@ -44,9 +44,9 @@ window.addEventListener("load", function() {
 
       switch (aTag.innerText.toLowerCase()) {
         case "facebook":
-          newSpan.classList.add('facebook-icon');
-          aTag.prepend(newSpan);
-          break;
+        case "facebook - blu saphir":
+        case "facebook - digital blus":
+        case "facebook - blu saphir ltd":
         case "soundcloud":
           newSpan.classList.add('soundcloud-icon');
           aTag.prepend(newSpan);
@@ -64,19 +64,8 @@ window.addEventListener("load", function() {
           aTag.prepend(newSpan);
           break;
         case "beatport":
-          newSpan.classList.add('beatport-icon');
-          aTag.prepend(newSpan);
-          break;
         case "beatport - blu saphir":
-          newSpan.classList.add('beatport-icon');
-          aTag.innerText = "Beatport - Blu Saphir";
-          aTag.prepend(newSpan);
-          break;
         case "beatport - digital blus":
-          newSpan.classList.add('beatport-icon');
-          aTag.innerText = "Beatport - Digital Blus";
-          aTag.prepend(newSpan);
-          break;
         case "beatport - blu saphir ltd":
           newSpan.classList.add('beatport-icon');
           aTag.prepend(newSpan);
