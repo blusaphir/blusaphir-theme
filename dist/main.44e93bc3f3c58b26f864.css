@@ -139,7 +139,7 @@ a {
     grid-area: wpblocktwo; }
   .single-posts-body .wp-block-group:nth-child(6) {
     grid-area: wpblockthree; }
-  .single-posts-body p {
+  .single-posts-body p:nth-child(7) {
     grid-area: p; } }
 
 /* HEADER RULES */
