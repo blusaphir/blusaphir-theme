@@ -44,9 +44,7 @@ a {
   display: inline-block; }
 
 .single-posts img {
-  width: 400px;
-  height: 400px;
-  object-fit: contain; }
+  width: 400px; }
 
 .single-posts p {
   margin-bottom: 1rem;
