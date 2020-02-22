@@ -44,9 +44,12 @@ window.addEventListener("load", function() {
 
       switch (aTag.innerText.toLowerCase()) {
         case "facebook":
-        case "facebook - blu saphir":
+        case "facebook - blu saphir recs":
         case "facebook - digital blus":
         case "facebook - blu saphir ltd":
+          newSpan.classList.add('facebook-icon');
+          aTag.prepend(newSpan);
+          break;
         case "soundcloud":
           newSpan.classList.add('soundcloud-icon');
           aTag.prepend(newSpan);
