@@ -122,6 +122,26 @@ a {
 .single-posts a:hover > .mixcloud-icon {
   background-image: url("/wp-content/themes/blusaphir-theme/images/mixcloud-icon.png"); }
 
+@media (min-width: 700px) {
+  .single-posts-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostimage wpblocktwo" "wpblockone wpblockone" "wpblockthree wpblockthree" "p p"; }
+  .single-posts-body h2 {
+    grid-area: singlepostheading; }
+  .single-posts-body ul {
+    grid-area: singlepostul; }
+  .single-posts-body .wp-block-image {
+    grid-area: singlepostmainimage; }
+  .single-posts-body .wp-block-group:first-child {
+    grid-area: wpblockone; }
+  .single-posts-body .wp-block-group:nth-child(2) {
+    grid-area: wpblocktwo; }
+  .single-posts-body .wp-block-group:nth-child(3) {
+    grid-area: wpblockthree; }
+  .single-posts-body p {
+    grid-area: p; } }
+
 /* HEADER RULES */
 /* HEADER RULES */
 header {
