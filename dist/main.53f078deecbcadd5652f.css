@@ -67,7 +67,7 @@ a {
   padding: 2rem 0;
   margin-bottom: 1rem; }
 
-.single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container figure img {
+.single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container figure {
   grid-area: unset; }
 
 .single-posts-body .wp-block-group:nth-child(6) {
