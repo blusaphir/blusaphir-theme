@@ -20,11 +20,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  border-top: 4px solid #CFEDF6;
+  border-bottom: 4px solid #CFEDF6;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .single-posts-body .wp-block-group:nth-child(6) .wp-block-group__inner-container p {
   background-color: $light-cyan;
   padding: .5rem;
+}
+
+.single-posts-body h4 {
+  color: $primary-cyan;
 }
 
 .single-posts p {
