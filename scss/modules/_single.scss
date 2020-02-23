@@ -27,15 +27,6 @@
 }
 
 .single-posts-body .wp-block-group:nth-child(5) {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
-  justify-items: center;
-  align-items: center;
-  border-top: 4px solid #CFEDF6;
-  border-bottom: 4px solid #CFEDF6;
-  padding: 2rem 0;
-  margin-bottom: 1rem;
   grid-area: buylinks;
 }
 
@@ -44,6 +35,10 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
+  border-top: 4px solid #CFEDF6;
+  border-bottom: 4px solid #CFEDF6;
+  padding: 2rem 0;
+  margin-bottom: 1rem;
 }
 
 .single-posts-body .wp-block-group:nth-child(6) {
