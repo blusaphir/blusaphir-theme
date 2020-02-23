@@ -225,7 +225,7 @@ a {
     margin: 0;
   }
 
-  .single-posts-body .buylinks img {
+  .single-posts-body .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container img {
     width: 100%;
     max-width: 300px;
   }
