@@ -20,6 +20,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  align-items: center;
   border-top: 4px solid #CFEDF6;
   border-bottom: 4px solid #CFEDF6;
   padding-top: 1rem;
@@ -147,6 +148,7 @@
   .single-posts-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
     grid-template-areas: 
     "singlepostheading singlepostheading"
     "singlepostul ."
@@ -186,6 +188,11 @@
 
   .single-posts-body .wp-block-group .wp-block-group__inner-container figure {
     grid-area: unset;
+  }
+
+  .single-posts-body .wp-block-group:nth-child(4) .wp-block-group__inner-container {
+    border-top: none;
+    border-bottom: none;
   }
 
 }
