@@ -43,6 +43,18 @@ a {
   text-align: left;
   display: inline-block; }
 
+.single-posts-body ul {
+  margin-bottom: 1rem; }
+
+.single-posts-body .wp-block-group:nth-child(4) .wp-block-group__inner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center; }
+
+.single-posts-body .wp-block-group:nth-child(6) .wp-block-group__inner-container p {
+  background-color: #CFEDF6;
+  padding: .5rem; }
+
 .single-posts p {
   margin-bottom: 1rem;
   text-align: left;
