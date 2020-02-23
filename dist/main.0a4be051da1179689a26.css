@@ -46,7 +46,7 @@ a {
 .single-posts-body ul {
   margin-bottom: 1rem; }
 
-.single-posts-body .wp-block-group:nth-child(4) .wp-block-group__inner-container {
+.single-posts-body .buylinks {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -147,15 +147,17 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1rem;
-    grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostmainimage wpblockone" "wpblocktwo wpblocktwo" "wpblockthree wpblockthree" "p p"; }
+    grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostmainimage buylinks" "wpblocktwo wpblocktwo" "wpblockthree wpblockthree" "p p"; }
   .single-posts-body h2 {
     grid-area: singlepostheading; }
   .single-posts-body ul {
     grid-area: singlepostul; }
   .single-posts-body .wp-block-image:nth-child(3) {
     grid-area: singlepostmainimage; }
-  .single-posts-body .wp-block-group:nth-child(4) {
-    grid-area: wpblockone; }
+  .single-posts-body .buylinks {
+    grid-area: buylinks; }
+  .buylinks img {
+    width: 40%; }
   .single-posts-body .wp-block-group:nth-child(5) {
     grid-area: wpblocktwo; }
   .single-posts-body .wp-block-group:nth-child(6) {
