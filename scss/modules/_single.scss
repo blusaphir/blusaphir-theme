@@ -26,7 +26,7 @@
   grid-area: singlepostmaininfo;
 }
 
-.single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {
+.single-posts-body .wp-block-group:nth-child(5).wp-block-group__inner-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
@@ -190,7 +190,6 @@
   }
   
   .single-posts-body .wp-block-group:nth-child(5) {
-    grid-area: buylinks;
     border-top: none;
     border-bottom: none;
     grid-template-rows: repeat(3, 1fr);
@@ -203,11 +202,6 @@
     width: 100%;
     max-width: 300px;
   }
-
-  .single-posts-body .wp-block-group .wp-block-group__inner-container figure {
-    grid-area: unset;
-  }
-
 }
 
 @media(min-width: 1000px) {
