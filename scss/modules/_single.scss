@@ -26,7 +26,7 @@
   grid-area: singlepostmaininfo;
 }
 
-.single-posts-body .wp-block-group:nth-child(5) {
+.single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
@@ -184,8 +184,8 @@
     "singlepostheading singlepostheading"
     "singlepostul ."
     "singlepostmainimage buylinks"
-    "wpblocktwo wpblocktwo"
-    "wpblockthree wpblockthree"
+    "singlepostmaininfo singlepostmaininfo"
+    "links links"
     "p p";
   }
   
