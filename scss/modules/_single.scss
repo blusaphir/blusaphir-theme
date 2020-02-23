@@ -150,8 +150,8 @@
     grid-template-areas: 
     "singlepostheading singlepostheading"
     "singlepostul ."
-    "singlepostmainimage wpblocktwo"
-    "wpblockone wpblockone"
+    "singlepostmainimage wpblockone"
+    "wpblocktwo wpblocktwo"
     "wpblockthree wpblockthree"
     "p p";
   }
@@ -164,7 +164,7 @@
     grid-area: singlepostul;
   }
   
-  .single-posts-body .wp-block-image {
+  .single-posts-body .wp-block-image:nth-child(3) {
     grid-area: singlepostmainimage;
   }
   
@@ -182,6 +182,10 @@
 
   .single-posts-body p:nth-child(7) {
     grid-area: p;
+  }
+
+  .single-posts-body .wp-block-group .wp-block-group__inner-container figure {
+    grid-area: unset;
   }
 
 }
