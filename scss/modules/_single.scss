@@ -26,7 +26,7 @@
   grid-area: singlepostmaininfo;
 }
 
-.single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {
+.single-posts-body .wp-block-group:nth-child(5) {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
@@ -37,6 +37,13 @@
   padding: 2rem 0;
   margin-bottom: 1rem;
   grid-area: buylinks;
+}
+
+.single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 
 .single-posts-body .wp-block-group:nth-child(6) {
