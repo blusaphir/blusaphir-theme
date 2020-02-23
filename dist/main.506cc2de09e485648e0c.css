@@ -54,11 +54,11 @@ a {
   align-items: center;
   border-top: 4px solid #CFEDF6;
   border-bottom: 4px solid #CFEDF6;
-  padding-top: 2rem 0;
+  padding: 2rem 0;
   margin-bottom: 1rem; }
 
 .single-posts-body .buylinks img {
-  width: 150px; }
+  width: 120px; }
 
 .single-posts-body .wp-block-group:nth-child(6) .wp-block-group__inner-container p {
   background-color: #CFEDF6;
@@ -162,6 +162,8 @@ a {
     grid-area: buylinks;
     border-top: none;
     border-bottom: none; }
+  .single-posts-body .buylinks img {
+    width: 170px; }
   .single-posts-body .wp-block-group:nth-child(5) {
     grid-area: wpblocktwo; }
   .single-posts-body .wp-block-group:nth-child(6) {
