@@ -167,7 +167,8 @@ a {
     padding: 0;
     margin: 0; }
   .single-posts-body .buylinks img {
-    width: 150px; }
+    width: 100%;
+    max-width: 300px; }
   .single-posts-body .wp-block-group:nth-child(5) {
     grid-area: wpblocktwo; }
   .single-posts-body .wp-block-group:nth-child(6) {
@@ -176,6 +177,10 @@ a {
     grid-area: p; }
   .single-posts-body .wp-block-group .wp-block-group__inner-container figure {
     grid-area: unset; } }
+
+@media (min-width: 1000px) {
+  .single-posts-body {
+    grid-template-columns: 40% 50%; } }
 
 /* HEADER RULES */
 /* HEADER RULES */
