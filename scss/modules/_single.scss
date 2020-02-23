@@ -179,10 +179,14 @@
     grid-area: buylinks;
     border-top: none;
     border-bottom: none;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0rem;
+    padding: 0;
+    margin: 0;
   }
 
   .single-posts-body .buylinks img {
-    width: 170px;
+    width: 150px;
   }
   
   .single-posts-body .wp-block-group:nth-child(5) {
