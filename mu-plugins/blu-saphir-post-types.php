@@ -19,7 +19,6 @@ function blusaphir_post_types() {
   //Events Page Post Type
   register_post_type('events', array(
     'support' => array('title', 'editor', 'thumbnail'),
-    'show_in_rest' => true,
     'public' => true,
     'labels' => array(
       'name' => 'Events',

@@ -13,7 +13,7 @@
   grid-area: singlepostheading;
 }
 
-.single-posts-body .wp-block-image:nth-child(3) {
+.single-posts-body iframe:nth-child(3) {
   grid-area: singlepostmainimage;
 }
 
@@ -189,8 +189,8 @@
     grid-template-areas: 
     "singlepostheading singlepostheading"
     "singlepostul ."
-    "singlepostmainimage buylinks"
-    "singlepostmaininfo singlepostmaininfo"
+    "singlepostmainimage singlepostmainimage"
+    "buylinks buylinks"
     "links links"
     "p p";
   }
@@ -212,7 +212,17 @@
 
 @media(min-width: 1000px) {
 
+  .single-posts {
+    width: 900px;
+  }
+
   .single-posts-body {
     grid-template-columns: 40% 50%;
+  }
+}
+
+@media(min-width: 1300px) {
+  .single-posts {
+    width: 1200px;
   }
 }
