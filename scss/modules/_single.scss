@@ -185,7 +185,7 @@
 
   .single-posts-body {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1rem;
+    grid-column-gap: 2rem;
     grid-template-areas: 
     "singlepostheading singlepostheading"
     "singlepostul buylinks"
@@ -206,6 +206,13 @@
   .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container figure img {
     width: 100%;
     max-width: 250px;
+  }
+
+  .single-posts p {
+    margin-bottom: 1rem;
+    text-align: left;
+    line-height: 1.4rem;
+    font-size: 0.9rem;
   }
 }
 

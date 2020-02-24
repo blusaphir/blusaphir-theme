@@ -169,7 +169,7 @@ a {
 @media (min-width: 700px) {
   .single-posts-body {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1rem;
+    grid-column-gap: 2rem;
     grid-template-areas: "singlepostheading singlepostheading" "singlepostul buylinks" "singlepostmainimage singlepostmaininfo" "links links" "p p"; }
   .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {
     border-top: none;
@@ -180,7 +180,12 @@ a {
     justify-content: unset; }
   .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container figure img {
     width: 100%;
-    max-width: 250px; } }
+    max-width: 250px; }
+  .single-posts p {
+    margin-bottom: 1rem;
+    text-align: left;
+    line-height: 1.4rem;
+    font-size: 0.9rem; } }
 
 @media (min-width: 1000px) {
   .single-posts {
