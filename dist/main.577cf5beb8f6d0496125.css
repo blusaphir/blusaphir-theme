@@ -170,14 +170,14 @@ a {
   .single-posts-body {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1rem;
-    grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostmainimage singlepostmainimage" "buylinks buylinks" "links links" "p p"; }
+    grid-template-areas: "singlepostheading singlepostheading" "singlepostul buylinks" "singlepostmainimage singlepostmaininfo" "links links" "p p"; }
   .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {
     border-top: none;
     border-bottom: none;
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 0rem;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    display: flex;
+    justify-content: unset; }
   .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container figure img {
     width: 100%;
     max-width: 250px; } }
