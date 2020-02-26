@@ -19,7 +19,7 @@
               $my_query = new WP_Query($args);
               if($my_query->have_posts()) {
                 while ($my_query->have_posts()) : $my_query->the_post();?>
-                <a href="<?php the_permalink(); ?>"><?php echo $tag->name; ?><?php the_post_thumbnail(); ?></a>
+                <a href="<?php the_permalink(); ?>"><?php echo $tag->name; ?><br /><?php the_post_thumbnail(); ?></a>
               <?php endwhile;
               }
             }
