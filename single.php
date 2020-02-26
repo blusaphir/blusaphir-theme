@@ -14,7 +14,18 @@
             $posttags = get_the_tags();
             if ($posttags) {
               foreach($posttags as $tag) {
-                the_post_thumbnail(); 
+              
+
+                $args = array(
+                  'tag__in' => array($tag->term_id),
+                  'caller_get_posts' => 1
+                );
+                $my_query = new WP_Query($args);
+                if($my_query->have_posts()) {
+                  while ($my_query->have_posts()) : $my_query->the_post();
+                  the_post_thumbnail();
+                endwhile;
+                }
               }
             }
           ?>
