@@ -18,7 +18,7 @@
           <li><a href="<?php echo site_url('/contact'); ?>">contact</a></li>
         </ul>
 
-        <ul class="footer-nav-links-social single-posts-body">
+        <ul class="footer-nav-links-social">
         <?php 
           $footerPost = new WP_Query(array(
             'post_type' => 'post',
