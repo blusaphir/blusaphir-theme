@@ -18,13 +18,28 @@
           <li><a href="<?php echo site_url('/contact'); ?>">contact</a></li>
         </ul>
 
-        <ul>
+        <ul class="footer-nav-links-social single-posts-body">
+        <?php 
+          $footerPost = new WP_Query(array(
+            'post_type' => 'post',
+            'post_status' => 'publish',
+            'category_name' => 'footer'
+          ));
+
+          while($footerPost->have_posts()) {
+            $footerPost->the_post(); ?>
+            <div><?php echo get_the_content(); ?></div>
+          <?php }
+        ?>
+        </ul>
+
+        <!-- <ul>
           <li><a href="<?php echo 'https://www.facebook.com/blusaphirrecs/?ref=nf'; ?>">Facebook</a></li>
           <li><a href="<?php echo 'https://www.youtube.com/user/jayrome1978'; ?>">Youtube</a></li>
           <li><a href="<?php echo 'https://soundcloud.com/blusaphir_records'; ?>">Soundcloud</a></li>
           <li><a href="<?php echo 'https://twitter.com/blusaphir_recs?lang=en-gb'; ?>">Twitter</a></li>
           <li><a href="<?php echo 'https://www.blogger.com/profile/09110695010939377220'; ?>">Blogger</a></li>
-        </ul>
+        </ul> -->
       </div>
 
       <p>2019© Blu Saphir Recordings Limited.</p>
