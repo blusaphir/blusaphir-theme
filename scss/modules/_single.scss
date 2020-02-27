@@ -53,6 +53,10 @@
   grid-area: p;
 }
 
+.single-posts-body .tag {
+  grid-area: tag;
+}
+
 .single-posts-body {
   display: grid;
   grid-template-areas: 
@@ -61,8 +65,8 @@
   "singlepostmainimage" 
   "buylinks"
   "singlepostmaininfo"
-  "links"
-  "p";
+  "links" 
+  "tag";
 }
 
 .single-posts-body .wp-block-group:nth-child(6) .wp-block-group__inner-container p {
@@ -101,6 +105,10 @@
   position: relative;
   top: 3px;
   margin-right: 0.3rem;
+}
+
+.single-posts-body .tag a {
+  display: inline;
 }
 
 // Rules for Facebook Artists Social Links
@@ -190,8 +198,7 @@
     "singlepostheading singlepostheading"
     "singlepostul buylinks"
     "singlepostmainimage singlepostmaininfo"
-    "links links"
-    "p p";
+    "links tag";
   }
   
   .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {

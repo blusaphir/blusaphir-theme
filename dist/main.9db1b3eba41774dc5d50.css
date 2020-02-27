@@ -76,9 +76,12 @@ a {
 .single-posts-body p:nth-child(7) {
   grid-area: p; }
 
+.single-posts-body .tag {
+  grid-area: tag; }
+
 .single-posts-body {
   display: grid;
-  grid-template-areas: "singlepostheading" "singlepostul" "singlepostmainimage"  "buylinks" "singlepostmaininfo" "links" "p"; }
+  grid-template-areas: "singlepostheading" "singlepostul" "singlepostmainimage"  "buylinks" "singlepostmaininfo" "links"  "tag"; }
 
 .single-posts-body .wp-block-group:nth-child(6) .wp-block-group__inner-container p {
   background-color: #CFEDF6;
@@ -111,6 +114,9 @@ a {
   position: relative;
   top: 3px;
   margin-right: 0.3rem; }
+
+.single-posts-body .tag a {
+  display: inline; }
 
 .facebook-icon {
   background-image: url("/wp-content/themes/blusaphir-theme/images/original-fb-icon.png"); }
@@ -170,7 +176,7 @@ a {
   .single-posts-body {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2rem;
-    grid-template-areas: "singlepostheading singlepostheading" "singlepostul buylinks" "singlepostmainimage singlepostmaininfo" "links links" "p p"; }
+    grid-template-areas: "singlepostheading singlepostheading" "singlepostul buylinks" "singlepostmainimage singlepostmaininfo" "links tag"; }
   .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {
     border-top: none;
     border-bottom: none;
