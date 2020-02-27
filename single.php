@@ -11,15 +11,23 @@
 
           <?php
             $tags = get_tags();
+            $postId = get_the_ID();
+
             foreach($tags as $tag) {
               $args = array(
                 'tag__in' => array($tag->term_id),
                 'caller_get_posts' => 1
               );
+
               $my_query = new WP_Query($args);
               if($my_query->have_posts()) {
-                while ($my_query->have_posts()) : $my_query->the_post();?>
-                <a href="<?php the_permalink(); ?>"><?php echo $tag->name; ?><br /><?php the_post_thumbnail(); ?></a>
+                while ($my_query->have_posts()) : $my_query->the_post();
+                $id = get_the_ID();
+
+                if ($id !== $postId) { ?>
+                  <a href="<?php the_permalink(); ?>"><?php echo $tag->name; ?><br /><?php the_post_thumbnail(); ?></a>
+                <?php }; ?>
+
               <?php endwhile;
               }
             }
