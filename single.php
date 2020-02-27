@@ -25,7 +25,7 @@
                 $id = get_the_ID();
 
                 if ($id !== $postId) { ?>
-                  <a href="<?php the_permalink(); ?>"><?php echo $tag->name; ?><br /><?php the_post_thumbnail(); ?></a>
+                  <div class="tag"><a href="<?php the_permalink(); ?>"><?php echo $tag->name; ?><br /><?php the_post_thumbnail(); ?></a></div>
                 <?php }; ?>
 
               <?php endwhile;
