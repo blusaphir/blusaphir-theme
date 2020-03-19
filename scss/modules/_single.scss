@@ -35,6 +35,10 @@
 }
 
 .single-posts-body .wp-block-group .wp-block-group__inner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
   border-top: 4px solid #CFEDF6;
   border-bottom: 4px solid #CFEDF6;
   padding: 2rem 0;
@@ -54,9 +58,9 @@
   grid-template-areas: 
   "singlepostheading"
   "singlepostul"
-  "singlepostembed"
-  "singlepostinfo"
+  "singlepostembed" 
   "buylinks"
+  "singlepostinfo"
   "tag";
 }
 
@@ -186,6 +190,7 @@
     border-bottom: none;
     padding: 0;
     margin: 0;
+    display: flex;
     justify-content: unset;
   }
 
@@ -210,6 +215,14 @@
 
   .single-posts-body {
     grid-template-columns: 40% 50%;
+    display: grid;
+    grid-template-areas: 
+    "singlepostheading singlepostheading"
+    "singlepostul"
+    "singlepostembed" 
+    "buylinks"
+    "singlepostinfo"
+    "tag";
   }
 }
 
