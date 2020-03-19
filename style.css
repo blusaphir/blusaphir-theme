@@ -218,8 +218,6 @@ a {
     border-bottom: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: unset;
   }
 
   .single-posts-body .wp-block-group .wp-block-group__inner-container figure img {
