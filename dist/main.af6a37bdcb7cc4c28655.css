@@ -61,10 +61,6 @@ a {
   grid-area: buylinks; }
 
 .single-posts-body .wp-block-group .wp-block-group__inner-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
   border-top: 4px solid #CFEDF6;
   border-bottom: 4px solid #CFEDF6;
   padding: 2rem 0;
@@ -166,16 +162,13 @@ a {
   background-image: url("/wp-content/themes/blusaphir-theme/images/mixcloud-icon.png"); }
 
 @media (min-width: 700px) {
-  .single-posts-body {
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
-    grid-template-areas: "singlepostheading singlepostheading" "singlepostul buylinks" "singlepostmainimage singlepostmaininfo" "links tag"; }
+  .single-posts {
+    width: 600px; }
   .single-posts-body .wp-block-group .wp-block-group__inner-container {
     border-top: none;
     border-bottom: none;
     padding: 0;
     margin: 0;
-    display: flex;
     justify-content: unset; }
   .single-posts-body .wp-block-group .wp-block-group__inner-container figure img {
     width: 100%;
@@ -190,9 +183,7 @@ a {
   .single-posts {
     width: 900px; }
   .single-posts-body {
-    grid-template-columns: 30% 40% 10%;
-    grid-column-gap: 2rem;
-    grid-template-areas: "singlepostheading singlepostheading ." "singlepostul . ." "singlepostembed singlepostinfo buylinks" "tag singlepostinfo ."; } }
+    grid-template-columns: 40% 50%; } }
 
 @media (min-width: 1300px) {
   .single-posts {
