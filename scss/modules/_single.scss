@@ -34,7 +34,7 @@
   grid-area: buylinks;
 }
 
-.single-posts-body .wp-block-group .wp-block-group__inner-container {
+.single-posts-body .wp-block-group .wp-block-group__inner-container p{
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -45,8 +45,10 @@
   margin-bottom: 1rem;
 }
 
-.single-posts-body .wp-block-group .wp-block-group__inner-container figure {
-  grid-area: unset;
+.single-posts-body .wp-block-group .wp-block-group__inner-container p a {
+  background-color: 4px solid #CFEDF6;
+  padding: 1rem;
+  font-size: 1.5rem;
 }
 
 .single-posts-body .tag {
