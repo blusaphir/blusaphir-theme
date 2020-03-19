@@ -191,7 +191,6 @@ a {
     width: 900px; }
   .single-posts-body {
     grid-template-columns: 30% 40% 10%;
-    grid-template-columns: 1fr 1fr;
     grid-column-gap: 2rem;
     grid-template-areas: "singlepostheading singlepostheading ." "singlepostul . ." "singlepostembed singlepostinfo buylinks" "tag singlepostinfo ."; } }
 
