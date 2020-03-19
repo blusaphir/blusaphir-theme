@@ -92,7 +92,7 @@ a {
 
 .single-posts-body {
   display: grid;
-  grid-template-areas: "singlepostheading" "singlepostul" "singlepostembed" "buylinks" "singlepostinfo" "tag";
+  grid-template-areas: "singlepostheading" "singlepostul" "singlepostembed" "singlepostinfo" "buylinks" "tag";
 }
 
 .single-posts-body h4 {
