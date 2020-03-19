@@ -1,3 +1,7 @@
+.visualAudible__header {
+  display: none;
+}
+
 .single-posts {
   width: 90%;
   margin: 0 auto;
@@ -13,8 +17,8 @@
   grid-area: singlepostheading;
 }
 
-.single-posts-body iframe:nth-child(3) {
-  grid-area: singlepostmainimage;
+.single-posts-body iframe {
+  grid-area: singlepostembed;
 }
 
 .single-posts-body ul {
@@ -22,15 +26,15 @@
   grid-area: singlepostul;
 }
 
-.single-posts-body .wp-block-group:nth-child(4) {
-  grid-area: singlepostmaininfo;
+.single-posts-body p {
+  grid-area: singlepostinfo;
 }
 
-.single-posts-body .wp-block-group:nth-child(5) {
+.single-posts-body .wp-block-group {
   grid-area: buylinks;
 }
 
-.single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {
+.single-posts-body .wp-block-group .wp-block-group__inner-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -41,16 +45,8 @@
   margin-bottom: 1rem;
 }
 
-.single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container figure {
+.single-posts-body .wp-block-group .wp-block-group__inner-container figure {
   grid-area: unset;
-}
-
-.single-posts-body .wp-block-group:nth-child(6) {
-  grid-area: links;
-}
-
-.single-posts-body p:nth-child(7) {
-  grid-area: p;
 }
 
 .single-posts-body .tag {
@@ -62,16 +58,10 @@
   grid-template-areas: 
   "singlepostheading"
   "singlepostul"
-  "singlepostmainimage" 
+  "singlepostembed" 
   "buylinks"
-  "singlepostmaininfo"
-  "links" 
+  "singlepostinfo"
   "tag";
-}
-
-.single-posts-body .wp-block-group:nth-child(6) .wp-block-group__inner-container p {
-  background-color: $light-cyan;
-  padding: .5rem;
 }
 
 .single-posts-body h4 {
@@ -201,7 +191,7 @@
     "links tag";
   }
   
-  .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container {
+  .single-posts-body .wp-block-group .wp-block-group__inner-container {
     border-top: none;
     border-bottom: none;
     padding: 0;
@@ -210,7 +200,7 @@
     justify-content: unset;
   }
 
-  .single-posts-body .wp-block-group:nth-child(5) .wp-block-group__inner-container figure img {
+  .single-posts-body .wp-block-group .wp-block-group__inner-container figure img {
     width: 100%;
     max-width: 250px;
   }
@@ -230,7 +220,14 @@
   }
 
   .single-posts-body {
-    grid-template-columns: 40% 50%;
+    grid-template-columns: 30% 40% 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-template-areas: 
+    "singlepostheading singlepostheading ."
+    "singlepostul . ."
+    "singlepostembed singlepostinfo buylinks"
+    "tag singlepostinfo .";
   }
 }
 
