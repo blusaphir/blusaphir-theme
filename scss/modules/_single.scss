@@ -32,7 +32,7 @@
 
 .single-posts-body .wp-block-group {
   grid-area: buylinks;
-  margin-top: 2rem;
+  margin: 2rem 0 1rem 0;
 }
 
 .single-posts-body .wp-block-group .wp-block-group__inner-container {
@@ -40,10 +40,15 @@
   border-bottom: 4px solid #CFEDF6;
 }
 
+.single-posts-body .wp-block-group .wp-block-group__inner-container h3 {
+  margin-top: 1rem;
+  color: $darker-cyan;
+  font-weight: 500;
+}
+
 .single-posts-body .wp-block-group .wp-block-group__inner-container p {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
   align-items: center;
   padding: 1rem 0;
   margin-bottom: 0rem;
