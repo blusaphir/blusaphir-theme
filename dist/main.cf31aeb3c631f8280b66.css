@@ -58,22 +58,28 @@ a {
   grid-area: singlepostinfo; }
 
 .single-posts-body .wp-block-group {
-  grid-area: buylinks; }
+  grid-area: buylinks;
+  margin-top: 2rem; }
+
+.single-posts-body .wp-block-group .wp-block-group__inner-container {
+  border-top: 4px solid #CFEDF6;
+  border-bottom: 4px solid #CFEDF6; }
 
 .single-posts-body .wp-block-group .wp-block-group__inner-container p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
-  border-top: 4px solid #CFEDF6;
-  border-bottom: 4px solid #CFEDF6;
-  padding: 2rem 0;
-  margin-bottom: 1rem; }
+  padding: 1rem 0;
+  margin-bottom: 0rem; }
 
 .single-posts-body .wp-block-group .wp-block-group__inner-container p a {
-  background-color: 4px solid #CFEDF6;
-  padding: 1rem;
-  font-size: 1.5rem; }
+  width: 200px;
+  background-color: #CFEDF6;
+  padding: .5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase; }
 
 .single-posts-body .tag {
   grid-area: tag; }
