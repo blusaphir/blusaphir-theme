@@ -221,7 +221,10 @@ a {
   .single-posts-body .wp-block-group {
     margin: 0rem 0 1rem 0; }
   .single-posts-body .wp-block-group .wp-block-group__inner-container h3 {
-    margin-top: 0rem; } }
+    margin-top: 0rem; }
+  .single-posts-body .wp-block-group .wp-block-group__inner-container p {
+    display: block;
+    grid-template-columns: unset; } }
 
 /* HEADER RULES */
 /* HEADER RULES */

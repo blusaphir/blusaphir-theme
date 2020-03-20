@@ -288,6 +288,11 @@ a {
   .single-posts-body .wp-block-group .wp-block-group__inner-container h3 {
     margin-top: 0rem;
   }
+
+  .single-posts-body .wp-block-group .wp-block-group__inner-container p {
+    display: block;
+    grid-template-columns: unset;
+  }
 }
 /* HEADER RULES */
 /* HEADER RULES */
