@@ -114,6 +114,13 @@
 .single-posts-body .tag a {
   display: inline;
 }
+.single-posts-body .tag a h2 {
+  font-size: 1.4rem;
+}
+
+.single-posts-body .tag a img {
+  width: 150px;
+}
 
 // Rules for Facebook Artists Social Links
 .facebook-icon {
@@ -234,6 +241,11 @@
     "singlepostembed singlepostinfo" 
     "buylinks singlepostinfo"
     "tag singlepostinfo";
+    column-gap: 2rem;
+  }
+
+  .single-posts-body .wp-block-group .wp-block-group__inner-container p a {
+    width: 170px;
   }
 }
 
@@ -250,5 +262,13 @@
     "singlepostul . ."
     "singlepostembed singlepostinfo buylinks" 
     "tag singlepostinfo .";
+  }
+
+  .single-posts-body .wp-block-group {
+    margin: 0rem 0 1rem 0;
+  }
+
+  .single-posts-body .wp-block-group .wp-block-group__inner-container h3 {
+    margin-top: 0rem;
   }
 }
