@@ -10,8 +10,8 @@
           <?php echo get_the_content(); ?>
 
           <?php
-            $tags = get_the_tags();
             $postId = get_the_ID();
+            $tags = get_the_tags($postId);
 
             foreach($tags as $tag) {
               $args = array(
