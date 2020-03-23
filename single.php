@@ -13,8 +13,11 @@
 
           $tags = if(has_tag()) {
            the_tags();
+          } else {
+
           };
-            $postId = get_the_ID();
+          
+          $postId = get_the_ID();
 
             foreach($tags as $tag) {
               $args = array(
