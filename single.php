@@ -11,8 +11,8 @@
 
           <?php
 
-          $tags = if(has_tag()) {
-           the_tags();
+          if(has_tag()) {
+            $tags = the_tags();
           } else {
 
           };
