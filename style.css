@@ -278,7 +278,7 @@ a {
   .single-posts-body {
     grid-template-columns: 30% 40% 20%;
     display: grid;
-    grid-template-areas: "singlepostheading singlepostheading ." "singlepostul . ." "singlepostembed singlepostinfo buylinks" "tag singlepostinfo .";
+    grid-template-areas: "singlepostheading singlepostheading ." "singlepostul . ." "singlepostembed singlepostinfo buylinks" "tag singlepostinfo ." ". singlepostinfo .";
   }
 
   .single-posts-body .wp-block-group {
