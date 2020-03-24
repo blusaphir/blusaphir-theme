@@ -318,6 +318,122 @@ a {
     grid-template-columns: unset;
   }
 }
+.artist-single-posts {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.artist-single-post-body h2 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem 0rem;
+  padding: 1rem 0 0.3rem 0;
+  color: #1ca9d6;
+  text-align: left;
+  display: inline-block;
+  grid-area: artistheading;
+}
+
+.artist-single-post-body p {
+  margin-bottom: 1rem;
+  text-align: left;
+  line-height: 1.7rem;
+  font-size: 1rem;
+}
+
+.artist-single-posts a {
+  color: #0E546B;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  display: inline-flex;
+}
+
+.artist-single-posts a:hover {
+  color: #1ca9d6;
+}
+
+.social-icons {
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 0.3rem;
+}
+
+.facebook-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-fb-icon.png");
+}
+
+.facebook-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/fb-icon.png");
+}
+
+.single-posts a:hover > .facebook-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/fb-icon.png");
+}
+
+.soundcloud-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-soundcloud-icon.png");
+}
+
+.soundcloud-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/soundcloud-icon.png");
+}
+
+.single-posts a:hover > .soundcloud-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/soundcloud-icon.png");
+}
+
+.twitter-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-twitter-icon.png");
+}
+
+.twitter-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/twitter-icon.png");
+}
+
+.single-posts a:hover > .twitter-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/twitter-icon.png");
+}
+
+.instagram-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-instagram-icon.png");
+}
+
+.instagram-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/instagram-icon.png");
+}
+
+.single-posts a:hover > .instagram-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/instagram-icon.png");
+}
+
+.beatport-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-beatport-icon.png");
+}
+
+.beatport-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/beatport-icon.png");
+}
+
+.single-posts a:hover > .beatport-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/beatport-icon.png");
+}
+
+.mixcloud-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-mixcloud-icon.png");
+}
+
+.mixcloud-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/mixcloud-icon.png");
+}
+
+.single-posts a:hover > .mixcloud-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/mixcloud-icon.png");
+}
+
 /* HEADER RULES */
 /* HEADER RULES */
 header {
