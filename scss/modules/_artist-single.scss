@@ -1,0 +1,124 @@
+.artist-single-posts {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.artist-single-post-body {
+}
+
+.artist-single-post-body h2 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem 0rem;
+  padding: 1rem 0 0.3rem 0;
+  color: $primary-cyan;
+  text-align: left;
+  display: inline-block;
+  grid-area: artistheading;
+}
+
+.artist-single-post-body p {
+  margin-bottom: 1rem;
+  text-align: left;
+  line-height: 1.7rem;
+  font-size: 1rem;
+}
+
+.artist-single-posts a {
+  color: $darker-cyan;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  display: inline-flex;
+}
+
+.artist-single-posts a:hover {
+  color: $primary-cyan;
+}
+
+.social-icons {
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  margin-right: 0.3rem;
+}
+
+// Rules for Facebook Artists Social Links
+.facebook-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-fb-icon.png");
+}
+
+.facebook-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/fb-icon.png");
+}
+
+.single-posts a:hover > .facebook-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/fb-icon.png");
+}
+
+// Rules for Soundcloud Artists Social Links
+.soundcloud-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-soundcloud-icon.png");
+}
+
+.soundcloud-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/soundcloud-icon.png");
+}
+
+.single-posts a:hover > .soundcloud-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/soundcloud-icon.png");
+}
+
+// Rules for Twitter Artists Social Links
+.twitter-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-twitter-icon.png");
+}
+
+.twitter-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/twitter-icon.png");
+}
+
+.single-posts a:hover > .twitter-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/twitter-icon.png");
+}
+
+// Rules for Instagram Artists Social Links
+.instagram-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-instagram-icon.png");
+}
+
+.instagram-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/instagram-icon.png");
+}
+
+.single-posts a:hover > .instagram-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/instagram-icon.png");
+}
+
+// Rules for Beatport Artists Social Links
+.beatport-icon {
+ background-image: url("/wp-content/themes/blusaphir-theme/images/original-beatport-icon.png");
+}
+
+.beatport-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/beatport-icon.png");
+}
+
+.single-posts a:hover > .beatport-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/beatport-icon.png");
+}
+
+// Rules for Mixcloud Artists Social Links
+.mixcloud-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-mixcloud-icon.png");
+}
+
+.mixcloud-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/mixcloud-icon.png");
+ }
+
+ .single-posts a:hover > .mixcloud-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/mixcloud-icon.png");
+}
