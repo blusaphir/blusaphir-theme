@@ -323,7 +323,7 @@ a {
   margin: 0 auto;
 }
 
-.artist-single-post-body h2 {
+.artist-single-posts-body h2 {
   font-size: 2rem;
   margin: 1rem 0 1rem 0rem;
   padding: 1rem 0 0.3rem 0;
@@ -333,7 +333,7 @@ a {
   grid-area: artistheading;
 }
 
-.artist-single-post-body p {
+.artist-single-posts-body p {
   margin-bottom: 1rem;
   text-align: left;
   line-height: 1.7rem;
