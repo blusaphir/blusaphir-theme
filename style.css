@@ -58,21 +58,11 @@ a {
   grid-area: singlepostheading;
 }
 
-.single-posts-body iframe {
-  grid-area: singlepostembed;
-}
-
 .single-posts-body ul {
   margin-bottom: 1rem;
-  grid-area: singlepostul;
-}
-
-.single-posts-body p {
-  grid-area: singlepostinfo;
 }
 
 .single-posts-body .wp-block-group {
-  grid-area: buylinks;
   margin: 2rem 0 1rem 0;
 }
 
@@ -102,15 +92,11 @@ a {
   margin-bottom: 0.5rem;
   font-size: 1rem;
   text-transform: uppercase;
+  color: #fff;
 }
 
-.single-posts-body .tag {
-  grid-area: tag;
-}
-
-.single-posts-body {
-  display: grid;
-  grid-template-areas: "singlepostheading" "singlepostul" "singlepostembed" "buylinks" "singlepostinfo" "tag";
+.single-posts-body .wp-block-group .wp-block-group__inner-container p a:hover {
+  background-color: #0E546B;
 }
 
 .single-posts-body h4 {
@@ -146,16 +132,25 @@ a {
   margin-right: 0.3rem;
 }
 
+.single-posts-body .tag {
+  background-color: #CFEDF6;
+  padding: 0rem 0rem 1rem 1rem;
+}
+
 .single-posts-body .tag a {
   display: inline;
 }
 
 .single-posts-body .tag a h2 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 0rem;
+  background-color: #1ca9d6;
+  box-shadow: inset 0.5px 0.5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .single-posts-body .tag a img {
-  width: 150px;
+  width: 130px;
 }
 
 .facebook-icon {
@@ -255,6 +250,26 @@ a {
   }
 }
 @media (min-width: 1000px) {
+  .single-posts-body iframe {
+    grid-area: singlepostembed;
+  }
+
+  .single-posts-body ul {
+    grid-area: singlepostul;
+  }
+
+  .single-posts-body p {
+    grid-area: singlepostinfo;
+  }
+
+  .single-posts-body .wp-block-group {
+    grid-area: buylinks;
+  }
+
+  .single-posts-body .tag {
+    grid-area: tag;
+  }
+
   .single-posts {
     width: 900px;
   }
