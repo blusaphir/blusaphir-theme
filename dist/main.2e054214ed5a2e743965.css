@@ -244,11 +244,7 @@ a {
   width: 90%;
   margin: 0 auto; }
 
-<<<<<<< HEAD:dist/main.2cf0fed9e457b50e149f.css
 .artist-single-posts-body h2 {
-=======
-.artist-single-post-body h2 {
->>>>>>> be3655b6a1831e78bacaa3221b2561083f4038cf:dist/main.0cfba5edf210f3d78c52.css
   font-size: 2rem;
   margin: 1rem 0 1rem 0rem;
   padding: 1rem 0 0.3rem 0;
@@ -257,11 +253,7 @@ a {
   display: inline-block;
   grid-area: artistheading; }
 
-<<<<<<< HEAD:dist/main.2cf0fed9e457b50e149f.css
 .artist-single-posts-body p {
-=======
-.artist-single-post-body p {
->>>>>>> be3655b6a1831e78bacaa3221b2561083f4038cf:dist/main.0cfba5edf210f3d78c52.css
   margin-bottom: 1rem;
   text-align: left;
   line-height: 1.7rem;
@@ -270,7 +262,7 @@ a {
 .artist-single-posts a {
   color: #0E546B;
   margin-right: 1rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   display: inline-flex; }
 
 .artist-single-posts a:hover {
