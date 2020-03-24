@@ -2,7 +2,7 @@
 
  /*
   * Template Name: Artist
-  * Template Poat Type: post, page
+  * Template Post Type: post, page
   */
 
   get_header(); ?>
