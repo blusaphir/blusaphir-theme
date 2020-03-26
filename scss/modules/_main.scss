@@ -75,6 +75,14 @@
   align-self: center;
 }
 
+.front-page-random-artist h2:hover, .artist-grid h2:hover {
+  background-color: $darker-cyan;
+}
+
+.front-page-random-artist img:hover > .front-page-random-artist h2 {
+  background-color: $darker-cyan;
+}
+
 @media(min-width: 700px) {
 
   .main-content-wrapper {
