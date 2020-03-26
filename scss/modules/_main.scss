@@ -35,6 +35,10 @@
   padding: .8rem;
 }
 
+.recent-posts-container .readmore:hover {
+  background-color: $darker-cyan;
+}
+
 .front-page-random-artist-container, .artist-grid {
   width: 95%;
   margin: 0 auto;
