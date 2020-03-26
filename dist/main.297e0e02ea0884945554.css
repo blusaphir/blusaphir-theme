@@ -634,7 +634,7 @@ header {
 .front-page-random-artist h2:hover, .artist-grid h2:hover {
   background-color: #0E546B; }
 
-.front-page-random-artist a:hover > .front-page-random-artist-heading {
+.front-page-random-artist img:hover > .front-page-random-artist-heading {
   background-color: #0E546B; }
 
 @media (min-width: 700px) {
