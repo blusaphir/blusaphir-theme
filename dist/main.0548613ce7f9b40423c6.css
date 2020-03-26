@@ -654,6 +654,10 @@ header {
 .recent-posts-container .readmore:hover {
   background-color: #0E546B; }
 
+.front-page-random-artist-container {
+  height: 560px;
+  overflow: hidden; }
+
 .front-page-random-artist-container, .artist-grid {
   width: 95%;
   margin: 0 auto;
@@ -692,7 +696,8 @@ header {
     font-size: 1.2rem; }
   .front-page-random-artist-container {
     margin: 0 .7rem 0 0;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    height: 2670px; }
   .front-page-random-artist h2, .front-page-random-artist img {
     width: 145px; } }
 
@@ -716,7 +721,8 @@ header {
   .main-content-wrapper {
     width: 900px; }
   .front-page-random-artist-container {
-    width: 75%; }
+    width: 75%;
+    height: 2940px; }
   .front-page-random-artist h2 {
     width: 186px; }
   .front-page-random-artist img {
@@ -729,7 +735,8 @@ header {
   .recent-posts-container h2 {
     font-size: 1.5rem; }
   .front-page-random-artist-container {
-    width: 80%; }
+    width: 80%;
+    height: 3240px; }
   .front-page-random-artist h2, .front-page-random-artist img {
     width: 172px; }
   .front-page-random-artist img {

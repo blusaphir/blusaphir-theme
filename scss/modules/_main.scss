@@ -39,6 +39,11 @@
   background-color: $darker-cyan;
 }
 
+.front-page-random-artist-container {
+  height: 560px;
+  overflow: hidden;
+}
+
 .front-page-random-artist-container, .artist-grid {
   width: 95%;
   margin: 0 auto;
@@ -91,6 +96,7 @@
   .front-page-random-artist-container {
     margin: 0 .7rem 0 0;
     justify-content: flex-end;
+    height: 2670px;
   }
 
   .front-page-random-artist h2, .front-page-random-artist img {
@@ -134,6 +140,7 @@
 
   .front-page-random-artist-container {
     width: 75%;
+    height: 2940px;
   }
 
   .front-page-random-artist h2 {
@@ -157,6 +164,7 @@
 
   .front-page-random-artist-container {
     width: 80%;
+    height: 3240px;
   }
 
   .front-page-random-artist h2, .front-page-random-artist img {
