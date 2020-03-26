@@ -73,7 +73,7 @@
               $randomArtists = new WP_Query(array(
                 'post_type' => 'post',
                 'orderby' => 'rand', 
-                'posts_per_page' => 24,
+                'posts_per_page' => -1,
                 'category_name' => 'artists'
               ));
 
