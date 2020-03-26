@@ -651,6 +651,9 @@ header {
   background-color: #1ca9d6;
   padding: .8rem; }
 
+.recent-posts-container .readmore:hover {
+  background-color: #0E546B; }
+
 .front-page-random-artist-container, .artist-grid {
   width: 95%;
   margin: 0 auto;
