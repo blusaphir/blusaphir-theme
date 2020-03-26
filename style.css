@@ -345,6 +345,7 @@ a {
   margin-right: 1rem;
   font-size: 0.9rem;
   display: inline-flex;
+  text-transform: capitalize;
 }
 
 .artist-single-posts a:hover {
@@ -921,7 +922,7 @@ header {
   .front-page-random-artist-container {
     margin: 0 0.7rem 0 0;
     justify-content: flex-end;
-    height: 2650px;
+    height: 2710px;
   }
 
   .front-page-random-artist h2, .front-page-random-artist img {
