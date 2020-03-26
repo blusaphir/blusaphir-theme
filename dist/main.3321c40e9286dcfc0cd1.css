@@ -263,7 +263,8 @@ a {
   color: #0E546B;
   margin-right: 1rem;
   font-size: 0.9rem;
-  display: inline-flex; }
+  display: inline-flex;
+  text-transform: capitalize; }
 
 .artist-single-posts a:hover {
   color: #1ca9d6; }

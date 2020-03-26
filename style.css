@@ -345,6 +345,7 @@ a {
   margin-right: 1rem;
   font-size: 0.9rem;
   display: inline-flex;
+  text-transform: capitalize;
 }
 
 .artist-single-posts a:hover {
