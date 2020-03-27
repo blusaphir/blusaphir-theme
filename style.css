@@ -396,6 +396,12 @@ a {
     display: inline;
   }
 
+  .artist-single-posts-body .tag a {
+    display: block;
+    background-color: #CFEDF6;
+    padding: 0.8rem 0 0.8rem 0.8rem;
+  }
+
   .artist-single-posts-body .tag h2 {
     width: 200px;
     background-color: #1ca9d6;
@@ -403,7 +409,7 @@ a {
     padding: 0.5rem;
     margin-bottom: 0.3rem;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .artist-single-posts-body .tag img {
