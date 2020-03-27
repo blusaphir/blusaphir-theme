@@ -10,7 +10,6 @@
   color: $primary-cyan;
   text-align: left;
   display: inline-block;
-  grid-area: artistheading;
 }
 
 .artist-single-posts-body p {
@@ -24,7 +23,6 @@
   color: $darker-cyan;
   margin-right: 1rem;
   font-size: 0.9rem;
-  display: inline-flex;
   text-transform: capitalize;
 }
 
@@ -119,4 +117,59 @@
 
 .artist-single-posts a:hover > .mixcloud-icon {
   background-image: url("/wp-content/themes/blusaphir-theme/images/mixcloud-icon.png");
+}
+
+@media(min-width: 1300px) {
+
+  .artist-single-posts {
+    width: 1200px;
+  }
+
+  .artist-single-posts-body h2 {
+    grid-area: artistheading;
+  }
+
+  .artist-single-posts-body ul {
+    grid-area: sociallinks;
+  }
+
+  .artist-single-posts-body iframe {
+    grid-area: artistembed;
+  }
+
+  .artist-single-posts-body p {
+    grid-area: artistinfo;
+  }
+
+  .artist-single-posts-body .tag {
+    grid-area: tag;
+  }
+
+  .artist-single-posts-body {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    grid-template-areas:
+        "artistheading artistheading ."
+        "sociallinks sociallinks ."
+        "artistembed artistinfo tag";
+    grid-gap: 2rem;
+  }
+
+  .artist-single-posts-body ul li {
+    display: inline;
+  }
+
+  .artist-single-posts-body .tag h2 {
+    width: 200px;
+    background-color: $primary-cyan;
+    margin-top: 0rem;
+    padding: .5rem;
+    margin-bottom: .3rem;
+    color: #fff;
+  }
+
+  .artist-single-posts-body .tag img {
+    width: 200px;
+  }
+
 }
