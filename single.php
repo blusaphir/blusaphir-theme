@@ -14,13 +14,8 @@
             $postId = get_the_ID();
 
             if($tags) {
-              foreach($tags as $tag) {
-                $args = array(
-                  'tag__in' => array($tag->term_id),
-                  'caller_get_posts' => 3
-                );
-  
-                $my_query = new WP_Query($args);
+              foreach($tags) {
+                $my_query = new WP_Query($tags);
                 if($my_query->have_posts()) {
                   while ($my_query->have_posts()) : $my_query->the_post();
                   $id = get_the_ID();
