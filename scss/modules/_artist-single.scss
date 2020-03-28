@@ -194,7 +194,7 @@
 
   .artist-single-posts-body {
     display: grid;
-    grid-template-columns: 30% 65%;
+    grid-template-columns: 40% 55%;
     grid-template-areas:
       "artistembed artistheading"
       "artistembed sociallinks"
@@ -202,6 +202,10 @@
       "tag tag";
       grid-column-gap: 2rem;
       grid-row-gap: 1rem;
+  }
+
+  .artist-single-posts-body h2, .artist-single-posts-body ul, .artist-single-posts-body iframe, .artist-single-posts-body p {
+    margin-bottom: 0rem;
   }
 
 }
