@@ -115,7 +115,7 @@ a {
   padding: 0rem 0rem 1rem 1rem; }
 
 .single-posts-body .tag a {
-  display: inline; }
+  display: inline-block; }
 
 .single-posts-body .tag a h2 {
   width: 130px;
