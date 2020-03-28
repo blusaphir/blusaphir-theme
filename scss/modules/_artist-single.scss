@@ -45,7 +45,7 @@
   margin-right: 0.3rem;
 }
 
-.artist-single-posts-body .tag {
+.artist-single-posts-body .tag-container {
   background-color: $light-cyan;
 }
 
@@ -188,7 +188,7 @@
     grid-area: artistinfo;
   }
 
-  .artist-single-posts-body .tag {
+  .artist-single-posts-body .tag-container {
     grid-area: tag;
   }
 
