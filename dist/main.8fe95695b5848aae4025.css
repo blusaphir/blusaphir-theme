@@ -709,7 +709,7 @@ header {
   .front-page-random-artist-container {
     margin: 0 .7rem 0 0;
     justify-content: flex-end;
-    height: 2690px; }
+    height: 2640px; }
   .front-page-random-artist h2, .front-page-random-artist img {
     width: 145px; } }
 
@@ -722,7 +722,7 @@ header {
   .front-page-random-artist-container {
     margin-right: -.5rem;
     width: 60%;
-    height: 2880px; }
+    height: 2840px; }
   .front-page-random-artist h2, .front-page-random-artist-container img {
     width: 141px; }
   .recent-posts-container h2 {
