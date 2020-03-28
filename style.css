@@ -139,7 +139,7 @@ a {
 }
 
 .single-posts-body .tag a {
-  display: inline;
+  display: inline-block;
 }
 
 .single-posts-body .tag a h2 {
