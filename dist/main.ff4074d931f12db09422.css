@@ -197,7 +197,8 @@ a {
   color: #1ca9d6; }
 
 .artist-single-posts-body ul li {
-  display: inline; }
+  display: inline-flex;
+  padding-top: 0.5rem; }
 
 .artist-single-posts-body p {
   line-height: 1.4rem;
@@ -235,7 +236,7 @@ a {
   padding: .5rem;
   margin-bottom: .3rem;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 1rem;
   display: inline-block; }
 
 .artist-single-posts-body .tag img {

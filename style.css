@@ -260,7 +260,8 @@ a {
 }
 
 .artist-single-posts-body ul li {
-  display: inline;
+  display: inline-flex;
+  padding-top: 0.5rem;
 }
 
 .artist-single-posts-body p {
@@ -305,7 +306,7 @@ a {
   padding: 0.5rem;
   margin-bottom: 0.3rem;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 1rem;
   display: inline-block;
 }
 
