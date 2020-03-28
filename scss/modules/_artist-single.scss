@@ -5,18 +5,12 @@
 
 .artist-single-posts-body h2 {
   font-size: 2rem;
-  margin: 1rem 0 1rem 0rem;
-  padding: 1rem 0 0.3rem 0;
   color: $primary-cyan;
-  text-align: left;
-  display: inline-block;
 }
 
 .artist-single-posts-body p {
-  margin-bottom: 1rem;
-  text-align: left;
-  line-height: 1.7rem;
-  font-size: 1rem;
+  line-height: 1.4rem;
+  font-size: 0.9rem;
 }
 
 .artist-single-posts a {
@@ -147,21 +141,27 @@
 
   .artist-single-posts-body {
     display: grid;
-    grid-template-columns: 30% 50% 20%;
+    grid-template-columns: 30% 65%;
     grid-template-areas:
-        "artistheading artistheading ."
-        "sociallinks sociallinks ."
-        "artistembed artistinfo tag";
-    grid-gap: 2rem;
+      "artistembed artistheading"
+      "artistembed sociallinks"
+      "artistembed artistinfo"
+      "tag tag";
+      grid-column-gap: 2rem;
+      grid-row-gap: 1rem;
+      margin-top: 2rem;
   }
 
   .artist-single-posts-body ul li {
     display: inline;
   }
 
-  .artist-single-posts-body .tag a {
-    display: block;
+  .artist-single-posts-body .tag {
     background-color: $light-cyan;
+  }
+
+  .artist-single-posts-body .tag a {
+    display: inline-block;
     padding: .8rem 0 .8rem .8rem;
   }
 
@@ -173,6 +173,7 @@
     margin-bottom: .3rem;
     color: #fff;
     font-size: 1rem;
+    display: inline-block;
   }
 
   .artist-single-posts-body .tag img {
