@@ -237,7 +237,12 @@ a {
   margin-right: 0.3rem; }
 
 .artist-single-posts-body .tag-container {
-  background-color: #CFEDF6; }
+  background-color: #CFEDF6;
+  margin-top: 1rem; }
+
+.single-posts-body .tag {
+  display: inline-flex;
+  padding: 0rem 0rem 1rem 1rem; }
 
 .artist-single-posts-body .tag a {
   display: inline-block;
