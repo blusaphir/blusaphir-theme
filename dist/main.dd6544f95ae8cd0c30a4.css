@@ -189,6 +189,9 @@ a {
   width: 90%;
   margin: 0 auto; }
 
+.artist-single-posts-body {
+  margin-top: 2rem; }
+
 .artist-single-posts-body h2 {
   font-size: 2rem;
   color: #1ca9d6; }
@@ -227,17 +230,19 @@ a {
   padding: .8rem 0 .8rem .8rem; }
 
 .artist-single-posts-body .tag h2 {
-  width: 130px;
   background-color: #1ca9d6;
   margin-top: 0rem;
   padding: .5rem;
   margin-bottom: .3rem;
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.8rem;
   display: inline-block; }
 
 .artist-single-posts-body .tag img {
-  width: 130px; }
+  width: 100%; }
+
+.artist-single-posts-body h2, .artist-single-posts-body ul, .artist-single-posts-body iframe, .artist-single-posts-body p {
+  margin-bottom: 1rem; }
 
 .facebook-icon {
   background-image: url("/wp-content/themes/blusaphir-theme/images/original-fb-icon.png"); }
@@ -311,8 +316,7 @@ a {
     grid-template-columns: 30% 65%;
     grid-template-areas: "artistembed artistheading" "artistembed sociallinks" "artistembed artistinfo" "tag tag";
     grid-column-gap: 2rem;
-    grid-row-gap: 1rem;
-    margin-top: 2rem; }
+    grid-row-gap: 1rem; }
   .artist-single-posts-body .tag h2 {
     width: 200px; }
   .artist-single-posts-body .tag img {
