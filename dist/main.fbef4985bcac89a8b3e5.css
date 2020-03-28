@@ -246,7 +246,7 @@ a {
 
 .artist-single-posts-body .tag a {
   display: inline-block;
-  padding: .8rem 0 .8rem .8rem; }
+  padding: 1rem 0 1rem 1rem; }
 
 .artist-single-posts-body .tag h2 {
   background-color: #1ca9d6;
@@ -255,6 +255,7 @@ a {
   margin-bottom: .3rem;
   color: #fff;
   font-size: 1rem;
+  font-weight: 200;
   display: inline-block; }
 
 .artist-single-posts-body .tag img {
@@ -320,10 +321,14 @@ a {
 @media (min-width: 700px) {
   .artist-single-posts {
     width: 600px; }
+  .artist-single-posts-body .tag-container {
+    padding-left: .3rem; }
+  .artist-single-posts-body .tag-container .tag {
+    display: inline-flex; }
   .artist-single-posts-body .tag h2 {
-    width: 200px; }
+    width: 260px; }
   .artist-single-posts-body .tag img {
-    width: 200px; } }
+    width: 260px; } }
 
 @media (min-width: 1000px) {
   .artist-single-posts {
