@@ -21,8 +21,8 @@
               $postId = get_the_ID();
 
               if($tags) {
-                foreach($tags) {
-                  $my_query = new WP_Query($tags);
+                foreach($tags as $tag) {
+                  $my_query = new WP_Query($tag);
                   if($my_query->have_posts()) {
                     while ($my_query->have_posts()) : $my_query->the_post();
                     $id = get_the_ID();
