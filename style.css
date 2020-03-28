@@ -390,9 +390,22 @@ a {
   background-image: url("/wp-content/themes/blusaphir-theme/images/mixcloud-icon.png");
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 700px) {
   .artist-single-posts {
-    width: 1200px;
+    width: 600px;
+  }
+
+  .artist-single-posts-body .tag h2 {
+    width: 200px;
+  }
+
+  .artist-single-posts-body .tag img {
+    width: 200px;
+  }
+}
+@media (min-width: 1000px) {
+  .artist-single-posts {
+    width: 900px;
   }
 
   .artist-single-posts-body h2 {
@@ -422,13 +435,14 @@ a {
     grid-column-gap: 2rem;
     grid-row-gap: 1rem;
   }
-
-  .artist-single-posts-body .tag h2 {
-    width: 200px;
+}
+@media (min-width: 1300px) {
+  .artist-single-posts {
+    width: 1200px;
   }
 
-  .artist-single-posts-body .tag img {
-    width: 200px;
+  .artist-single-posts-body {
+    grid-template-columns: 30% 65%;
   }
 }
 /* HEADER RULES */
