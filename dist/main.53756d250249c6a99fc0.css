@@ -193,6 +193,9 @@ a {
   font-size: 2rem;
   color: #1ca9d6; }
 
+.artist-single-posts-body ul li {
+  display: inline; }
+
 .artist-single-posts-body p {
   line-height: 1.4rem;
   font-size: 0.9rem; }
@@ -215,6 +218,26 @@ a {
   position: relative;
   top: 3px;
   margin-right: 0.3rem; }
+
+.artist-single-posts-body .tag {
+  background-color: #CFEDF6; }
+
+.artist-single-posts-body .tag a {
+  display: inline-block;
+  padding: .8rem 0 .8rem .8rem; }
+
+.artist-single-posts-body .tag h2 {
+  width: 130px;
+  background-color: #1ca9d6;
+  margin-top: 0rem;
+  padding: .5rem;
+  margin-bottom: .3rem;
+  color: #fff;
+  font-size: 1rem;
+  display: inline-block; }
+
+.artist-single-posts-body .tag img {
+  width: 130px; }
 
 .facebook-icon {
   background-image: url("/wp-content/themes/blusaphir-theme/images/original-fb-icon.png"); }
@@ -290,22 +313,8 @@ a {
     grid-column-gap: 2rem;
     grid-row-gap: 1rem;
     margin-top: 2rem; }
-  .artist-single-posts-body ul li {
-    display: inline; }
-  .artist-single-posts-body .tag {
-    background-color: #CFEDF6; }
-  .artist-single-posts-body .tag a {
-    display: inline-block;
-    padding: .8rem 0 .8rem .8rem; }
   .artist-single-posts-body .tag h2 {
-    width: 200px;
-    background-color: #1ca9d6;
-    margin-top: 0rem;
-    padding: .5rem;
-    margin-bottom: .3rem;
-    color: #fff;
-    font-size: 1rem;
-    display: inline-block; }
+    width: 200px; }
   .artist-single-posts-body .tag img {
     width: 200px; } }
 
