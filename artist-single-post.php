@@ -24,7 +24,7 @@
                 foreach($tags as $tag) {
                   $args = array(
                     'tag__in' => array($tag->term_id),
-                    'caller_get_posts' => 1
+                    'caller_get_posts' => 3
                   );
     
                   $my_query = new WP_Query($args);
