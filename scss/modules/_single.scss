@@ -8,7 +8,7 @@
 }
 
 .single-posts h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 1rem 0 1rem 0rem;
   padding: 1rem 0 0.3rem 0;
   color: $primary-cyan;
@@ -119,6 +119,10 @@
 
   .single-posts {
     width: 600px;
+  }
+
+  .single-posts h2 {
+    font-size: 2rem;
   }
   
   .single-posts-body .wp-block-group .wp-block-group__inner-container {
