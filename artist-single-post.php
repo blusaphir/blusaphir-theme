@@ -17,25 +17,25 @@
             <?php echo get_the_content(); ?>
 
             <?php
-              $tags = get_the_tags();
-              $postId = get_the_ID();
+            $tags = get_the_tags();
+            $postId = get_the_ID();
 
-              if($tags) {
-                foreach($tags as $tag) {
-                  $my_query = new WP_Query($tag);
-                  if($my_query->have_posts()) {
-                    while ($my_query->have_posts()) : $my_query->the_post();
-                    $id = get_the_ID();
-    
-                    if ($id !== $postId) { ?>
-                      <div class="tag"><a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2><br /><?php the_post_thumbnail(); ?></a></div>
-                    <?php }; ?>
-    
-                  <?php endwhile;
-                  }
+            if($tags) {
+              foreach($tags as $tag) {
+                $my_query = new WP_Query($tag);
+                if($my_query->have_posts()) {
+                  while ($my_query->have_posts()) : $my_query->the_post();
+                  $id = get_the_ID();
+  
+                  if ($id !== $postId) { ?>
+                    <div class="tag"><a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2><br /><?php the_post_thumbnail(); ?></a></div>
+                  <?php }; ?>
+  
+                <?php endwhile;
                 }
               }
-            ?>
+            }
+          ?>
 
             
             </div>
