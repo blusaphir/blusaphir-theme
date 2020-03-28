@@ -45,11 +45,11 @@
 }
 
 .single-posts-body .wp-block-group .wp-block-group__inner-container p a {
-  width: 160px;
+  width: 130px;
   background-color: $light-cyan;
   padding: .5rem;
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
 }
 
@@ -142,6 +142,7 @@
 
   .single-posts-body .wp-block-group .wp-block-group__inner-container p a {
     width: 200px;
+    font-size: 1rem;
   }
 }
 
