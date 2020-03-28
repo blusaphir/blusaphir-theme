@@ -218,7 +218,7 @@ a {
   .single-posts-body {
     grid-template-columns: 40% 50%;
     display: grid;
-    grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostembed singlepostinfo" "buylinks singlepostinfo" "tag singlepostinfo";
+    grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostembed singlepostinfo" "buylinks singlepostinfo" "tag singlepostinfo" ". singlepostinfo";
     column-gap: 2rem;
   }
 
