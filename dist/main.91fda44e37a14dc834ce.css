@@ -337,7 +337,7 @@ a {
     grid-area: artistheading; }
   .artist-single-posts-body ul {
     grid-area: sociallinks; }
-  .artist-single-posts-body iframe {
+  .artist-single-posts-body iframe, .artist-single-posts-body figure {
     grid-area: artistembed; }
   .artist-single-posts-body p {
     grid-area: artistinfo; }

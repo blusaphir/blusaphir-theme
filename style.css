@@ -451,7 +451,7 @@ a {
     grid-area: sociallinks;
   }
 
-  .artist-single-posts-body iframe {
+  .artist-single-posts-body iframe, .artist-single-posts-body figure {
     grid-area: artistembed;
   }
 
