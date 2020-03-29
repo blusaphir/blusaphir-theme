@@ -311,13 +311,19 @@ a {
   margin-right: 0.3rem;
 }
 
-.artist-single-posts-body .tag {
+.artist-single-posts-body .tag-container {
   background-color: #CFEDF6;
+  margin-top: 1rem;
+}
+
+.single-posts-body .tag {
+  display: inline-flex;
+  padding: 0rem 0rem 1rem 1rem;
 }
 
 .artist-single-posts-body .tag a {
   display: inline-block;
-  padding: 0.8rem 0 0.8rem 0.8rem;
+  padding: 1rem 0 1rem 1rem;
 }
 
 .artist-single-posts-body .tag h2 {
@@ -327,6 +333,7 @@ a {
   margin-bottom: 0.3rem;
   color: #fff;
   font-size: 1rem;
+  font-weight: 200;
   display: inline-block;
 }
 
@@ -415,12 +422,20 @@ a {
     width: 600px;
   }
 
+  .artist-single-posts-body .tag-container {
+    padding-left: 0.3rem;
+  }
+
+  .artist-single-posts-body .tag-container .tag {
+    display: inline-flex;
+  }
+
   .artist-single-posts-body .tag h2 {
-    width: 200px;
+    width: 260px;
   }
 
   .artist-single-posts-body .tag img {
-    width: 200px;
+    width: 260px;
   }
 }
 @media (min-width: 1000px) {
@@ -444,16 +459,20 @@ a {
     grid-area: artistinfo;
   }
 
-  .artist-single-posts-body .tag {
+  .artist-single-posts-body .tag-container {
     grid-area: tag;
   }
 
   .artist-single-posts-body {
     display: grid;
-    grid-template-columns: 30% 65%;
-    grid-template-areas: "artistembed artistheading" "artistembed sociallinks" "artistembed artistinfo" "tag tag";
+    grid-template-columns: 40% 55%;
+    grid-template-areas: "artistembed artistheading" "artistembed sociallinks" "artistembed artistinfo" "artistembed ." "tag tag";
     grid-column-gap: 2rem;
     grid-row-gap: 1rem;
+  }
+
+  .artist-single-posts-body h2, .artist-single-posts-body ul, .artist-single-posts-body iframe, .artist-single-posts-body p {
+    margin-bottom: 0rem;
   }
 }
 @media (min-width: 1300px) {
