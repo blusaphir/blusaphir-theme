@@ -209,7 +209,7 @@
 
   .artist-single-posts-body {
     display: grid;
-    grid-template-columns: 40% 55%;
+    grid-template-columns: 50% 45%;
     grid-template-areas:
       "artistembed artistheading"
       "artistembed sociallinks"
@@ -233,7 +233,7 @@
   }
 
   .artist-single-posts-body {
-    grid-template-columns: 30% 65%;
+    grid-template-columns: 40% 55%;
   }
 
 }
