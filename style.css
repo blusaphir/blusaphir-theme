@@ -346,11 +346,6 @@ a {
   margin-top: 1rem;
 }
 
-.single-posts-body .tag {
-  display: inline-flex;
-  padding: 0rem 0rem 1rem 1rem;
-}
-
 .artist-single-posts-body .tag a {
   display: inline-block;
   padding: 1rem 0 1rem 1rem;
