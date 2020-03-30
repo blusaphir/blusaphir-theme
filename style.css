@@ -50,7 +50,6 @@ a {
 
 .single-posts h2 {
   font-size: 1.5rem;
-  margin: 1rem 0 1rem 0rem;
   padding: 1rem 0 0.3rem 0;
   color: #1ca9d6;
   text-align: left;
@@ -139,13 +138,13 @@ a {
 .single-posts-body .tag {
   display: inline-flex;
   background-color: #CFEDF6;
+  margin-top: 0.5rem;
 }
 
 .single-posts-body .tag a {
   display: inline-block;
   margin-right: 0rem;
   padding: 0.5rem;
-  margin-top: 0.5rem;
 }
 
 .single-posts-body .tag a h2 {
