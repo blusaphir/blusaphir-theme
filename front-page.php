@@ -52,7 +52,7 @@
                 'post_type' => 'post',
                 'post_status' => 'publish',
                 'posts_per_page' => 5,
-                'category_name' => 'releases'
+                'category_name' => 'featured-release'
               ));
 
               while($recentPosts->have_posts()) {
