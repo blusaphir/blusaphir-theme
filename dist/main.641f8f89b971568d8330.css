@@ -117,7 +117,7 @@ a {
   margin-top: 0.5rem; }
 
 .single-posts-body .tag:hover > .single-posts-body .tag a h2 {
-  color: #0E546B; }
+  background-color: #0E546B; }
 
 .single-posts-body .tag a {
   display: inline-block;
@@ -135,7 +135,7 @@ a {
   background-color: #1ca9d6; }
 
 .single-posts.body .tag a h2:hover {
-  color: #0E546B; }
+  background-color: #0E546B; }
 
 .single-posts-body .tag a img {
   width: 125px;
