@@ -141,6 +141,10 @@ a {
   margin-top: 0.5rem;
 }
 
+.single-posts-body .tag:hover > .single-posts-body .tag a h2 {
+  color: #0E546B;
+}
+
 .single-posts-body .tag a {
   display: inline-block;
   margin-right: 0rem;
@@ -156,6 +160,10 @@ a {
   margin-bottom: 0.3rem;
   padding: 0.5rem;
   background-color: #1ca9d6;
+}
+
+.single-posts.body .tag a h2:hover {
+  color: #0E546B;
 }
 
 .single-posts-body .tag a img {
