@@ -100,7 +100,7 @@
   margin-top: 0.5rem;
 }
 
-.single-posts-body .tag:hover > .single-posts-body .tag a h2 {
+.single-posts-body .tag:hover {
   background-color: $darker-cyan;
 }
 
@@ -121,6 +121,10 @@
 }
 
 .single-posts-body .tag a h2:hover {
+  background-color: $darker-cyan;
+}
+
+.single-posts-body .tag:hover > .single-posts-body .tag a h2 {
   background-color: $darker-cyan;
 }
 
