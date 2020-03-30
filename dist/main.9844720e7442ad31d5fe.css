@@ -70,7 +70,7 @@ a {
   margin-bottom: 0rem; }
 
 .single-posts-body .wp-block-group .wp-block-group__inner-container p a {
-  width: 130px;
+  width: 95%;
   background-color: #CFEDF6;
   padding: .5rem;
   margin-bottom: 0.5rem;
@@ -169,7 +169,6 @@ a {
     line-height: 1.4rem;
     font-size: 0.9rem; }
   .single-posts-body .wp-block-group .wp-block-group__inner-container p a {
-    width: 200px;
     font-size: 1rem; }
   .single-posts-body .tag a h2 {
     width: 140px; }
@@ -191,24 +190,22 @@ a {
   .single-posts {
     width: 900px; }
   .single-posts-body {
-    grid-template-columns: 40% 50%;
+    grid-template-columns: 45% 50%;
     display: grid;
     grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostembed singlepostinfo"  "buylinks singlepostinfo" "tag singlepostinfo" ". singlepostinfo";
     column-gap: 2rem; }
-  .single-posts-body .wp-block-group .wp-block-group__inner-container p a {
-    width: 170px; }
   .single-posts-body .tag a h2 {
-    width: 110px;
-    font-size: 0.7rem; }
+    width: 190px;
+    font-size: 1rem; }
   .single-posts-body .tag a img {
-    width: 110px;
-    height: 110px; } }
+    width: 190px;
+    height: 190px; } }
 
 @media (min-width: 1300px) {
   .single-posts {
     width: 1200px; }
   .single-posts-body {
-    grid-template-columns: 30% 40% 20%;
+    grid-template-columns: 40% 40% 15%;
     display: grid;
     grid-template-areas: "singlepostheading singlepostheading ." "singlepostul . ." "singlepostembed singlepostinfo buylinks"  "tag singlepostinfo ." ". singlepostinfo ."; }
   .single-posts-body .wp-block-group {
@@ -217,7 +214,13 @@ a {
     margin-top: 0rem; }
   .single-posts-body .wp-block-group .wp-block-group__inner-container p {
     display: block;
-    grid-template-columns: unset; } }
+    grid-template-columns: unset; }
+  .single-posts-body .tag a h2 {
+    width: 150px;
+    font-size: 1rem; }
+  .single-posts-body .tag a img {
+    width: 150px;
+    height: 150px; } }
 
 .artist-single-posts {
   width: 90%;
