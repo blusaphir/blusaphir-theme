@@ -9,7 +9,6 @@
 
 .single-posts h2 {
   font-size: 1.5rem;
-  margin: 1rem 0 1rem 0rem;
   padding: 1rem 0 0.3rem 0;
   color: $primary-cyan;
   text-align: left;
@@ -98,13 +97,13 @@
 .single-posts-body .tag {
   display: inline-flex;
   background-color: $light-cyan;
+  margin-top: 0.5rem;
 }
 
 .single-posts-body .tag a {
   display: inline-block;
   margin-right: 0rem;
   padding: 0.5rem;
-  margin-top: 0.5rem;
 }
 .single-posts-body .tag a h2 {
   width: 125px;
