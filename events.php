@@ -14,7 +14,7 @@
 <!-- End of Loop to get the page title -->
 
 <!-- Loop to show all events posts as a grid gallery -->
-<section class="artist-grid">
+<section class="events-grid">
   <?php 
     $artistDigiBlus = new WP_Query(array(
       'post_type' => 'post',
