@@ -975,6 +975,21 @@ footer p:last-child {
   .about {
     width: 1200px; } }
 
+.events-grid {
+  width: 95%;
+  text-align: center;
+  margin: 0 auto; }
+
+.events-grid h2 {
+  background-color: #1ca9d6;
+  padding: 0.5rem; }
+
+.events-grid h2:hover {
+  background-color: #0E546B; }
+
+.events-grid img {
+  width: 100%; }
+
 @media (min-width: 700px) {
   .events-grid {
     width: 600px;
