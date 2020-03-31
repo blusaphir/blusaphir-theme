@@ -1028,6 +1028,18 @@ footer p:last-child {
   margin: 1rem 0rem;
   color: #1ca9d6; }
 
+@media (min-width: 700px) {
+  .artist-single-posts {
+    width: 600px; } }
+
+@media (min-width: 1000px) {
+  .artist-single-posts {
+    width: 900px; } }
+
+@media (min-width: 1300px) {
+  .artist-single-posts {
+    width: 1200px; } }
+
 .mobile-subscribe-like {
   width: 95%;
   margin: 1rem auto 0 auto;
