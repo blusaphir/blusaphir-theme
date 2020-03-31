@@ -31,6 +31,10 @@ a {
   .wrapper {
     width: 1200px; } }
 
+.single-posts {
+  width: 90%;
+  margin: 0 auto; }
+
 .visualAudible__header {
   display: none; }
 
@@ -970,35 +974,6 @@ footer p:last-child {
 @media (min-width: 1300px) {
   .about {
     width: 1200px; } }
-
-.eventsgrid {
-  text-align: center;
-  padding-top: 2rem;
-  border-top: 3px solid #1ca9d6; }
-
-.event {
-  border: 2px solid #1ca9d6;
-  margin: 1rem 0;
-  padding: 1rem; }
-
-.event h3 {
-  color: #0E546B; }
-
-.eventsgrid img {
-  width: 95%;
-  padding: 1rem 0; }
-
-@media (min-width: 850px) {
-  .eventsgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem; } }
-
-@media (min-width: 1100px) {
-  .eventsgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem; } }
 
 .mobile-subscribe-like {
   width: 95%;
