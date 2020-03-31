@@ -1,7 +1,7 @@
 <?php 
 
  /*
-  * Template Name: Artist
+  * Template Name: Release
   * Template Post Type: post, page
   */
 
