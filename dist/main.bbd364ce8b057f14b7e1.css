@@ -988,7 +988,8 @@ footer p:last-child {
 
 .events-grid div {
   background-color: #CFEDF6;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  margin-bottom: 1rem; }
 
 .events-grid div:hover {
   background-color: #0E546B; }
@@ -1045,6 +1046,21 @@ footer p:last-child {
 @media (min-width: 1300px) {
   .event-single-posts {
     width: 1200px; } }
+
+.dubplates {
+  width: 90%;
+  margin: 2rem auto 0rem auto; }
+
+.dubplates h3 {
+  font-size: 1.5rem;
+  color: #1ca9d6; }
+
+.dubplates ul {
+  color: #0E546B;
+  margin: 1rem 0rem; }
+
+.dubplates iframe {
+  margin-bottom: 3rem; }
 
 .mobile-subscribe-like {
   width: 95%;
