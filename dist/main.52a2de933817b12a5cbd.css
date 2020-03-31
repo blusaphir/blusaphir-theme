@@ -1024,6 +1024,9 @@ footer p:last-child {
   width: 90%;
   margin: 0 auto; }
 
+.event-single-posts h2 {
+  margin: 1rem 0rem; }
+
 .mobile-subscribe-like {
   width: 95%;
   margin: 1rem auto 0 auto;
