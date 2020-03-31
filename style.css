@@ -1426,7 +1426,6 @@ footer p:last-child {
 }
 
 .dubplates ul {
-  color: #0E546B;
   margin: 1rem 0rem;
 }
 
@@ -1442,6 +1441,18 @@ footer p:last-child {
 @media (min-width: 1000px) {
   .dubplates {
     width: 900px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .dubplates div div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
+
+  .dubplates h3 {
+    font-size: 1.4rem;
   }
 }
 @media (min-width: 1300px) {
