@@ -1351,7 +1351,7 @@ footer p:last-child {
   }
 
   .events-grid div {
-    margin-top: 0.5rem;
+    margin: 0.5rem 0rem 0rem 0.5rem;
   }
 
   .events-grid h2 {
@@ -1371,18 +1371,10 @@ footer p:last-child {
   .page-title {
     border: none;
   }
-
-  .events-grid h2 {
-    width: 217px;
-  }
 }
 @media (min-width: 1300px) {
   .events-grid {
     width: 1200px;
-  }
-
-  .events-grid h2 {
-    width: 232px;
   }
 }
 .mobile-subscribe-like {
