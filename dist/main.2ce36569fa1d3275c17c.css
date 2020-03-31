@@ -842,7 +842,8 @@ footer p:last-child {
 
 .artist {
   text-align: center;
-  margin-top: 2rem; }
+  width: 90%;
+  margin: 2rem auto 0rem auto; }
 
 .artist img {
   width: 250px; }
@@ -855,6 +856,11 @@ footer p:last-child {
 
 .artist figure:nth-child(4) a img {
   width: 270px; }
+
+.artist p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #1ca9d6; }
 
 @media (min-width: 700px) {
   .artist {
