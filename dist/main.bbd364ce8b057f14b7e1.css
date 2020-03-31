@@ -1047,6 +1047,21 @@ footer p:last-child {
   .event-single-posts {
     width: 1200px; } }
 
+.dubplates {
+  width: 90%;
+  margin: 2rem auto 0rem auto; }
+
+.dubplates h3 {
+  font-size: 1.5rem;
+  color: #1ca9d6; }
+
+.dubplates ul {
+  color: #0E546B;
+  margin: 1rem 0rem; }
+
+.dubplates iframe {
+  margin-bottom: 3rem; }
+
 .mobile-subscribe-like {
   width: 95%;
   margin: 1rem auto 0 auto;
