@@ -975,6 +975,35 @@ footer p:last-child {
   .about {
     width: 1200px; } }
 
+@media (min-width: 700px) {
+  .events-grid {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center; }
+  .events-grid div {
+    margin-top: 0.5rem; }
+  .events-grid h2 {
+    width: 200px;
+    font-size: 1.1rem; }
+  .events-grid img {
+    width: 200px; } }
+
+@media (min-width: 1000px) {
+  .events-grid {
+    width: 900px; }
+  .page-title {
+    border: none; }
+  .events-grid h2 {
+    width: 217px; } }
+
+@media (min-width: 1300px) {
+  .events-grid {
+    width: 1200px; }
+  .events-grid h2 {
+    width: 232px; } }
+
 .mobile-subscribe-like {
   width: 95%;
   margin: 1rem auto 0 auto;
