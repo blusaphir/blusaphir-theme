@@ -1337,6 +1337,7 @@ footer p:last-child {
 .events-grid div {
   background-color: #CFEDF6;
   padding: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .events-grid div:hover {
