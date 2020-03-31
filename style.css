@@ -1451,6 +1451,10 @@ footer p:last-child {
     grid-column-gap: 1rem;
   }
 
+  .dubplates .wp-block-group .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container {
+    display: unset;
+  }
+
   .dubplates h3 {
     font-size: 1.4rem;
   }
