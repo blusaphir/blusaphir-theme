@@ -34,11 +34,11 @@ a {
 .visualAudible__header {
   display: none; }
 
-.single-posts {
+.release-single-posts {
   width: 90%;
   margin: 0 auto; }
 
-.single-posts h2 {
+.release-single-posts h2 {
   font-size: 1.5rem;
   padding: 1rem 0 0.3rem 0;
   color: #1ca9d6;
@@ -46,29 +46,29 @@ a {
   display: inline-block;
   grid-area: singlepostheading; }
 
-.single-posts-body ul {
+.release-single-posts-body ul {
   margin-bottom: 1rem; }
 
-.single-posts-body .wp-block-group {
+.release-single-posts-body .wp-block-group {
   margin: 2rem 0 1rem 0; }
 
-.single-posts-body .wp-block-group .wp-block-group__inner-container {
+.release-single-posts-body .wp-block-group .wp-block-group__inner-container {
   border-top: 4px solid #CFEDF6;
   border-bottom: 4px solid #CFEDF6; }
 
-.single-posts-body .wp-block-group .wp-block-group__inner-container h3 {
+.release-single-posts-body .wp-block-group .wp-block-group__inner-container h3 {
   margin-top: 1rem;
   color: #0E546B;
   font-weight: 500; }
 
-.single-posts-body .wp-block-group .wp-block-group__inner-container p {
+.release-single-posts-body .wp-block-group .wp-block-group__inner-container p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 1rem 0;
   margin-bottom: 0rem; }
 
-.single-posts-body .wp-block-group .wp-block-group__inner-container p a {
+.release-single-posts-body .wp-block-group .wp-block-group__inner-container p a {
   width: 95%;
   background-color: #CFEDF6;
   padding: .5rem;
@@ -76,29 +76,29 @@ a {
   font-size: 0.8rem;
   text-transform: uppercase; }
 
-.single-posts-body .wp-block-group .wp-block-group__inner-container p a:hover {
+.release-single-posts-body .wp-block-group .wp-block-group__inner-container p a:hover {
   background-color: #0E546B;
   color: #fff; }
 
-.single-posts-body h4 {
+.release-single-posts-body h4 {
   color: #1ca9d6; }
 
-.single-posts p {
+.release-single-posts p {
   margin-bottom: 1rem;
   text-align: left;
   line-height: 1.7rem;
   font-size: 1rem; }
 
-.single-posts a {
+.release-single-posts a {
   color: #0E546B;
   margin-right: 1rem;
   font-size: 0.9rem;
   display: inline-flex; }
 
-.single-posts a:hover {
+.release-single-posts a:hover {
   color: #1ca9d6; }
 
-.social-icons {
+.release-social-icons {
   background-size: 20px 20px;
   background-repeat: no-repeat;
   width: 20px;
@@ -108,23 +108,23 @@ a {
   top: 3px;
   margin-right: 0.3rem; }
 
-.single-posts-body .tag-container {
+.release-single-posts-body .tag-container {
   margin-top: 1rem; }
 
-.single-posts-body .tag {
+.release-single-posts-body .tag {
   display: inline-flex;
   background-color: #CFEDF6;
   margin-top: 0.5rem; }
 
-.single-posts-body .tag:hover {
+.release-single-posts-body .tag:hover {
   background-color: #0E546B; }
 
-.single-posts-body .tag a {
+.release-single-posts-body .tag a {
   display: inline-block;
   margin-right: 0rem;
   padding: 0.5rem; }
 
-.single-posts-body .tag a h2 {
+.release-single-posts-body .tag a h2 {
   width: 125px;
   color: #fff;
   font-size: 0.8rem;
@@ -134,102 +134,102 @@ a {
   padding: .5rem;
   background-color: #1ca9d6; }
 
-.single-posts-body .tag a h2:hover {
+.release-single-posts-body .tag a h2:hover {
   background-color: #0E546B; }
 
-.single-posts-body .tag:hover > .single-posts-body .tag a h2 {
+.release-single-posts-body .tag:hover > .single-posts-body .tag a h2 {
   background-color: #0E546B; }
 
-.single-posts-body .tag a img {
+.release-single-posts-body .tag a img {
   width: 125px;
   height: 125px; }
 
 @media (min-width: 375px) {
-  .single-posts-body .tag a h2 {
+  .release-single-posts-body .tag a h2 {
     width: 150px;
     font-size: 0.9rem; }
-  .single-posts-body .tag a img {
+  .release-single-posts-body .tag a img {
     width: 150px;
     height: 150px; } }
 
 @media (min-width: 425px) {
-  .single-posts-body .tag a h2 {
+  .release-single-posts-body .tag a h2 {
     width: 170px;
     font-size: 1rem; }
-  .single-posts-body .tag a img {
+  .release-single-posts-body .tag a img {
     width: 170px;
     height: 170px; } }
 
 @media (min-width: 700px) {
-  .single-posts {
+  .release-single-posts {
     width: 600px; }
-  .single-posts h2 {
+  .release-single-posts h2 {
     font-size: 2rem; }
-  .single-posts-body .wp-block-group .wp-block-group__inner-container {
+  .release-single-posts-body .wp-block-group .wp-block-group__inner-container {
     border-top: none;
     border-bottom: none;
     padding: 0;
     margin: 0; }
-  .single-posts-body .wp-block-group .wp-block-group__inner-container figure img {
+  .release-single-posts-body .wp-block-group .wp-block-group__inner-container figure img {
     width: 100%;
     max-width: 250px; }
-  .single-posts p {
+  .release-single-posts p {
     margin-bottom: 1rem;
     text-align: left;
     line-height: 1.4rem;
     font-size: 0.9rem; }
-  .single-posts-body .wp-block-group .wp-block-group__inner-container p a {
+  .release-single-posts-body .wp-block-group .wp-block-group__inner-container p a {
     font-size: 1rem; }
-  .single-posts-body .tag a h2 {
+  .release-single-posts-body .tag a h2 {
     width: 130px;
     font-size: 0.9rem; }
-  .single-posts-body .tag a img {
+  .release-single-posts-body .tag a img {
     width: 130px;
     height: 130px; } }
 
 @media (min-width: 1000px) {
-  .single-posts-body iframe {
+  .release-single-posts-body iframe {
     grid-area: singlepostembed; }
-  .single-posts-body ul {
+  .release-single-posts-body ul {
     grid-area: singlepostul; }
-  .single-posts-body p {
+  .release-single-posts-body p {
     grid-area: singlepostinfo; }
-  .single-posts-body .wp-block-group {
+  .release-single-posts-body .wp-block-group {
     grid-area: buylinks; }
-  .single-posts-body .tag-container {
+  .release-single-posts-body .tag-container {
     grid-area: tag; }
-  .single-posts {
+  .release-single-posts {
     width: 900px; }
-  .single-posts-body {
+  .release-single-posts-body {
     grid-template-columns: 45% 50%;
     display: grid;
     grid-template-areas: "singlepostheading singlepostheading" "singlepostul ." "singlepostembed singlepostinfo"  "buylinks singlepostinfo" "tag singlepostinfo" ". singlepostinfo";
     column-gap: 2rem; }
-  .single-posts-body .tag a h2 {
+  .release-single-posts-body .tag a h2 {
     width: 180px;
     font-size: 1rem; }
-  .single-posts-body .tag a img {
+  .release-single-posts-body .tag a img {
     width: 180px;
     height: 180px; } }
 
 @media (min-width: 1300px) {
-  .single-posts {
+  .release-single-posts {
     width: 1200px; }
-  .single-posts-body {
+  .release-single-posts-body {
     grid-template-columns: 40% 40% 15%;
     display: grid;
     grid-template-areas: "singlepostheading singlepostheading ." "singlepostul . ." "singlepostembed singlepostinfo buylinks"  "tag singlepostinfo ." ". singlepostinfo ."; }
-  .single-posts-body .wp-block-group {
+  .release-single-posts-body .wp-block-group {
     margin: 0rem 0 1rem 0; }
-  .single-posts-body .wp-block-group .wp-block-group__inner-container h3 {
+  .release-single-posts-body .wp-block-group .wp-block-group__inner-container h3 {
     margin-top: 0rem; }
-  .single-posts-body .wp-block-group .wp-block-group__inner-container p {
+  .release-single-posts-body .wp-block-group .wp-block-group__inner-container p {
     display: block;
     grid-template-columns: unset; }
-  .single-posts-body .tag a h2 {
+  .release-single-posts-body .tag a h2 {
     width: 140px;
     font-size: 0.9rem; }
-  .single-posts-body .tag a img {
+  .release-single-posts-body .tag a img {
     width: 140px;
     height: 140px; } }
 
