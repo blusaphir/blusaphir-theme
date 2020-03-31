@@ -1074,7 +1074,7 @@ footer p:last-child {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1rem; }
-  .dubplates .wp-block-group .wp-block-group__inner-container .wp-block-group:nth-child(2) {
+  .dubplates .wp-block-group .wp-block-group__inner-container .wp-block-group:last-child {
     padding-top: 1.6rem; }
   .dubplates .wp-block-group .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container {
     display: unset; }
