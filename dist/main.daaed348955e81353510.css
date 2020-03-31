@@ -1025,7 +1025,8 @@ footer p:last-child {
   margin: 0 auto; }
 
 .event-single-posts h2 {
-  margin: 1rem 0rem; }
+  margin: 1rem 0rem;
+  color: #1ca9d6; }
 
 .mobile-subscribe-like {
   width: 95%;
