@@ -7,3 +7,24 @@
   margin: 1rem 0rem;
   color: $primary-cyan;
 }
+
+@media(min-width: 700px) {
+
+  .artist-single-posts {
+    width: 600px;
+  }
+}
+
+@media(min-width: 1000px) {
+
+  .artist-single-posts {
+    width: 900px;
+  }
+}
+
+@media(min-width: 1300px) {
+
+  .artist-single-posts {
+    width: 1200px;
+  }
+}
