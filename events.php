@@ -1,27 +1,36 @@
-<?php /* Template Name: Events */ ?>
+<?php /* Template Name: Events */?>
 
-<?php get_header(); ?>
+<?php get_header()?>
 
-<!-- Main Content -->
+<!-- Loop to get the page title -->
+<div class="page-title">
+  <?php
+    while(have_posts()) {
+      the_post(); ?>
+      <h1><?php the_title(); ?></h1>
+    <?php }
+  ?>
+</div>
+<!-- End of Loop to get the page title -->
 
-<!-- Loop - Event Custom Post's -->
-<div class="eventsgrid">
+<!-- Loop to show all events posts as a grid gallery -->
+<section class="artist-grid">
   <?php 
-    $eventspageEvents = new WP_Query(array(
+    $artistDigiBlus = new WP_Query(array(
+      'post_type' => 'post',
       'posts_per_page' => -1,
-      'post_type' => 'events'
+      'category_name' => 'events'
     ));
 
-    while($eventspageEvents->have_posts()) {
-      $eventspageEvents->the_post(); ?>
-      <div class="event">
-        <h3><?php the_title(); ?></h3>
-        <?php the_post_thumbnail(); ?>
-      </div>
+    while($artistDigiBlus->have_posts()) {
+      $artistDigiBlus->the_post(); ?>
+        <div>
+          <h2 class='highlight'><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+          <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+        </div>
     <?php }
-  ?> 
-</div>
-<!-- End of Loop - Event Custom Post's -->
-<!-- End of Main Content -->
+  ?>
+</section>
+<!-- End of loop to show all events posts as a grid gallery -->    
 
-<?php get_footer(); ?>
+<?php get_footer()?>
