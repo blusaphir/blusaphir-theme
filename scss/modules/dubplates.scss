@@ -17,3 +17,24 @@
 .dubplates iframe {
   margin-bottom: 3rem;
 }
+
+@media(min-width: 700px) {
+
+  .dubplates {
+    width: 600px;
+  }
+}
+
+@media(min-width: 1000px) {
+
+  .dubplates {
+    width: 900px;
+  }
+}
+
+@media(min-width: 1300px) {
+
+  .dubplates {
+    width: 1200px;
+  }
+}
