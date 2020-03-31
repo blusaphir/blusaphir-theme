@@ -1020,6 +1020,10 @@ footer p:last-child {
   .events-grid {
     width: 1200px; } }
 
+.event-single-posts {
+  width: 90%;
+  margin: 0 auto; }
+
 .mobile-subscribe-like {
   width: 95%;
   margin: 1rem auto 0 auto;
