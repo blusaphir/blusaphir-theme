@@ -1451,7 +1451,7 @@ footer p:last-child {
     grid-column-gap: 1rem;
   }
 
-  .dubplates .wp-block-group .wp-block-group__inner-container .wp-block-group:last-child {
+  .dubplates .wp-block-group .wp-block-group__inner-container:last-child {
     padding-top: 1.6rem;
   }
 
