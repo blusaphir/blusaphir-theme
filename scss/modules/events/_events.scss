@@ -4,14 +4,19 @@
   margin: 0 auto;
 }
 
+.events-grid div {
+  background-color: $light-cyan;
+  padding: 0.5rem;
+}
+
+.events-grid div:hover {
+  background-color: $darker-cyan;
+}
+
 .events-grid h2 {
   background-color: $primary-cyan;
   padding: 0.5rem;
   margin-bottom: 0.3rem;
-}
-
-.events-grid h2:hover {
-  background-color: $darker-cyan;
 }
 
 .events-grid img {

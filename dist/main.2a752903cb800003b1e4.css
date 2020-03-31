@@ -980,13 +980,17 @@ footer p:last-child {
   text-align: center;
   margin: 0 auto; }
 
+.events-grid div {
+  background-color: #CFEDF6;
+  padding: 0.5rem; }
+
+.events-grid div:hover {
+  background-color: #0E546B; }
+
 .events-grid h2 {
   background-color: #1ca9d6;
   padding: 0.5rem;
   margin-bottom: 0.3rem; }
-
-.events-grid h2:hover {
-  background-color: #0E546B; }
 
 .events-grid img {
   width: 100%; }
