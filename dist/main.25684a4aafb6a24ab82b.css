@@ -1075,7 +1075,7 @@ footer p:last-child {
     font-size: 1.4rem; } }
 
 @media (min-width: 1300px) {
-  .dubplates {
+  .dubplates-container {
     width: 1200px; } }
 
 .mobile-subscribe-like {
