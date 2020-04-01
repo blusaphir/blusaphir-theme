@@ -5,6 +5,12 @@
 
 .dubplates {
   margin-bottom: 2rem;
+  border-bottom: 5px solid $light-blue;
+}
+
+.dubplates:last-child {
+  margin-bottom: 2rem;
+  border-bottom: none;
 }
 
 .dubplates h2 {
