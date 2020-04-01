@@ -1052,7 +1052,12 @@ footer p:last-child {
   margin: 2rem auto 0rem auto; }
 
 .dubplates {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  border-bottom: 5px solid rgba(3, 160, 210, 0.2); }
+
+.dubplates:last-child {
+  margin-bottom: 2rem;
+  border-bottom: none; }
 
 .dubplates h2 {
   font-size: 1.5rem;
@@ -1084,6 +1089,12 @@ footer p:last-child {
 
 .radio-content {
   margin-bottom: 2rem; }
+
+.radio-content div {
+  border-bottom: 5px solid rgba(3, 160, 210, 0.2); }
+
+.radio-content div:last-child {
+  border-bottom: none; }
 
 .radio-content ul {
   margin: 1rem 0rem; }
