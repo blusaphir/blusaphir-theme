@@ -5,7 +5,7 @@
 <!-- Loop to get the dubplate post content -->
 <div class="page-title">
   <?php
-    while(have_post()) {
+    while(have_posts()) {
       the_post(); ?>
       <h1><?php the_title(); ?></h1>
     <?php }
