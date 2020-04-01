@@ -1458,7 +1458,7 @@ footer p:last-child {
   }
 }
 @media (min-width: 1300px) {
-  .dubplates {
+  .dubplates-container {
     width: 1200px;
   }
 }
