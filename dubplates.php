@@ -24,7 +24,7 @@
       $dubplates->the_post(); ?>
         <div class="dubplates">
           <h2 class='highlight'><?php the_title(); ?></h2>
-          <div><?php echo the_content() ?></div>
+          <div class="dubplate-content"><?php echo the_content() ?></div>
         </div>
     <?php }
   ?>
