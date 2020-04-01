@@ -1093,7 +1093,7 @@ footer p:last-child {
 .radio-content div {
   border-bottom: 5px solid rgba(3, 160, 210, 0.2); }
 
-.radio-content:last-child {
+.radio-content div:last-child {
   border-bottom: none; }
 
 .radio-content ul {
