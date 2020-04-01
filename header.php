@@ -62,8 +62,8 @@
           </ul>
 
           <!-- Search Box -->
-          <form class="search" action="/" method="post">
-            <input class="search-box" type="text" name="search" placeholder="Search">
+          <form class="search" role="search" action="<?php echo home_url('/'); ?>" method="get">
+            <input class="search-box" type="search" name="search" placeholder="Search" value="<?php echo get_search_query() ?>" title="Search" />
             <input class="search-icon" type="image" name="search-icon" value="Search" src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png">
           </form>
           <!-- End of Search Box -->
