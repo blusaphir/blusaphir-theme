@@ -1,15 +1,19 @@
 .search-results {
   width: 95%;
   text-align: center;
+  margin: 0 auto;
 }
 
-.search-results-content h2 {
+.search-results-content div {
+  border-bottom: 5px solid $light-blue;
+  padding-bottom: 1rem;
+}
+
+.search-results-content h2 a {
   color: $primary-grey;
   margin: 1rem 0;
-
-  text-align: left;
 }
 
 .search-results-content img {
-  width: 200px;
+  width: 120px;
 }

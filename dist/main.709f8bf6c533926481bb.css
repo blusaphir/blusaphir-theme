@@ -816,7 +816,8 @@ header {
 
 @media (min-width: 700px) {
   .main-content-wrapper {
-    display: flex; }
+    display: flex;
+    margin-left: 1rem; }
   .recent-posts-container div:last-child {
     border: none; }
   .recent-posts-container h2 {
@@ -1179,15 +1180,19 @@ footer p:last-child {
 
 .search-results {
   width: 95%;
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto; }
 
-.search-results-content h2 {
+.search-results-content div {
+  border-bottom: 5px solid rgba(3, 160, 210, 0.2);
+  padding-bottom: 1rem; }
+
+.search-results-content h2 a {
   color: #3f3f48;
-  margin: 1rem 0;
-  text-align: left; }
+  margin: 1rem 0; }
 
 .search-results-content img {
-  width: 200px; }
+  width: 120px; }
 
 .mobile-subscribe-like {
   width: 95%;
