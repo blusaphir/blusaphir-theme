@@ -744,7 +744,6 @@ header {
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 .recent-posts-container {
-  margin: 1rem auto;
   width: 95%; }
 
 .recent-posts-container img {
@@ -817,8 +816,6 @@ header {
 @media (min-width: 700px) {
   .main-content-wrapper {
     display: flex; }
-  .recent-posts-container {
-    margin: 1rem; }
   .recent-posts-container div:last-child {
     border: none; }
   .recent-posts-container h2 {
