@@ -1015,6 +1015,7 @@ header {
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 /* END OF RULES FOR IMAGE SLIDER AND SUBSCRIBE/LIKE SECTION */
 .recent-posts-container {
+  margin: 0rem auto;
   width: 95%;
 }
 
