@@ -6,12 +6,15 @@
 
 .search-results-content div {
   border-bottom: 5px solid $light-blue;
-  padding-bottom: 1rem;
+}
+
+.search-results-content h2 {
+  font-size: 1.1rem;
+  margin: 1rem 0;
 }
 
 .search-results-content h2 a {
   color: $primary-grey;
-  margin: 1rem 0;
 }
 
 .search-results-content img {
