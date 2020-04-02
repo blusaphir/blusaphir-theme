@@ -1600,6 +1600,15 @@ footer p:last-child {
     width: 1200px;
   }
 }
+.search-results {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.search-results-content img {
+  width: 200px;
+}
+
 .mobile-subscribe-like {
   width: 95%;
   margin: 1rem auto 0 auto;

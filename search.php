@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
   <section class="search-results">
-    <h1>Search Results</h1>
-    <div class="searcg-results-content">
+    <h1 class="page-title">Search Results</h1>
+    <div class="search-results-content">
       <?php
         while(have_posts()) {
         the_post(); ?>
