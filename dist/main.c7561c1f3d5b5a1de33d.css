@@ -1179,7 +1179,12 @@ footer p:last-child {
 
 .search-results {
   width: 95%;
-  margin: 0 auto; }
+  text-align: center; }
+
+.search-results-content h2 {
+  color: #3f3f48;
+  margin: 1rem 0;
+  text-align: left; }
 
 .search-results-content img {
   width: 200px; }

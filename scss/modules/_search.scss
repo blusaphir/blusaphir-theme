@@ -1,6 +1,13 @@
 .search-results {
   width: 95%;
-  margin: 0 auto;
+  text-align: center;
+}
+
+.search-results-content h2 {
+  color: $primary-grey;
+  margin: 1rem 0;
+
+  text-align: left;
 }
 
 .search-results-content img {
