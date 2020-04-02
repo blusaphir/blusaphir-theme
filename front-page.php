@@ -19,10 +19,6 @@
                 </div>
             <?php }
           ?>
-
-
-
-            <img src="<?php echo get_template_directory_uri(); ?>/images/image-1.jpg" alt="Image Slider">
           </div>
           <!-- End of Image Slider-->
 
