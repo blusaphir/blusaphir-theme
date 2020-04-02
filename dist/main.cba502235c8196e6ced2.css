@@ -1194,7 +1194,29 @@ footer p:last-child {
   color: #3f3f48; }
 
 .search-results-content img {
-  width: 120px; }
+  width: 120px;
+  margin-bottom: 1rem; }
+
+@media (min-width: 700px) {
+  .artist-single-posts {
+    width: 600px; }
+  .search-results-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  .search-results-content div {
+    border-bottom: none; } }
+
+@media (min-width: 1000px) {
+  .search-results {
+    width: 900px; } }
+
+@media (min-width: 1000px) {
+  .search-results {
+    width: 900px; } }
+
+@media (min-width: 1300px) {
+  .search-results {
+    width: 1200px; } }
 
 .mobile-subscribe-like {
   width: 95%;
