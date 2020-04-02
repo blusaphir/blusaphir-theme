@@ -592,13 +592,79 @@ header {
   margin: 0 auto; }
 
 .image-slider {
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
 
 .image-slider img {
   width: 100%; }
 
 .subscribe-like {
   display: none; }
+
+.image-slider div {
+  position: relative;
+  width: 1300%;
+  margin: 0;
+  left: 0;
+  animation: 55s slider infinite; }
+
+.image-slider div figure {
+  width: 7.6924%;
+  float: left; }
+
+@keyframes slider {
+  0% {
+    left: 0; }
+  4% {
+    left: 0; }
+  8% {
+    left: -100%; }
+  12% {
+    left: -100%; }
+  16% {
+    left: -200%; }
+  20% {
+    left: -200%; }
+  24% {
+    left: -300%; }
+  28% {
+    left: -300%; }
+  32% {
+    left: -400%; }
+  36% {
+    left: -400%; }
+  40% {
+    left: -500%; }
+  44% {
+    left: -500%; }
+  48% {
+    left: -600%; }
+  52% {
+    left: -600%; }
+  56% {
+    left: -700%; }
+  60% {
+    left: -700%; }
+  64% {
+    left: -800%; }
+  68% {
+    left: -800%; }
+  72% {
+    left: -900%; }
+  76% {
+    left: -900%; }
+  80% {
+    left: -1000%; }
+  84% {
+    left: -1000%; }
+  88% {
+    left: -1100%; }
+  92% {
+    left: -1100%; }
+  96% {
+    left: -1200%; }
+  100% {
+    left: -1200%; } }
 
 @media (min-width: 850px) {
   .image-slider-subscribe-like-container {
@@ -656,7 +722,7 @@ header {
     width: 900px; }
   .like {
     width: 380px;
-    height: 159px; }
+    height: 161.5px; }
   .like a {
     font-size: 1rem; }
   .like p {
@@ -669,7 +735,7 @@ header {
     width: 1200px; }
   .like {
     width: 530px;
-    height: 227.5px; }
+    height: 229.5px; }
   .like a {
     font-size: 1.2rem; }
   .like p {
