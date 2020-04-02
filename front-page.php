@@ -5,6 +5,23 @@
         <section class="image-slider-subscribe-like">
           <!-- Image Slider-->
           <div class="image-slider">
+          <?php 
+            $imageSlider = new WP_Query(array(
+              'post_type' => 'post',
+              'posts_per_page' => -1,
+              'category_name' => 'image-slider'
+            ));
+
+            while($imageSlider->have_posts()) {
+              $imageSlider->the_post(); ?>
+                <div>
+                  <?php echo get_the_content()?>
+                </div>
+            <?php }
+          ?>
+
+
+
             <img src="<?php echo get_template_directory_uri(); ?>/images/image-1.jpg" alt="Image Slider">
           </div>
           <!-- End of Image Slider-->
