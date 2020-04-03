@@ -41,7 +41,7 @@ footer .jay-rome-container {
 
 footer .jay-rome-content {
   width: 80%;
-  padding: 2rem 0;
+  padding-top: 2rem;
   display: grid;
   justify-content: center;
   margin: 0 auto;
@@ -72,4 +72,17 @@ footer .jay-rome-content ul li a {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
   }
+}
+
+@media(min-width: 1000px) {
+
+  footer .jay-rome-content {
+    justify-content: unset;
+    justify-items: unset;
+  }
+
+  footer .jay-rome-content p {
+    font-size: 1.5rem
+  }
+
 }
