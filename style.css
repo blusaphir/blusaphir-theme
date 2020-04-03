@@ -1231,11 +1231,15 @@ footer p:last-child {
 
 footer .jay-rome-container {
   background-color: black;
-  padding: 2rem;
+  padding: 2rem 0;
+  display: grid;
+  justify-content: center;
 }
 
 footer .jay-rome-container .wp-block-group {
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.1px solid #fff;
 }
 
 footer .jay-rome-container p {
@@ -1255,12 +1259,7 @@ footer .jay-rome-container ul li a {
 
 @media (min-width: 700px) {
   footer .jay-rome-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  footer .jay-rome-container .wp-block-group {
-    margin-right: 4rem;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .artist {

@@ -43,7 +43,7 @@
       </div>
 
       <p>2019© Blu Saphir Recordings Limited.</p>
-      <p>Website designed and developed by Darshan Patel and Jason Williams.</p>
+      <p>Website designed and developed by Darshan Patel</p>
     </footer>
     <!-- End of Footer -->
 
