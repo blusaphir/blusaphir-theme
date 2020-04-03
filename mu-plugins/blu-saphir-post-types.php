@@ -16,4 +16,6 @@ function blusaphir_post_types() {
     )
   ));
 }
+add_action('init', 'blusaphir_post_types');
+
 ?>
