@@ -816,7 +816,7 @@ header {
   width: 1300%;
   margin: 0;
   left: 0;
-  animation: 55s slider infinite;
+  animation: 55s slider infinite ease-in-out;
 }
 
 .image-slider div figure {
