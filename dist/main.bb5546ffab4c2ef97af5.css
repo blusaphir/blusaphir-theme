@@ -926,6 +926,9 @@ footer .jay-rome-content ul {
 footer .jay-rome-content ul li a {
   color: #fff; }
 
+footer .jay-rome-content ul li a:hover {
+  color: #CFEDF6; }
+
 @media (min-width: 700px) {
   footer .jay-rome-content {
     grid-template-columns: 1fr 1fr;

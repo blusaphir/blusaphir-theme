@@ -66,6 +66,10 @@ footer .jay-rome-content ul li a {
   color: #fff;
 }
 
+footer .jay-rome-content ul li a:hover {
+  color: $light-cyan;
+}
+
 @media(min-width: 700px) {
 
   footer .jay-rome-content {
