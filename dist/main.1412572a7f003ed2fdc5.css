@@ -905,10 +905,11 @@ footer .jay-rome-container {
   background-color: black; }
 
 footer .jay-rome-content {
-  width: 90%;
+  width: 80%;
   padding: 2rem 0;
   display: grid;
-  justify-content: center; }
+  justify-content: center;
+  margin: 0 auto; }
 
 footer .jay-rome-content .wp-block-group {
   margin-bottom: 2rem; }
@@ -928,9 +929,7 @@ footer .jay-rome-content ul li a {
 @media (min-width: 700px) {
   footer .jay-rome-content {
     grid-template-columns: 1fr 1fr;
-    justify-items: center; }
-  footer .jay-rome-content .wp-block-group {
-    margin-left: 2rem; } }
+    justify-items: center; } }
 
 .artist {
   text-align: center;
