@@ -33,7 +33,9 @@
             <div>
               <?php
               $homepageLikeSection = new WP_Query(array(
-                'post_type' => 'like_section'
+                'post_type' => 'post',
+                'posts_per_page' => -1,
+                'category_name' => 'like'
               ));
 
               while($homepageLikeSection->have_posts()) {
