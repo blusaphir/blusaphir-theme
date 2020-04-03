@@ -4,8 +4,6 @@
     <!-- Footer -->
     <footer>
       <div class="jay-rome-container">
-
-      <ul class="jay-rome-social-links">
         <?php 
           $footerPost = new WP_Query(array(
             'post_type' => 'post',
@@ -15,11 +13,9 @@
 
           while($footerPost->have_posts()) {
             $footerPost->the_post(); ?>
-            <div><?php echo get_the_content(); ?></div>
+            <?php class="jay-rome-scoial-links" echo get_the_content(); ?>
           <?php }
         ?>
-        </ul>
-
       </div>
 
       <div class="footer-nav-links">
