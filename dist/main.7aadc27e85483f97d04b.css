@@ -909,8 +909,7 @@ footer .jay-rome-container {
 
 footer .jay-rome-container .wp-block-group {
   margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: .1px solid #fff; }
+  padding-bottom: 2rem; }
 
 footer .jay-rome-container p {
   padding: 0rem;
@@ -926,7 +925,9 @@ footer .jay-rome-container ul li a {
 
 @media (min-width: 700px) {
   footer .jay-rome-container {
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+  footer .jay-rome-container .wp-block-group {
+    margin-left: 2rem; } }
 
 .artist {
   text-align: center;
