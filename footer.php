@@ -4,6 +4,7 @@
     <!-- Footer -->
     <footer>
       <div class="jay-rome-container">
+        <div class="jay-rome-content">
         <?php 
           $footerPost = new WP_Query(array(
             'post_type' => 'post',
@@ -16,6 +17,7 @@
             <?php echo get_the_content(); ?>
           <?php }
         ?>
+        </div>
       </div>
 
       <div class="footer-nav-links">

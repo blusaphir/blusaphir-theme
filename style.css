@@ -1231,37 +1231,41 @@ footer p:last-child {
 
 footer .jay-rome-container {
   background-color: black;
+}
+
+footer .jay-rome-content {
+  width: 90%;
   padding: 2rem 0;
   display: grid;
   justify-content: center;
 }
 
-footer .jay-rome-container .wp-block-group {
+footer .jay-rome-content .wp-block-group {
   margin-bottom: 2rem;
-  padding-bottom: 2rem;
 }
 
-footer .jay-rome-container p {
+footer .jay-rome-content p {
   padding: 0rem;
   color: #fff;
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
 
-footer .jay-rome-container ul {
+footer .jay-rome-content ul {
   padding: 0rem;
 }
 
-footer .jay-rome-container ul li a {
+footer .jay-rome-content ul li a {
   color: #fff;
 }
 
 @media (min-width: 700px) {
-  footer .jay-rome-container {
+  footer .jay-rome-content {
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
   }
 
-  footer .jay-rome-container .wp-block-group {
+  footer .jay-rome-content .wp-block-group {
     margin-left: 2rem;
   }
 }
