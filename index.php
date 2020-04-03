@@ -5,7 +5,20 @@
         <section class="image-slider-subscribe-like">
           <!-- Image Slider-->
           <div class="image-slider">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/image-1.jpg" alt="Image Slider">
+          <?php 
+            $imageSlider = new WP_Query(array(
+              'post_type' => 'post',
+              'posts_per_page' => -1,
+              'category_name' => 'image-slider'
+            ));
+
+            while($imageSlider->have_posts()) {
+              $imageSlider->the_post(); ?>
+                <div>
+                  <?php echo get_the_content()?>
+                </div>
+            <?php }
+          ?>
           </div>
           <!-- End of Image Slider-->
 
@@ -20,7 +33,9 @@
             <div>
               <?php
               $homepageLikeSection = new WP_Query(array(
-                'post_type' => 'like_section'
+                'post_type' => 'post',
+                'posts_per_page' => -1,
+                'category_name' => 'like'
               ));
 
               while($homepageLikeSection->have_posts()) {
@@ -52,7 +67,7 @@
                 'post_type' => 'post',
                 'post_status' => 'publish',
                 'posts_per_page' => 5,
-                'category_name' => 'releases'
+                'category_name' => 'featured-release'
               ));
 
               while($recentPosts->have_posts()) {
@@ -73,14 +88,14 @@
               $randomArtists = new WP_Query(array(
                 'post_type' => 'post',
                 'orderby' => 'rand', 
-                'posts_per_page' => 24,
+                'posts_per_page' => -1,
                 'category_name' => 'artists'
               ));
 
               while($randomArtists->have_posts()) {
                 $randomArtists->the_post(); ?>
                   <div class="front-page-random-artist">
-                  <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                  <h2 class="front-page-random-artist-heading"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
                   <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
                   </div>
               <?php }
@@ -103,7 +118,9 @@
           <div>
             <?php
             $homepageLikeSection = new WP_Query(array(
-              'post_type' => 'like_section'
+              'post_type' => 'post',
+              'posts_per_page' => -1,
+              'category_name' => 'like'
             ));
 
             while($homepageLikeSection->have_posts()) {
