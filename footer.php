@@ -3,6 +3,25 @@
 
     <!-- Footer -->
     <footer>
+      <div class="jay-rome-container">
+
+      <ul class="jay-rome-social-links">
+        <?php 
+          $footerPost = new WP_Query(array(
+            'post_type' => 'post',
+            'post_status' => 'publish',
+            'category_name' => 'footer'
+          ));
+
+          while($footerPost->have_posts()) {
+            $footerPost->the_post(); ?>
+            <div><?php echo get_the_content(); ?></div>
+          <?php }
+        ?>
+        </ul>
+
+      </div>
+
       <div class="footer-nav-links">
         <ul>
           <li><a href="<?php echo site_url(); ?>">home</a></li>
@@ -16,21 +35,6 @@
         <ul>
           <li><a href="<?php echo site_url('/about'); ?>">about</a></li>
           <li><a href="<?php echo site_url('/contact'); ?>">contact</a></li>
-        </ul>
-
-        <ul class="footer-nav-links-social">
-        <?php 
-          $footerPost = new WP_Query(array(
-            'post_type' => 'post',
-            'post_status' => 'publish',
-            'category_name' => 'footer'
-          ));
-
-          while($footerPost->have_posts()) {
-            $footerPost->the_post(); ?>
-            <div><?php echo get_the_content(); ?></div>
-          <?php }
-        ?>
         </ul>
 
         <!-- <ul>
