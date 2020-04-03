@@ -13,7 +13,7 @@
 
           while($footerPost->have_posts()) {
             $footerPost->the_post(); ?>
-            <?php class="jay-rome-scoial-links" echo get_the_content(); ?>
+            <?php echo get_the_content(); ?>
           <?php }
         ?>
       </div>
