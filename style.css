@@ -1234,10 +1234,11 @@ footer .jay-rome-container {
 }
 
 footer .jay-rome-content {
-  width: 90%;
+  width: 80%;
   padding: 2rem 0;
   display: grid;
   justify-content: center;
+  margin: 0 auto;
 }
 
 footer .jay-rome-content .wp-block-group {
@@ -1263,10 +1264,6 @@ footer .jay-rome-content ul li a {
   footer .jay-rome-content {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-  }
-
-  footer .jay-rome-content .wp-block-group {
-    margin-left: 2rem;
   }
 }
 .artist {
