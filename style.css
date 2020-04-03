@@ -936,6 +936,7 @@ header {
   .subscribe p {
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
+    color: #3f3f48;
   }
 
   .like {
@@ -1715,7 +1716,7 @@ footer .jay-rome-content ul li a {
 
 .mobile-subscribe-like .subscribe p {
   margin-bottom: 0.5rem;
-  color: #0E546B;
+  color: #3f3f48;
   font-weight: bold;
   text-transform: uppercase;
 }
