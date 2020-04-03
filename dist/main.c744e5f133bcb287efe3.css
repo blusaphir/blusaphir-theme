@@ -871,6 +871,10 @@ header {
   .front-page-random-artist img {
     height: 172px; } }
 
+footer .jay-rome-container {
+  background-color: black;
+  padding: 2rem; }
+
 footer {
   background-color: rgba(3, 160, 210, 0.3);
   margin-top: 2rem; }
