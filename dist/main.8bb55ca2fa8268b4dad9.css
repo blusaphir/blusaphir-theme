@@ -902,8 +902,6 @@ footer p:last-child {
   padding-bottom: 1rem; }
 
 footer .jay-rome-container {
-  display: flex;
-  justify-content: center;
   background-color: black;
   padding: 2rem; }
 
