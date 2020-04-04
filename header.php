@@ -36,11 +36,6 @@
           <img id="imageBanners" src="<?php echo get_template_directory_uri(); ?>/images/banner_kasper.jpg" alt="Blu Saphir - Header Banners">
         </div>
 
-        <!-- Search Icon for Mobile View -->
-        <div class="search-icon-mobile">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search-icon-mobile">
-        </div>
-
         <!-- Hamburger Menu Icon -->
         <div id="hamburger" class="hamburger-container">
           <div class="hamburger">
