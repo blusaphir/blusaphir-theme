@@ -38,7 +38,7 @@ window.addEventListener("load", function() {
   function searchOverlay() {
 
     document.querySelector("#search-icon-mobile").addEventListener("click", openOverlay);
-    document.querySelector("#search-icon-close").addEventListener("click", closeOverlay);
+    // document.querySelector("#search-icon-close").addEventListener("click", closeOverlay);
 
     const searchForm = document.querySelector("#searchform");
     const searchIcon = document.querySelector("#search-icon-mobile");
