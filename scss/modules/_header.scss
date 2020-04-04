@@ -43,23 +43,39 @@ header {
 }
 
 @media (min-width: 600px) {
+
+  .heading h2 {
+    font-size: 1.5rem;
+  }
+  
+  .recordings {
+    font-size: 1.1rem;
+    bottom: 0.3rem;
+  }
+}
+
+@media (min-width: 600px) {
   header {
     border: none;
     padding-bottom: 0;
+    grid-template-columns: 15% 70% 5% 5%;
+    justify-content: unset;
   }
 
   .logo img {
     width: 100px;
   }
 
-  .heading h2 {
+  .heading {
     display: none;
   }
 
   .banners {
     display: block;
-    width: 95%;
-    margin: 1rem 0 0 1rem;
+  }
+
+  .banners {
+    width: 100%;
   }
 }
 
