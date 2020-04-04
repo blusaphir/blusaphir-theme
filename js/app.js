@@ -50,11 +50,11 @@ window.addEventListener("load", function() {
       searchIcon.classList.add("search-icon-mobile-invisible");
     }
 
-    function closeOverlay() {
-      searchForm.classList.remove("search--reveal");
-      searchIconClose.classList.remove("search-icon-close");
-      searchIcon.classList.remove("search-icon-mobile-invisible");
-    }
+    // function closeOverlay() {
+    //   searchForm.classList.remove("search--reveal");
+    //   searchIconClose.classList.remove("search-icon-close");
+    //   searchIcon.classList.remove("search-icon-mobile-invisible");
+    // }
   }
 
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
