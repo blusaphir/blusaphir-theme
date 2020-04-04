@@ -37,7 +37,7 @@
         </div>
 
         <!-- Search Icon for Mobile View -->
-        <div id="search-icon-mobile" class="search-icon-mobile">
+        <div id="search-icon-mobile">
           <img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search-icon-mobile">
         </div>
 
