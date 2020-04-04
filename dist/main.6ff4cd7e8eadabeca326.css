@@ -1238,7 +1238,7 @@ footer .jay-rome-content ul li a:hover {
   margin-bottom: 1rem; }
 
 @media (min-width: 700px) {
-  .artist-single-posts {
+  .search-results {
     width: 600px; }
   .search-results-content {
     display: grid;
