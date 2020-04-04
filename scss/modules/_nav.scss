@@ -12,6 +12,7 @@
     width: 100%;
     transition: all ease-in-out 0.6s;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -36,6 +37,27 @@
 
   li a:hover {
     color: $primary-cyan;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .search-box {
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    color: #0e546b;
+  }
+
+
+  .search-box::placeholder {
+    color: $primary-cyan;
+  }
+
+  .search-icon {
+    display: none;
   }
 }
 /* End Rules for mobile nav menu overlay*/

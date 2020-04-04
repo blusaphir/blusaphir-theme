@@ -23,6 +23,7 @@
 
 .hamburger-container-open {
   z-index: 3;
+  position: fixed;
 }
 
 .hamburger-container-open span:nth-child(2) {
