@@ -44,6 +44,11 @@
             <span>&nbsp;</span>
           </div>
         </div>
+
+        <!-- Search Icon for Mobile View -->
+        <div class="search-icon-mobile">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search-icon-mobile">
+        </div>
       </header>
       <!-- End of Header -->
 
