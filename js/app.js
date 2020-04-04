@@ -78,7 +78,6 @@ window.addEventListener("load", function() {
   }
 
   imageBanner();
-  searchOverlay();
   hamburger();
   generateSocialIcons();
 });
