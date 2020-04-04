@@ -34,6 +34,29 @@ window.addEventListener("load", function() {
     }
   }
 
+  //Funtion for the search icon to open the search form overlay at mobile view.
+  function searchOverlay() {
+
+    document.querySelector("#search-icon-mobile").addEventListener("click", openOverlay);
+    document.querySelector("#search-icon-close").addEventListener("click", closeOverlay);
+
+    const searchForm = document.querySelector("#searchform");
+    const searchIcon = document.querySelector("#search-icon-mobile");
+    const searchIconClose = document.querySelector("#search-icon-close");
+
+    function openOverlay() {
+      searchForm.classList.add("search--reveal");
+      searchIconClose.classList.add("search-icon-close");
+      searchIcon.classList.add("search-icon-mobile-invisible");
+    }
+
+    function closeOverlay() {
+      searchForm.classList.remove("search--reveal");
+      searchIconClose.classList.remove("search-icon-close");
+      searchIcon.classList.remove("search-icon-mobile-invisible");
+    }
+  }
+
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
   function generateSocialIcons() {
     const postATags = document.querySelectorAll(".artist-single-posts-body a, .footer-nav-links-social a");
@@ -78,6 +101,7 @@ window.addEventListener("load", function() {
   }
 
   imageBanner();
+  searchOverlay();
   hamburger();
   generateSocialIcons();
 });

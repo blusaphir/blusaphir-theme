@@ -749,10 +749,6 @@ header {
   li a:hover {
     color: #1ca9d6;
   }
-
-  .search {
-    display: none;
-  }
 }
 /* End Rules for mobile nav menu overlay*/
 @media (min-width: 1000px) {
@@ -1680,6 +1676,19 @@ footer .jay-rome-content ul li a:hover {
 @media (min-width: 1300px) {
   .radio-container {
     width: 1200px;
+  }
+}
+@media (max-width: 999px) {
+  .nav-bar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 1100px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    width: 100%;
+    transition: all ease-in-out 0.6s;
   }
 }
 .search-results {
