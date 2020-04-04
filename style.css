@@ -568,6 +568,12 @@ header {
   display: none;
 }
 
+.search-icon-mobile {
+  width: 40px;
+  position: relative;
+  top: 30px;
+}
+
 @media (min-width: 600px) {
   header {
     border: none;
