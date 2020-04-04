@@ -449,8 +449,11 @@ header {
     display: none; }
   .banners {
     display: block; }
-  .banners {
-    width: 100%; } }
+  .banners img {
+    width: 100%;
+    padding: .5rem; }
+  .search-icon-mobile {
+    margin-right: .5rem; } }
 
 @media (min-width: 700px) {
   header {
@@ -468,7 +471,9 @@ header {
   header {
     width: 900px; }
   .logo img {
-    width: 140px; } }
+    width: 140px; }
+  .search-icon-mobile {
+    display: none; } }
 
 @media (min-width: 1300px) {
   header {
