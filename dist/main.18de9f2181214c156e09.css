@@ -565,13 +565,16 @@ header {
   li a:hover {
     color: #1ca9d6; }
   .search {
-    width: 100%; }
+    width: 80%; }
   .search-box {
     display: block;
-    width: 90%;
+    width: 100%;
     height: 30px;
     margin: 0 auto;
-    color: #0e546b; }
+    color: #0e546b;
+    border: none;
+    border-radius: 15px;
+    padding: .5rem; }
   .search-box::placeholder {
     color: #1ca9d6; }
   .search-icon {
