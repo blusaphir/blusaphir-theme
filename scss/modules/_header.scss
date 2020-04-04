@@ -2,10 +2,14 @@
 /* HEADER RULES */
 
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 25% 46% 10% 10%;
+  grid-column-gap: .5rem;
   padding-bottom: 0.5rem;
   border-bottom: 4px solid $light-blue;
   justify-content: space-between;
+  justify-items: center;
+  align-items: center;
   width: 95%;
   margin: 0 auto;
 }
@@ -18,25 +22,24 @@ header {
 .heading h2 {
   color: $primary-cyan;
   text-transform: uppercase;
-  font-size: 1.5rem;
-  margin: 1.5rem 0 0 0.7rem;
+  font-size: 1.3rem;
 }
 
 .recordings {
   color: $darker-cyan;
-  font-size: 1.1rem;
+  font-size: 1rem;
   position: relative;
-  bottom: 0.5rem;
+  bottom: 0.3rem;
 }
 
-.banners img {
+.banners {
   display: none;
 }
 
 .search-icon-mobile img {
-  width: 40px;
+  width: 28px;
   position: relative;
-  top: 30px;
+  bottom: 5px;
 }
 
 @media (min-width: 600px) {
@@ -53,7 +56,7 @@ header {
     display: none;
   }
 
-  .banners img {
+  .banners {
     display: block;
     width: 95%;
     margin: 1rem 0 0 1rem;
