@@ -39,27 +39,7 @@
     color: $primary-cyan;
   }
 
-  .search {
-    width: 80%;
-  }
-
-  .search-box {
-    display: block;
-    width: 100%;
-    height: 30px;
-    margin: 0 auto;
-    color: #0e546b;
-    border: none;
-    border-radius: 15px;
-    padding: .5rem
-  }
-
-
-  .search-box::placeholder {
-    color: $primary-cyan;
-  }
-
-  .search-icon {
+  .nav-container .search {
     display: none;
   }
 }
