@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
   function toggleMobileSearchBox() {
     document.querySelector(".search-icon-mobile").addEventListener("click", toggle);
     function toggle() {
-      const mobileSearchBox = document.querySelector("mobile-search-box");
+      const mobileSearchBox = document.querySelector(".mobile-search-box");
 
       if (mobileSearchBox.classList.contains("mobile-search-box--show")) {
         mobileSearchBox.classList.remove("mobile-search-box--show");
