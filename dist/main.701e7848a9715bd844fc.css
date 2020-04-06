@@ -425,6 +425,9 @@ header {
 .banners {
   display: none; }
 
+.image-banners-contianer {
+  display: none; }
+
 .search-icon-mobile img {
   width: 28px;
   position: relative;
@@ -455,6 +458,8 @@ header {
   .heading {
     display: none; }
   .banners {
+    display: none; }
+  .image-banners-contianer {
     display: block; }
   .banners img {
     width: 100%;
