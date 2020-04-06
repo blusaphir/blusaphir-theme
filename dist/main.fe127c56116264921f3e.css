@@ -422,10 +422,7 @@ header {
   position: relative;
   bottom: 0.3rem; }
 
-.banners {
-  display: none; }
-
-.image-banners-contianer {
+.image-banners-container {
   display: none; }
 
 .search-icon-mobile img {
@@ -457,9 +454,7 @@ header {
     width: 100px; }
   .heading {
     display: none; }
-  .banners {
-    display: none; }
-  .image-banners-contianer {
+  .image-banners-container {
     display: block; }
   .image-banners-contianer figure img {
     width: 100%;

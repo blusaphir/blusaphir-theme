@@ -567,11 +567,7 @@ header {
   bottom: 0.3rem;
 }
 
-.banners {
-  display: none;
-}
-
-.image-banners-contianer {
+.image-banners-container {
   display: none;
 }
 
@@ -617,11 +613,7 @@ header {
     display: none;
   }
 
-  .banners {
-    display: none;
-  }
-
-  .image-banners-contianer {
+  .image-banners-container {
     display: block;
   }
 
