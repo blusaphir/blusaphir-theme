@@ -32,15 +32,12 @@
         </div>
 
         <!-- Banners -->
-        <div class="banners">
-          <img id="imageBanners" src="<?php echo get_template_directory_uri(); ?>/images/banner_kasper.jpg" alt="Blu Saphir - Header Banners">
-        </div>
-
         <div class="image-banners-container">
           <?php 
             $imageBanners = new WP_Query(array(
               'post_type' => 'post',
-              'posts_per_page' => -1,
+              'orderby' => 'rand'
+              'posts_per_page' => 1,
               'category_name' => 'image-banners'
             ));
 
@@ -49,7 +46,7 @@
                 <?php echo get_the_content()?>
             <?php }
           ?>
-          </div>
+        </div>
 
         <!-- Hamburger Menu Icon -->
         <div id="hamburger" class="hamburger-container">
