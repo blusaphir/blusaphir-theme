@@ -36,7 +36,7 @@
           <?php 
             $imageBanners = new WP_Query(array(
               'post_type' => 'post',
-              'orderby' => 'rand'
+              'orderby' => 'rand',
               'posts_per_page' => 1,
               'category_name' => 'image-banners'
             ));
