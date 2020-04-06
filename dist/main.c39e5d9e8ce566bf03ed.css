@@ -398,7 +398,11 @@ a {
 .mobile-search-box {
   width: 100%;
   background: #3f3f48;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  position: absolute;
+  z-index: 2;
+  height: 50px;
+  top: -30px; }
 
 .mobile-search-box .search {
   width: 100%; }
@@ -424,7 +428,7 @@ a {
 
 header {
   display: grid;
-  grid-template-columns: 25% 55% 15%;
+  grid-template-columns: 25% 50% 10% 10%;
   grid-column-gap: .5rem;
   padding-bottom: 0.5rem;
   border-bottom: 4px solid rgba(3, 160, 210, 0.2);
