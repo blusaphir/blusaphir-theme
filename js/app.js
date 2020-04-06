@@ -61,8 +61,6 @@ window.addEventListener("load", function() {
       }
     })
   }
-
-  imageBanner();
   imageBanners()
   hamburger();
   generateSocialIcons();
