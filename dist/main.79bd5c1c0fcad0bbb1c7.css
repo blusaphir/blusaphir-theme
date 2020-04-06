@@ -403,6 +403,9 @@ a {
 .mobile-search-box .search {
   width: 100%; }
 
+.mobile-search-box .search-box {
+  width: 100%; }
+
 .mobile-search-box .search-icon {
   width: 25px;
   float: right;
