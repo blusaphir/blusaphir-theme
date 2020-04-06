@@ -36,6 +36,21 @@
           <img id="imageBanners" src="<?php echo get_template_directory_uri(); ?>/images/banner_kasper.jpg" alt="Blu Saphir - Header Banners">
         </div>
 
+        <div class="image-banners-container">
+          <?php 
+            $imageBanners = new WP_Query(array(
+              'post_type' => 'post',
+              'posts_per_page' => -1,
+              'category_name' => 'image-banners'
+            ));
+
+            while($imageBanners->have_posts()) {
+              $imageBanners->the_post(); ?>
+                <?php echo get_the_content()?>
+            <?php }
+          ?>
+          </div>
+
         <!-- Hamburger Menu Icon -->
         <div id="hamburger" class="hamburger-container">
           <div class="hamburger">
