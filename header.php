@@ -54,6 +54,10 @@
           ?>
         </div>
 
+        <div class="search-icon-mobile">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/search-icon.png" alt="search-icon-mobile">
+        </div>
+
         <!-- Hamburger Menu Icon -->
         <div id="hamburger" class="hamburger-container">
           <div class="hamburger">
