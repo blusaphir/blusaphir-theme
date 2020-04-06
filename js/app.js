@@ -1,29 +1,6 @@
 import "../scss/imports.scss";
 
 window.addEventListener("load", function() {
-  //Logic to generate and display different banner image on page load for the header
-  function imageBanner() {
-    const random = Math.floor(Math.random() * 4) + 1;
-    const imageBanners = document.getElementById("imageBanners");
-
-    if (random === 1) {
-      imageBanners.src = ABSPATH + "/images/banner_blusaphir.jpg";
-    } else if (random === 2) {
-      imageBanners.src = ABSPATH + "/images/banner_cutworks.jpg";
-    } else if (random === 3) {
-      imageBanners.src = ABSPATH + "/images/banner_kasper.jpg";
-    } else {
-      imageBanners.src = ABSPATH + "/images/banner_paulsg.jpg";
-    }
-  }
-
-  function imageBanners() {
-    const imageBanners = document.querySelectorAll(".image-banners-container figure");
-    const imageBannerContainer = document.querySelector(".image-banners-container");
-    const random = Math.floor(Math.random() * imageBanners.length) + 1;
-
-    imageBannerContainer.appendChild(random);
-  }
 
   //Function for hamburger icon to open up the navigation menu during mobile view.
   function hamburger() {
