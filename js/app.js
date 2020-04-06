@@ -2,6 +2,21 @@ import "../scss/imports.scss";
 
 window.addEventListener("load", function() {
 
+  //Function for the mobile view search icon to open the search box
+  function mobileSearchBox() {
+    document.querySelector(".search-icon-mobile").addEventListener("click", toggleSearchBox);
+    function toggleSearchBox() {
+      const mobileSearchBox = document.querySelector(".mobile-search-box");
+
+      if (mobileSearchBox.classList.contains(".mobile-search-box")) {
+        mobileSearchBox.classList.add(".mobile-search-box--show");
+      } else { 
+        mobileSearchBox.classList.contains(".mobile-search-box--show");
+        mobileSearchBox.classList.remove(".mobile-search-box--show")
+      }
+    }
+  }
+
   //Function for hamburger icon to open up the navigation menu during mobile view.
   function hamburger() {
     document.querySelector("#hamburger").addEventListener("click", menu);
@@ -61,6 +76,7 @@ window.addEventListener("load", function() {
       }
     })
   }
+  mobileSearchBox()
   hamburger();
   generateSocialIcons();
 });
