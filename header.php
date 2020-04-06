@@ -20,7 +20,9 @@
     <body>
 
       <!-- Mobile View Search Box -->
-      <?php get_search_form()?>
+      <div class="mobile-search-box">
+        <?php get_search_form()?>
+      </div>
       <!-- End of Mobile View Search Box -->
 
       <!-- Header -->
