@@ -3,7 +3,7 @@
 
 header {
   display: grid;
-  grid-template-columns: 20% 55% 15%;
+  grid-template-columns: 25% 55% 15%;
   grid-column-gap: .5rem;
   padding-bottom: 0.5rem;
   border-bottom: 4px solid $light-blue;
@@ -40,6 +40,10 @@ header {
   width: 28px;
   position: relative;
   bottom: 5px;
+}
+
+.nav-container .search {
+  display: none;
 }
 
 @media (min-width: 375px) {
@@ -118,6 +122,10 @@ header {
 }
 
 @media (min-width: 1000px) {
+
+  .search{
+    display: none;
+  }
 
   header {
     width: 900px;

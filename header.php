@@ -19,6 +19,10 @@
 
     <body>
 
+      <!-- Mobile View Search Box -->
+      <?php get_search_form()?>
+      <!-- End of Mobile View Search Box -->
+
       <!-- Header -->
       <header>
         <!-- Site Logo -->
