@@ -3,9 +3,9 @@ import "../scss/imports.scss";
 window.addEventListener("load", function() {
 
   //Function for the mobile view search icon to open the search box
-  function mobileSearchBox() {
-    document.querySelector(".search-icon-mobile").addEventListener("click", toggleSearchBox);
-    function toggleSearchBox() {
+  function toggleMobileSearchBox() {
+    document.querySelector(".search-icon-mobile").addEventListener("click", toggle);
+    function toggle() {
       const mobileSearchBox = document.querySelector("mobile-search-box");
 
       if (mobileSearchBox.classList.contains("mobile-search-box--show")) {
@@ -75,7 +75,7 @@ window.addEventListener("load", function() {
       }
     })
   }
-  mobileSearchBox();
+  toggleMobileSearchBox();
   hamburger();
   generateSocialIcons();
 });
