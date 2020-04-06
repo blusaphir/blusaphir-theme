@@ -461,7 +461,7 @@ header {
     display: none; }
   .image-banners-contianer {
     display: block; }
-  .banners img {
+  .image-banners-contianer figure img {
     width: 100%;
     padding: .5rem; }
   .search-icon-mobile {
@@ -493,7 +493,7 @@ header {
     justify-content: flex-start; }
   .logo img {
     width: 160px; }
-  .banners {
+  .image-banners-contianer {
     margin-bottom: 1rem; } }
 
 /* END OF HEADER RULES */

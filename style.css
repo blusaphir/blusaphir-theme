@@ -625,7 +625,7 @@ header {
     display: block;
   }
 
-  .banners img {
+  .image-banners-contianer figure img {
     width: 100%;
     padding: 0.5rem;
   }
@@ -675,7 +675,7 @@ header {
     width: 160px;
   }
 
-  .banners {
+  .image-banners-contianer {
     margin-bottom: 1rem;
   }
 }
