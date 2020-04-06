@@ -36,6 +36,10 @@ header {
   display: none;
 }
 
+.image-banners-contianer {
+  display: none;
+}
+
 .search-icon-mobile img {
   width: 28px;
   position: relative;
@@ -83,6 +87,10 @@ header {
   }
 
   .banners {
+    display: none;
+  }
+
+  .image-banners-contianer {
     display: block;
   }
 

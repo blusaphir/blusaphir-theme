@@ -17,6 +17,14 @@ window.addEventListener("load", function() {
     }
   }
 
+  function imageBanners() {
+    const imageBanners = document.querySelectorAll(".image-banners-container figure");
+    const imageBannerContainer = document.querySelector(".image-banners-container");
+    const random = Math.floor(Math.random() * imageBanners.length) + 1;
+
+    imageBannerContainer.appendChild(random);
+  }
+
   //Function for hamburger icon to open up the navigation menu during mobile view.
   function hamburger() {
     document.querySelector("#hamburger").addEventListener("click", menu);
@@ -78,6 +86,7 @@ window.addEventListener("load", function() {
   }
 
   imageBanner();
+  imageBanners()
   hamburger();
   generateSocialIcons();
 });
