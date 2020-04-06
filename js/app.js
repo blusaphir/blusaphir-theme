@@ -6,13 +6,13 @@ window.addEventListener("load", function() {
   function mobileSearchBox() {
     document.querySelector(".search-icon-mobile").addEventListener("click", toggleSearchBox);
     function toggleSearchBox() {
-      const mobileSearchBox = document.querySelector(".mobile-search-box");
+      const mobileSearchBox = document.querySelector("mobile-search-box");
 
-      if (mobileSearchBox.classList.contains(".mobile-search-box")) {
-        mobileSearchBox.classList.add(".mobile-search-box--show");
+      if (mobileSearchBox.classList.contains("mobile-search-box")) {
+        mobileSearchBox.classList.add("mobile-search-box--show");
       } else { 
-        mobileSearchBox.classList.contains(".mobile-search-box--show");
-        mobileSearchBox.classList.remove(".mobile-search-box--show")
+        mobileSearchBox.classList.contains("mobile-search-box--show");
+        mobileSearchBox.classList.remove("mobile-search-box--show");
       }
     }
   }
@@ -76,7 +76,7 @@ window.addEventListener("load", function() {
       }
     })
   }
-  mobileSearchBox()
+  mobileSearchBox();
   hamburger();
   generateSocialIcons();
 });
