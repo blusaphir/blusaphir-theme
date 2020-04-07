@@ -35,7 +35,7 @@ window.addEventListener("load", function() {
 
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
   function generateSocialIcons() {
-    const postATags = document.querySelectorAll(".artist-single-posts-body a, release-single-posts-body a, .footer-nav-links-social a");
+    const postATags = document.querySelectorAll(".artist-single-posts-body a, .release-single-posts-body a, .footer-nav-links-social a");
 
     postATags.forEach(function(aTag) {
       const newSpan = document.createElement('span');
