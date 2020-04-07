@@ -57,6 +57,10 @@
   color: #fff;
 }
 
+.release-single-posts-body .wp-block-group .wp-block-group__inner-container p a span {
+  display: none;
+}
+
 .release-single-posts-body h4 {
   color: $primary-cyan;
 }
@@ -73,10 +77,15 @@
   margin-right: 1rem;
   font-size: 0.9rem;
   display: inline-flex;
+  text-transform: capitalize;
 }
 
 .release-single-posts a:hover {
   color: $primary-cyan;
+}
+
+.release-single-posts-body .social-icons {
+  top: 1px;
 }
 
 .release-social-icons {

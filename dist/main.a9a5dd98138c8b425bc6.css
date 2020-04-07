@@ -84,6 +84,9 @@ a {
   background-color: #0E546B;
   color: #fff; }
 
+.release-single-posts-body .wp-block-group .wp-block-group__inner-container p a span {
+  display: none; }
+
 .release-single-posts-body h4 {
   color: #1ca9d6; }
 
@@ -97,10 +100,14 @@ a {
   color: #0E546B;
   margin-right: 1rem;
   font-size: 0.9rem;
-  display: inline-flex; }
+  display: inline-flex;
+  text-transform: capitalize; }
 
 .release-single-posts a:hover {
   color: #1ca9d6; }
+
+.release-single-posts-body .social-icons {
+  top: 1px; }
 
 .release-social-icons {
   background-size: 20px 20px;
