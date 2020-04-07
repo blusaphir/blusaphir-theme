@@ -29,7 +29,7 @@
       <header>
         <!-- Site Logo -->
         <div class="logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/blu-sig.png" alt="Blu Saphire">
+        <a href="<?php echo site_url('/home/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/blu-sig.png" alt="Blu Saphire"></a>
         </div>
 
         <!-- Site Heading -->
