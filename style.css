@@ -67,7 +67,7 @@ a {
 }
 
 .release-single-posts-body iframe {
-  width: 100%;
+  width: 100% !important;
 }
 
 .release-single-posts-body .wp-block-group {
