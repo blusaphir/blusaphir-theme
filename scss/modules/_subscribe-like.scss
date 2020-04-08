@@ -45,7 +45,7 @@
 }
 
 .mobile-subscribe-like .like {
-  height: 200px;
+  height: 250px;
 }
 
 .mobile-subscribe-like .like a {
@@ -53,6 +53,7 @@
   text-transform: uppercase;
   margin: 0.5rem 0 0 1rem;
   float: left;
+  color: #fff;
 }
 
 .mobile-subscribe-like .like a:hover {
@@ -63,10 +64,10 @@
   font-size: 0.6rem;
   background-color: #1ca9d6;
   color: #fff;
-  padding: 0.7rem;
+  padding: .3rem .6rem .6rem;
   text-transform: uppercase;
   position: relative;
-  top: 125px;
+  top: 185px;
   margin-left: 1rem;
   float: left;
 }
@@ -76,8 +77,15 @@
   margin-right: 0.3rem;
   background-color: #fff;
   position: relative;
-  bottom: 1px;
+  top: 3px;
   border-radius: 2px;
+}
+
+@media (min-width: 700px) {
+  .mobile-subscribe-like .like {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 850px) {
