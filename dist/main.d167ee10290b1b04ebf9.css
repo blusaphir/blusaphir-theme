@@ -60,6 +60,9 @@ a {
 .release-single-posts-body figure {
   width: 100%; }
 
+.release-single-posts-body figure img {
+  width: 100%; }
+
 .release-single-posts-body .wp-block-group {
   margin: 2rem 0 1rem 0; }
 
