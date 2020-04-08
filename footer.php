@@ -44,7 +44,7 @@
         </ul> -->
       </div>
 
-      <p>2019© Blu Saphir Recordings Limited.</p>
+      <p id="copyright">2019© Blu Saphir Recordings Limited.</p>
       <p>Website designed and developed by Darshan Patel</p>
     </footer>
     <!-- End of Footer -->
