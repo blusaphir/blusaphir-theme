@@ -56,6 +56,9 @@ a {
 .release-single-posts-body iframe {
   width: 100% !important; }
 
+.release-single-posts-body figure {
+  width: 100%; }
+
 .release-single-posts-body .wp-block-group {
   margin: 2rem 0 1rem 0; }
 
@@ -178,7 +181,11 @@ a {
   .release-single-posts {
     width: 600px; }
   .release-single-posts h2 {
-    font-size: 2rem; }
+    font-size: 2rem;
+    margin: 1rem 0rem; }
+  .release-single-posts-body figure {
+    width: 80%;
+    margin: 0 auto; }
   .release-single-posts-body .wp-block-group .wp-block-group__inner-container {
     border-top: none;
     border-bottom: none;
@@ -202,7 +209,7 @@ a {
     height: 130px; } }
 
 @media (min-width: 1000px) {
-  .release-single-posts-body iframe {
+  .release-single-posts-body iframe, .release-single-posts-body figure {
     grid-area: singlepostembed; }
   .release-single-posts-body ul {
     grid-area: singlepostul; }
