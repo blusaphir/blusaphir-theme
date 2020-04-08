@@ -79,7 +79,7 @@ window.addEventListener("load", function() {
   function getyear() {
     const date = new Date();
     const year = date.getFullYear();
-    document.querySelector("#copyright").innerHTML = ` ${year} Blu Saphir Recordings Limited.`
+    document.querySelector("#copyright").innerHTML = ` ${year}&copy Blu Saphir Recordings Limited.`
   }
 
 
