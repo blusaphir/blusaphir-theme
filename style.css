@@ -59,6 +59,7 @@ a {
   color: #1ca9d6;
   text-align: left;
   display: inline-block;
+  margin: 1rem 0rem;
   grid-area: singlepostheading;
 }
 
