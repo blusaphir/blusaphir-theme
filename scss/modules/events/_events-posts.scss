@@ -6,12 +6,31 @@
 .event-single-posts h2 {
   margin: 1rem 0rem;
   color: $primary-cyan;
+  text-align: center;
+}
+
+.event-single-posts-content p {
+  margin-bottom: 1rem;
+}
+
+.event-single-posts-content img {
+  width: 100%;
 }
 
 @media(min-width: 700px) {
 
   .event-single-posts {
     width: 600px;
+  }
+
+  .event-single-posts-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .event-single-posts-content p {
+    margin-left: 2rem;
   }
 }
 
