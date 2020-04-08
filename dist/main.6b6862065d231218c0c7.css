@@ -903,7 +903,7 @@ header {
   .front-page-random-artist-container {
     margin: 0 .7rem 0 0;
     justify-content: flex-end;
-    height: 2640px; }
+    height: 2100px; }
   .front-page-random-artist h2, .front-page-random-artist img {
     width: 145px; } }
 
@@ -916,7 +916,7 @@ header {
   .front-page-random-artist-container {
     margin-right: -.5rem;
     width: 60%;
-    height: 2840px; }
+    height: 2280px; }
   .front-page-random-artist h2, .front-page-random-artist-container img {
     width: 141px; }
   .recent-posts-container h2 {
@@ -929,12 +929,12 @@ header {
     width: 900px; }
   .front-page-random-artist-container {
     width: 75%;
-    height: 2940px; }
+    height: 2200px; }
   .front-page-random-artist h2 {
-    width: 186px; }
+    width: 121.2px; }
   .front-page-random-artist img {
-    width: 186px;
-    height: 186px; } }
+    width: 121.2px;
+    height: 121.2px; } }
 
 @media (min-width: 1300px) {
   .main-content-wrapper {
@@ -943,7 +943,7 @@ header {
     font-size: 1.5rem; }
   .front-page-random-artist-container {
     width: 80%;
-    height: 3240px; }
+    height: 2680px; }
   .front-page-random-artist h2, .front-page-random-artist img {
     width: 172px; }
   .front-page-random-artist img {
@@ -1378,13 +1378,14 @@ footer .jay-rome-content ul li a:hover {
   -webkit-appearance: none; }
 
 .mobile-subscribe-like .like {
-  height: 200px; }
+  height: 250px; }
 
 .mobile-subscribe-like .like a {
   font-size: 0.9rem;
   text-transform: uppercase;
   margin: 0.5rem 0 0 1rem;
-  float: left; }
+  float: left;
+  color: #fff; }
 
 .mobile-subscribe-like .like a:hover {
   color: #1ca9d6; }
@@ -1393,10 +1394,10 @@ footer .jay-rome-content ul li a:hover {
   font-size: 0.6rem;
   background-color: #1ca9d6;
   color: #fff;
-  padding: 0.7rem;
+  padding: .3rem .6rem .6rem;
   text-transform: uppercase;
   position: relative;
-  top: 125px;
+  top: 185px;
   margin-left: 1rem;
   float: left; }
 
@@ -1405,8 +1406,13 @@ footer .jay-rome-content ul li a:hover {
   margin-right: 0.3rem;
   background-color: #fff;
   position: relative;
-  bottom: 1px;
+  top: 3px;
   border-radius: 2px; }
+
+@media (min-width: 700px) {
+  .mobile-subscribe-like .like {
+    width: 80%;
+    margin: 0 auto; } }
 
 @media (min-width: 850px) {
   .mobile-subscribe-like {

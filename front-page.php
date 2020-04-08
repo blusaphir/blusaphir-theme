@@ -115,7 +115,6 @@
           <!-- End of Subscribe Section -->
           
           <!-- Like This Page Section  -->
-          <div>
             <?php
             $homepageLikeSection = new WP_Query(array(
               'post_type' => 'post',
@@ -137,7 +136,6 @@
               </div>
             <?php }
             ?>
-          </div>
           <!-- End of Like This Page Section  -->
         </section>
         <!-- End of Subscribe and Like - Markup for Samller Devices -->
