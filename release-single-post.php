@@ -33,7 +33,7 @@
                         while ($my_query->have_posts()) : $my_query->the_post();
                         $id = get_the_ID();
         
-                        if ($id !== $postId && $id !== $id) { ?>
+                        if ($id !== $postId) { ?>
                             <div class="tag"><a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2><br /><?php the_post_thumbnail(); ?></a></div>
                         <?php }; ?>
         
