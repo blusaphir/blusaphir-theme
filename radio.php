@@ -1,6 +1,6 @@
 <?php /* Template Name: Radio */ ?>
 
-
+<?php get_header(); ?>
 
 <!-- Loop to get the radio content from WP builder pages -->
 <div class="page-title">
