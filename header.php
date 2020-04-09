@@ -73,6 +73,9 @@
       <!-- Navbar -->
       <div class="nav-container">
         <nav id="nav" class="nav nav-bar">
+          <?php 
+            wp_nav_menu()
+          ?>
           <ul>
             <li><a href="<?php echo site_url('/home/'); ?>">home</a></li>
             <li><a href="<?php echo site_url('/artists/'); ?>">artists</a></li>
