@@ -166,11 +166,7 @@
     display: inline-flex;
   }
 
-  .artist-single-posts-body .tag h2 {
-    width: 260px;
-  }
-
-  .artist-single-posts-body .tag img {
+  .artist-single-posts-body .tag h2, .artist-single-posts-body .tag img {
     width: 260px;
   }
 
@@ -200,6 +196,10 @@
 
   .artist-single-posts-body .tag-container {
     grid-area: tag;
+  }
+
+  .artist-single-posts-body .tag h2, .artist-single-posts-body .tag img {
+    width: 255px;
   }
 
   .artist-single-posts-body {
