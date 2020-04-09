@@ -9,8 +9,14 @@
 
 <section class="radio-container">
   <?php
-    while(have_posts()) {
-      the_post(); ?>
+    $radio = new WP_Query(array(
+      'post_type' => 'post',
+      'posts_per_page' => -1,
+      'category_name' => 'radio'
+    ));
+  
+    while($radio->have_posts()) {
+      $radio->the_post(); ?>
       <div class="radio-content"><?php the_content(); ?></div>
     <?php }
   ?>
