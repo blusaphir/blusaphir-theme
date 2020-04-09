@@ -381,9 +381,7 @@ a {
     padding-left: .3rem; }
   .artist-single-posts-body .tag-container .tag {
     display: inline-flex; }
-  .artist-single-posts-body .tag h2 {
-    width: 260px; }
-  .artist-single-posts-body .tag img {
+  .artist-single-posts-body .tag h2, .artist-single-posts-body .tag img {
     width: 260px; } }
 
 @media (min-width: 1000px) {
@@ -399,6 +397,8 @@ a {
     grid-area: artistinfo; }
   .artist-single-posts-body .tag-container {
     grid-area: tag; }
+  .artist-single-posts-body .tag h2, .artist-single-posts-body .tag img {
+    width: 255px; }
   .artist-single-posts-body {
     display: grid;
     grid-template-columns: 50% 45%;
