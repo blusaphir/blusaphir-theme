@@ -8,7 +8,12 @@
 </div>
 
 <section class="radio-container">
-   <div class="radio-content"><?php the_content(); ?></div>
+  <?php
+    while(have_posts()) {
+      the_post(); ?>
+      <div class="radio-content"><?php the_content(); ?></div>
+    <?php }
+  ?>
 </section>
   
 <?php get_footer(); ?>
