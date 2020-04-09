@@ -914,7 +914,7 @@ header {
   .front-page-random-artist-container {
     margin: 0 .7rem 0 0;
     justify-content: flex-end;
-    height: 2220px; }
+    height: 2780px; }
   .front-page-random-artist h2 {
     font-size: 0.8rem; }
   .front-page-random-artist h2, .front-page-random-artist img {
@@ -929,7 +929,7 @@ header {
   .front-page-random-artist-container {
     margin-right: -.5rem;
     width: 60%;
-    height: 2210px; }
+    height: 2800px; }
   .front-page-random-artist h2, .front-page-random-artist-container img {
     width: 141px; }
   .recent-posts-container h2 {
@@ -942,7 +942,7 @@ header {
     width: 900px; }
   .front-page-random-artist-container {
     width: 75%;
-    height: 2310px; }
+    height: 2860px; }
   .front-page-random-artist h2 {
     width: 121.2px; }
   .front-page-random-artist img {
@@ -956,7 +956,7 @@ header {
     font-size: 1.5rem; }
   .front-page-random-artist-container {
     width: 80%;
-    height: 2735px; }
+    height: 3320px; }
   .front-page-random-artist h2, .front-page-random-artist img {
     width: 127px; }
   .front-page-random-artist img {

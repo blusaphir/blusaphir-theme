@@ -1233,7 +1233,7 @@ header {
   .front-page-random-artist-container {
     margin: 0 0.7rem 0 0;
     justify-content: flex-end;
-    height: 2220px;
+    height: 2780px;
   }
 
   .front-page-random-artist h2 {
@@ -1257,7 +1257,7 @@ header {
   .front-page-random-artist-container {
     margin-right: -0.5rem;
     width: 60%;
-    height: 2210px;
+    height: 2800px;
   }
 
   .front-page-random-artist h2, .front-page-random-artist-container img {
@@ -1279,7 +1279,7 @@ header {
 
   .front-page-random-artist-container {
     width: 75%;
-    height: 2310px;
+    height: 2860px;
   }
 
   .front-page-random-artist h2 {
@@ -1302,7 +1302,7 @@ header {
 
   .front-page-random-artist-container {
     width: 80%;
-    height: 2735px;
+    height: 3320px;
   }
 
   .front-page-random-artist h2, .front-page-random-artist img {
@@ -1660,7 +1660,7 @@ footer .jay-rome-content ul li a:hover {
 }
 
 .event-single-posts h2 {
-  margin: 1rem 0rem;
+  margin: 2rem 0rem;
   color: #1ca9d6;
   text-align: center;
 }
