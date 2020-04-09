@@ -305,6 +305,7 @@ a {
   padding: 1rem 0 1rem 1rem; }
 
 .artist-single-posts-body .tag h2 {
+  width: 100%;
   background-color: #1ca9d6;
   margin-top: 0rem;
   padding: .5rem;
