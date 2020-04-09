@@ -19,7 +19,7 @@
     $artistDigiBlus = new WP_Query(array(
       'post_type' => 'post',
       'posts_per_page' => -1,
-      'category_name' => 'release-digital-blus'
+      'category_name' => 'release-digi-blus'
     ));
 
     while($artistDigiBlus->have_posts()) {
