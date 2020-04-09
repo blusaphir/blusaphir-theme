@@ -4,7 +4,12 @@
 
 <!-- Loop to get the radio content from WP builder pages -->
 <div class="page-title">
-  <h1><?php the_title(); ?></h1>
+  <?php
+    while(have_posts()) {
+      the_post(); ?>
+      <h1><?php the_title(); ?></h1>
+    <?php }
+  ?>
 </div>
 
 <section class="radio-container">
