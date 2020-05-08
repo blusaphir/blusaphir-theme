@@ -1006,6 +1006,9 @@ footer p:last-child {
 .footer-jayrome-social-links .wp-block-group ul li a:hover {
   color: black; }
 
+.footer-nav-links ul li a:hover {
+  color: black; }
+
 @media (min-width: 700px) {
   .footer-jayrome-social-links {
     display: grid;
