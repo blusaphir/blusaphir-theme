@@ -1007,16 +1007,12 @@ footer p:last-child {
   color: black; }
 
 @media (min-width: 700px) {
-  footer .jay-rome-content {
-    grid-template-columns: 1fr 1fr;
-    justify-items: center; } }
+  .footer-jayrome-social-links {
+    grid-template-columns: 1fr 1fr; } }
 
-@media (min-width: 1000px) {
-  footer .jay-rome-content {
-    justify-content: unset;
-    justify-items: unset; }
-  footer .jay-rome-content p {
-    font-size: 1.5rem; } }
+@media (min-width: 1250px) {
+  .footer-jayrome-and-nav {
+    display: flex; } }
 
 .artist {
   text-align: center;

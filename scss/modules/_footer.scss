@@ -55,21 +55,15 @@ footer p:last-child {
 
 @media(min-width: 700px) {
 
-  footer .jay-rome-content {
+  .footer-jayrome-social-links {
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
   }
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 1250px) {
 
-  footer .jay-rome-content {
-    justify-content: unset;
-    justify-items: unset;
-  }
-
-  footer .jay-rome-content p {
-    font-size: 1.5rem
+  .footer-jayrome-and-nav {
+    display: flex;
   }
 
 }
