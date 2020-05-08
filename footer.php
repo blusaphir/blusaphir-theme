@@ -4,7 +4,7 @@
     <!-- Footer -->
     <footer>
 
-      <div class="footer-jayome-social-links">
+      <div class="footer-jayrome-social-links">
         <?php 
           $footerPost = new WP_Query(array(
             'post_type' => 'post',
