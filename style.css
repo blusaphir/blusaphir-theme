@@ -1368,6 +1368,10 @@ footer p:last-child {
   color: black;
 }
 
+.footer-nav-links ul li a:hover {
+  color: black;
+}
+
 @media (min-width: 700px) {
   .footer-jayrome-social-links {
     display: grid;
