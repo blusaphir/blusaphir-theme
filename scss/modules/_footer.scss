@@ -5,8 +5,6 @@ footer {
 
 .footer-nav-links {
   padding: 2rem 0;
-  display: flex;
-  padding-left: 2rem;
 }
 
 footer a {
@@ -35,40 +33,19 @@ footer p:last-child {
   padding-bottom: 1rem;
 }
 
-footer .jay-rome-container {
-  background-color: black;
-}
-
-footer .jay-rome-content {
-  width: 80%;
-  padding-top: 2rem;
-  display: grid;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-footer .jay-rome-content .wp-block-group {
+.footer-jayrome-social-links {
   margin-bottom: 2rem;
 }
 
-footer .jay-rome-content p {
-  padding: 0rem;
-  color: #fff;
+.footer-jayrome-social-link .wp-block-group {
+  margin-bottom: 2rem;
+}
+
+.footer-jayrome-social-link .wp-block-group p {
   margin-bottom: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
-footer .jay-rome-content ul {
-  padding: 0rem;
-}
-
-footer .jay-rome-content ul li a {
-  color: #fff;
-}
-
-footer .jay-rome-content ul li a:hover {
-  color: $light-cyan;
-}
 
 @media(min-width: 700px) {
 
