@@ -1370,6 +1370,7 @@ footer p:last-child {
 
 @media (min-width: 700px) {
   .footer-jayrome-social-links {
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
