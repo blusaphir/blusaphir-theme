@@ -1,10 +1,11 @@
 footer {
   background-color: rgba(3, 160, 210, .3);
   margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .footer-nav-links {
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 }
 
 footer a {
@@ -44,6 +45,11 @@ footer p:last-child {
 .footer-jayrome-social-links .wp-block-group p {
   margin-bottom: 0.5rem;
   font-size: 1rem;
+  color: black;
+}
+
+.footer-jayrome-social-links .wp-block-group ul li a:hover {
+  color: black;
 }
 
 
