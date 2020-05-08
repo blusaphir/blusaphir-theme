@@ -405,6 +405,7 @@ a {
 }
 
 .artist-single-posts-body .tag h2 {
+  width: 100%;
   background-color: #1ca9d6;
   margin-top: 0rem;
   padding: 0.5rem;
@@ -508,11 +509,7 @@ a {
     display: inline-flex;
   }
 
-  .artist-single-posts-body .tag h2 {
-    width: 260px;
-  }
-
-  .artist-single-posts-body .tag img {
+  .artist-single-posts-body .tag h2, .artist-single-posts-body .tag img {
     width: 260px;
   }
 }
@@ -539,6 +536,10 @@ a {
 
   .artist-single-posts-body .tag-container {
     grid-area: tag;
+  }
+
+  .artist-single-posts-body .tag h2, .artist-single-posts-body .tag img {
+    width: 255px;
   }
 
   .artist-single-posts-body {
