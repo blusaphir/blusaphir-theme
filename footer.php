@@ -4,12 +4,6 @@
     <!-- Footer -->
     <footer>
 
-      <div class="footer-nav-links">
-        <?php 
-          wp_nav_menu()
-        ?>
-      </div>
-
       <div class="footer-jayome-social-links">
         <?php 
           $footerPost = new WP_Query(array(
@@ -22,6 +16,12 @@
             $footerPost->the_post(); ?>
             <?php echo get_the_content(); ?>
           <?php }
+        ?>
+      </div>
+
+      <div class="footer-nav-links">
+        <?php 
+          wp_nav_menu()
         ?>
       </div>
 
