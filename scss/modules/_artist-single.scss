@@ -192,6 +192,33 @@
   background-image: url("/wp-content/themes/blusaphir-theme/images/discogs-icon.png");
 }
 
+// Rules for Bandcamp Artists Social Links
+.bandcamp-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-bandcamp-icon.png");
+}
+
+.bandcamp-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/bandcamp-icon.png");
+ }
+
+.artist-single-posts a:hover > .bandcamp-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/bandcamp-icon.png");
+}
+
+// Rules for Youtube Artists Social Links
+.youtube-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-youtube-icon.png");
+}
+
+.youtube-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/youtube-icon.png");
+ }
+
+.artist-single-posts a:hover > .youtube-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/youtube-icon.png");
+}
+
+
 @media(min-width: 700px) {
 
   .artist-single-posts {

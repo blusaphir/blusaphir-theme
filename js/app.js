@@ -84,7 +84,15 @@ window.addEventListener("load", function() {
           newSpan.classList.add('discogs-icon');
           aTag.prepend(newSpan);
           break;
-      }
+        case "bandcamp":
+          newSpan.classList.add('bandcamp-icon');
+          aTag.prepend(newSpan);
+          break;
+        case "youtube":
+          newSpan.classList.add('youtube-icon');
+          aTag.prepend(newSpan);
+          break;
+      } 
     })
   }
 
