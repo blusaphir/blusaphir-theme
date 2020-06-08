@@ -153,6 +153,45 @@
   background-image: url("/wp-content/themes/blusaphir-theme/images/mixcloud-icon.png");
 }
 
+// Rules for Spotify Artists Social Links
+.spotify-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-spotify-icon.png");
+}
+
+.spotify-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/spotify-icon.png");
+ }
+
+.artist-single-posts a:hover > .spotify-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/spotify-icon.png");
+}
+
+// Rules for Patreon Artists Social Links
+.patreon-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-patreon-icon.png");
+}
+
+.patreon-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/patreon-icon.png");
+ }
+
+.artist-single-posts a:hover > .patreon-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/patreon-icon.png");
+}
+
+// Rules for Discogs Artists Social Links
+.discogs-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/original-discogs-icon.png");
+}
+
+.discogs-icon:hover {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/discogs-icon.png");
+ }
+
+.artist-single-posts a:hover > .discogs-icon {
+  background-image: url("/wp-content/themes/blusaphir-theme/images/discogs-icon.png");
+}
+
 @media(min-width: 700px) {
 
   .artist-single-posts {

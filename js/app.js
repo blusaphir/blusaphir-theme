@@ -72,6 +72,18 @@ window.addEventListener("load", function() {
           newSpan.classList.add('beatport-icon');
           aTag.prepend(newSpan);
           break;
+        case "spotify":
+          newSpan.classList.add('spotify-icon');
+          aTag.prepend(newSpan);
+          break;
+        case "patreon":
+          newSpan.classList.add('patreon-icon');
+          aTag.prepend(newSpan);
+          break;
+        case "discogs":
+          newSpan.classList.add('discogs-icon');
+          aTag.prepend(newSpan);
+          break;
       }
     })
   }
