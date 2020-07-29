@@ -906,7 +906,7 @@ header {
   line-height: 1.3rem; }
 
 .recent-posts-container .readmore {
-  background-color: red;
+  background-color: #1ca9d6;
   padding: .8rem; }
 
 .recent-posts-container .readmore:hover {
