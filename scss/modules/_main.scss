@@ -76,10 +76,10 @@
 }
 
 .front-page-random-artist h2:hover, .artist-grid h2:hover {
-  background-color: red;
+  background-color: $darker-cyan;
 }
 
-.front-page-random-artist a img:hover ~ h2{
+.front-page-random-artist a img:hover ~h2{
   background-color: $darker-cyan;
 }
 
