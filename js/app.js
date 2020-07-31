@@ -33,6 +33,20 @@ window.addEventListener("load", function() {
     }
   }
 
+  // Function to create hover effect
+  function hoverEffect() {
+    const image = document.querySelectorAll('.front-page-random-artist a img');
+    const heading = document.querySelectorAll('.front-page-random-artist-heading');
+
+    image.addEventListener('mouseover', function() {
+      heading.classList.add(".front-page-random-artist-heading-hover-effect");
+    });
+
+    image.addEventListener('mouseout', function() {
+      heading.classList.remove(".front-page-random-artist-heading-hover-effect");
+    });
+  };
+
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
   function generateSocialIcons() {
     const postATags = document.querySelectorAll(".artist-single-posts-body a, .release-single-posts-body p a, .footer-nav-links-social a");
@@ -96,15 +110,17 @@ window.addEventListener("load", function() {
     })
   }
 
+  // Function to get current year and dynamically keep the footer date year upto date
   function getyear() {
     const date = new Date();
     const year = date.getFullYear();
     document.querySelector("#copyright").innerHTML = ` ${year}&copy Blu Saphir Recordings Limited.`
-  }
+  };
 
 
   toggleMobileSearchBox();
   hamburger();
+  hoverEffect();
   generateSocialIcons();
   getyear();
 
