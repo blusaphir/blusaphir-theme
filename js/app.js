@@ -36,19 +36,19 @@ window.addEventListener("load", function() {
   // Function to create hover effect
   function hoverEffect() {
     const image = document.querySelectorAll('.front-page-random-artist a img');
+    const heading = document.querySelectorAll('.front-page-random-artist-heading');
 
     image.forEach(function(e) {
-      const heading = document.querySelectorAll('.front-page-random-artist-heading');
 
       e.addEventListener("mouseover", hoverOn);
 
       function hoverOn() {
-        heading.classList.add(".front-page-random-artist-heading-hover-effect");
+        heading.classList.add("front-page-random-artist-heading-hover-effect");
       };
 
       e.addEventListener('mouseout', hoverOff); 
       function hoverOff() {
-        heading.classList.remove(".front-page-random-artist-heading-hover-effect");
+        heading.classList.remove("front-page-random-artist-heading-hover-effect");
       };
     })
   };
