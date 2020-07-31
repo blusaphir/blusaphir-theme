@@ -106,7 +106,6 @@ window.addEventListener("load", function() {
 
   toggleMobileSearchBox();
   hamburger();
-  hoverEffect();
   generateSocialIcons();
   getyear();
 
