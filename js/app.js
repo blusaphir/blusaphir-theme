@@ -38,13 +38,15 @@ window.addEventListener("load", function() {
     const image = document.querySelectorAll('.front-page-random-artist a img');
     const heading = document.querySelectorAll('.front-page-random-artist-heading');
 
-    image.addEventListener('mouseover', function() {
+    image.addEventListener("mouseover", hoverOn); 
+    function hoverOn() {
       heading.classList.add(".front-page-random-artist-heading-hover-effect");
-    });
+    };
 
-    image.addEventListener('mouseout', function() {
+    image.addEventListener('mouseout', hoverOff); 
+    function hoverOff() {
       heading.classList.remove(".front-page-random-artist-heading-hover-effect");
-    });
+    };
   };
 
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
