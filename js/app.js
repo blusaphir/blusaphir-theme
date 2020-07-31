@@ -33,26 +33,6 @@ window.addEventListener("load", function() {
     }
   }
 
-  // Function to create hover effect
-  function hoverEffect() {
-    const image = document.querySelectorAll('.front-page-random-artist a img');
-    const heading = document.querySelectorAll('.front-page-random-artist-heading');
-
-    image.forEach(function(e) {
-
-      e.addEventListener("mouseover", hoverOn);
-
-      function hoverOn() {
-        heading.classList.add("front-page-random-artist-heading-hover-effect");
-      };
-
-      e.addEventListener('mouseout', hoverOff); 
-      function hoverOff() {
-        heading.classList.remove("front-page-random-artist-heading-hover-effect");
-      };
-    })
-  };
-
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
   function generateSocialIcons() {
     const postATags = document.querySelectorAll(".artist-single-posts-body a, .release-single-posts-body p a, .footer-nav-links-social a");
