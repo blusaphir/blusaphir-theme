@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
 
       const heading = parent.previousSibling;
       console.log('this is the heading variable ' + heading)
-      heading.classList.add('.heading-hover-effect');
+      heading.style.backgroundColor = '#0E546B';
     }
   });
 
