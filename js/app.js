@@ -35,8 +35,12 @@ window.addEventListener("load", function() {
 
   const container = document.querySelector('.front-page-random-artist-container');
   container.addEventListener('mouseover', e => {
-    if (e.target.classList.contains('front-page-random-artist-heading') && e.target.classList.contains('wp-post-image')) {
-      e.target.classList.add('front-page-random-artist-heading-hover-effect');
+    if (e.target.classList.contains('wp-post-image')) {
+      const image = e.target;
+      console.log('this is the image varible - ' + image);
+      const heading = image.parentNode.previousSibling();
+      console.log('this is the heading variable ' + heading);
+      heading.classList.add('.heading-hover-effect');
     }
   });
 
