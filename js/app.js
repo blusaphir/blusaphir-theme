@@ -38,6 +38,9 @@ window.addEventListener("load", function() {
     if (e.target.classList.contains('wp-post-image')) {
       console.log('this is the event target ' + e.target);
 
+      const target = e.target.parentNode.previousSibling;
+      console('this is the target' + target);
+
       const image = e.target;
       console.log('this is the image variable - ' + image);
 
@@ -46,7 +49,7 @@ window.addEventListener("load", function() {
 
       const heading = parent.previousSibling;
       console.log('this is the heading variable ' + heading)
-      heading.style.backgroundColor = '#0E546B';
+      heading.style.backgroundColor = "#0E546B";
     }
   });
 
