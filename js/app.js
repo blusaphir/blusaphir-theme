@@ -33,15 +33,13 @@ window.addEventListener("load", function() {
     }
   }
 
-  function hoverEffect() {
-    const container = document.querySelector('.front-page-random-artist-container');
-    container.addEventListener('mouseover', hover(e));
-    function hover(e) {
-      if (e.target.classList.contains('wp-post-image')) {
-        console.log(e.target);
-      } 
+  const container = document.querySelector('.front-page-random-artist-container');
+  container.addEventListener('mouseover', e => {
+    if (e.target.classList.contains('wp-post-image')) {
+      console.log(e.target);
     }
-  }
+  });
+
 
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
   function generateSocialIcons() {
@@ -116,7 +114,6 @@ window.addEventListener("load", function() {
 
   toggleMobileSearchBox();
   hamburger();
-  hoverEffect();
   generateSocialIcons();
   getyear();
 
