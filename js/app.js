@@ -36,7 +36,7 @@ window.addEventListener("load", function() {
   const container = document.querySelector('.front-page-random-artist-container');
   container.addEventListener('mouseover', e => {
     if (e.target.classList.contains('wp-post-image')) {
-      console.log(e.target);
+      e.target.classList.contains('front-page-random-artist-heading').addClass('front-page-random-artist-heading-hover-effect');
     }
   });
 
