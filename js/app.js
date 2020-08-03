@@ -33,7 +33,7 @@ window.addEventListener("load", function() {
     }
   }
 
-  const container = document.querySelector('.front-page-random-artist-container');
+  const container = document.querySelector('.front-page-random-artist-container, artist-grid');
 
   container.addEventListener('mouseover', e => {
     if (e.target.classList.contains('wp-post-image')) {
