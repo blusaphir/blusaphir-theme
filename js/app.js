@@ -37,20 +37,14 @@ window.addEventListener("load", function() {
 
   container.addEventListener('mouseover', e => {
     if (e.target.classList.contains('wp-post-image')) {
-
       const target = e.target.parentElement.previousElementSibling;
-      console.log('this is the target' + target);
-
       target.style.backgroundColor = "#0E546B";
     }
   });
 
   container.addEventListener('mouseout', e => {
     if (e.target.classList.contains('wp-post-image')) {
-
       const target = e.target.parentElement.previousElementSibling;
-      console.log('this is the target' + target);
-
       target.style.backgroundColor = "#1ca9d6";
     }
   });
