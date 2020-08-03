@@ -39,7 +39,7 @@ window.addEventListener("load", function() {
       console.log('this is the event target ' + e.target);
 
       const target = e.target.parentNode.previousSibling;
-      console('this is the target' + target);
+      console.log('this is the target' + target);
 
       const image = e.target;
       console.log('this is the image variable - ' + image);
