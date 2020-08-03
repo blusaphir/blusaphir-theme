@@ -34,6 +34,7 @@ window.addEventListener("load", function() {
   }
 
   const container = document.querySelector('.front-page-random-artist-container');
+
   container.addEventListener('mouseover', e => {
     if (e.target.classList.contains('wp-post-image')) {
 
@@ -41,6 +42,16 @@ window.addEventListener("load", function() {
       console.log('this is the target' + target);
 
       target.style.backgroundColor = "#0E546B";
+    }
+  });
+
+  container.addEventListener('mouseout', e => {
+    if (e.target.classList.contains('wp-post-image')) {
+
+      const target = e.target.parentElement.previousElementSibling;
+      console.log('this is the target' + target);
+
+      target.style.backgroundColor = "#1ca9d6";
     }
   });
 
