@@ -33,21 +33,21 @@ window.addEventListener("load", function() {
     }
   }
 
-  // const container = document.querySelector('.front-page-random-artist-container, .artist-grid');
+  const container = document.querySelector('.front-page-random-artist-container, .artist-grid');
 
-  // container.addEventListener('mouseover', e => {
-  //   if (e.target.classList.contains('wp-post-image')) {
-  //     const target = e.target.parentElement.previousElementSibling;
-  //     target.style.backgroundColor = "#0E546B";
-  //   }
-  // });
+  container.addEventListener('mouseover', e => {
+    if (e.target.classList.contains('wp-post-image')) {
+      const target = e.target.parentElement.previousElementSibling;
+      target.style.backgroundColor = "#0E546B";
+    }
+  });
 
-  // container.addEventListener('mouseout', e => {
-  //   if (e.target.classList.contains('wp-post-image')) {
-  //     const target = e.target.parentElement.previousElementSibling;
-  //     target.style.backgroundColor = "#1ca9d6";
-  //   }
-  // });
+  container.addEventListener('mouseout', e => {
+    if (e.target.classList.contains('wp-post-image')) {
+      const target = e.target.parentElement.previousElementSibling;
+      target.style.backgroundColor = "#1ca9d6";
+    }
+  });
 
 
   //Function to generate and display social icons for the external links such as Facebook, Twitter etc.
