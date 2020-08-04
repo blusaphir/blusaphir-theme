@@ -946,6 +946,9 @@ header {
 .front-page-random-artist h2:hover, .artist-grid h2:hover {
   background-color: #0E546B; }
 
+.front-page-random-artist a:hover > h2 {
+  background-color: #0E546B; }
+
 .heading-hover-effect {
   background-color: #0E546B; }
 

@@ -1273,6 +1273,10 @@ header {
   background-color: #0E546B;
 }
 
+.front-page-random-artist a:hover > h2 {
+  background-color: #0E546B;
+}
+
 .heading-hover-effect {
   background-color: #0E546B;
 }
